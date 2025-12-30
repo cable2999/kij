@@ -1,7 +1,7 @@
 {
-  "package": "TemplateProject",
+  "package": "kij",
   "version": "1.0.0",
-  "author": "ShrinkingViolet",
-  "title": "TemplateProject by ShrinkingViolet",
+  "author": "K",
+  "title": "KItem Journal",
   "outputFile": true
 }
