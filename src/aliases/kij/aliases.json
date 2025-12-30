@@ -1,6 +1,17 @@
 [
-  {
-    "name": "TemplateProject",
-    "regex": "^TemplateProject$"
-  }
+       {
+              "name": "kijsave",
+              "isActive": "yes",
+              "regex": "^kij save$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "kijinitialize",
+              "isActive": "yes",
+              "regex": "^kij initialize$",
+              "script": "",
+              "isFolder": "no"
+       }
+
 ]

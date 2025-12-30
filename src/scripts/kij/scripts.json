@@ -1,8 +1,20 @@
 [
-  {
-    "name": "TemplateProject_example_script",
-    "eventHandlerList": [
-      "sysInstall"
-    ]
-  }
+       {
+              "name": "dkjson",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "eqjson",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "fetcheq",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       }
 ]
