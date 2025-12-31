@@ -22,6 +22,7 @@ function handleCarrionItems(_, url, body)
     
     --display(item_block)
     
+    item_block = string.gsub(item_block, "&#039;", "'")
     
     -- Extract specific fields using patterns. 
     -- These patterns look for the text between <b> tags or specific classes
