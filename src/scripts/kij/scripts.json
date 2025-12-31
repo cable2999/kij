@@ -1,11 +1,5 @@
 [
        {
-              "name": "dkjson",
-              "isActive": "yes",
-              "script": "",
-              "isFolder": "no"
-       },
-       {
               "name": "eqjson",
               "isActive": "yes",
               "script": "",
