@@ -1,5 +1,12 @@
 [
        {
+              "name": "kijload",
+              "isActive": "yes",
+              "regex": "^kij load$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
               "name": "kijsave",
               "isActive": "yes",
               "regex": "^kij save$",
