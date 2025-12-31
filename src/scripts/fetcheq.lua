@@ -30,15 +30,15 @@ function handleCarrionItems(_, url, body)
     item.item_type  = string.trim(item_block:match('<b>Item Type:.-</b>(.-)\n'))
     item.wear_flags  = string.trim(item_block:match('<b>Wear:.-</b>(.-)\n'))
     item.material  = string.trim(item_block:match('<b>Material:.-</b>(.-)\n'))
-    item.level  = string.trim(item_block:match('<b>Level:.-</b>(.-)\n'))
-    item.weight = string.trim(item_block:match('<b>Weight:.-</b>(.-)<br>'))
+    item.level  = tonumber(string.trim(item_block:match('<b>Level:.-</b>(.-)\n')))
+    item.weight = convert_lb_oz_to_ounces(string.trim(item_block:match('<b>Weight:.-</b>(.-)<br>')))
     item.flags  = string.trim(item_block:match('<b>Flags:.-</b>(.-)<br>')) or ""
     item.flags = string.split(item.flags)
     
     local affects = {}
     
     for affect, amount in item_block:gmatch('<li>Modifies <span class="affect_name">(.-)</span> by ([+-]?%d+)<br></li>') do
-      affects[affect] = string.trim(amount)
+      affects[affect] = tonumber(string.trim(amount))
     end
     
     item.affects = affects
@@ -47,7 +47,7 @@ function handleCarrionItems(_, url, body)
     item.armor_class = string.trim(item_block:match('<b>Amor Class:.-</b>(.-)<br>')) or ""
     
     item.weapon_avg, item.weapon_attack = item_block:match('<b>Weapon Damage:</b> average (%d+) %((.-)%)')
-
+    item.weapon_avg = tonumber(item.weapon_avg)
     
     item.weapon_type, item.weapon_flags = item_block:match('b>Weapon Class:</b> (.-)\n(.-)<br>')
     if item.weapon_flags then

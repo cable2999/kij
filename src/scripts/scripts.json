@@ -6,6 +6,12 @@
               "isFolder": "no"
        },
        {
+              "name": "lboz",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
               "name": "fetcheq",
               "isActive": "yes",
               "script": "",
