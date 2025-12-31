@@ -30,10 +30,13 @@ function loadEqData(file_path)
 end
 
 function saveEqData(file_path, eqtable)
+    -- Requires the dkjson.lua file.
+    local json = require("kij.dkjson")
 
     local file = io.open(file_path, "w")
     if file then
-      file:write(yajl.to_string(eqtable))
+      local json_string = json.encode(eqtable, {indent = true})
+      file:write(json_string)
       file:close()
       cecho(string.format("<green>Success! Wrote %d items to %s file.\n", #eqtable, file_path))
     else
