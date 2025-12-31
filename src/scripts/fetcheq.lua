@@ -21,7 +21,6 @@ function handleCarrionItems(_, url, body)
     local item = {}
     
     --display(item_block)
-    
     item_block = string.gsub(item_block, "&#039;", "'")
     
     -- Extract specific fields using patterns. 
@@ -34,7 +33,11 @@ function handleCarrionItems(_, url, body)
     item.level  = tonumber(string.trim(item_block:match('<b>Level:.-</b>(.-)\n')))
     item.weight = convert_lb_oz_to_ounces(string.trim(item_block:match('<b>Weight:.-</b>(.-)<br>')))
     item.flags  = string.trim(item_block:match('<b>Flags:.-</b>(.-)<br>')) or ""
-    item.flags = string.split(item.flags)
+    if item.flags ~= "" then
+        item.flags = string.split(item.flags)
+    else
+        item.flags = {}
+    end
     
     local affects = {}
     
