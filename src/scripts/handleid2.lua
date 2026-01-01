@@ -1,7 +1,3 @@
-local testid = id_table[296]["id"]
---display(testid)
---display(string.split(teststring, "%."))
-
 function handle_id2(idstring)
   
   local item = {}
@@ -22,13 +18,13 @@ function handle_id2(idstring)
       --display(poss, pose)
       local tempstring = utf8.insert(string, pose+1, '.')
       local tempstrings = string.split(tempstring, "%.")
-      display(tempstrings)
+      --display(tempstrings)
       --display(index, string)
       --local tempstring = string.split(string, 
       table.remove(idstrings, index)
       table.insert(idstrings, index, tempstrings[1])
       table.insert(idstrings, index+1, tempstrings[2])
-      display(idstrings)
+      --display(idstrings)
       break
     end  
   end
@@ -125,9 +121,57 @@ function handle_id2(idstring)
     -- Handle wands next line, which is of the form:
     -- "It can be used a maximum of %d+ times"
     if item.item_type == "wand" or item.item_type == "talisman" then
-      item.max_charges = 0
-      item.cur_charges = 0
-      item.spells = {}
+      if not item.max_charges then item.max_charges = string.match(idstrings[i], "^It can be used a maximum of (%d+) times$") ; linedone = true end
+      if not item.cur_charges then item.cur_charges = string.match(idstrings[i], "^ It can still be used (%d+) times$") ; linedone = true end
+    end
+    
+    -- Handle spells
+    if table.contains({"wand", "scroll", "potion", "pill", "talisman", "food"}, item.item_type) then 
+      if string.match(idstrings[i], "^It contains the spell '(.-)' of the (%d+)%w%w level$") then
+        item.spells, item.spells_level = string.match(idstrings[i], "^It contains the spell '(.-)' of the (%d+)%w%w level$")
+        item.spells_level = tonumber(item.spells_level)
+        linedone = true
+      end
+      if string.match(idstrings[i], "Within it %w+ contained ") then
+        local spells = {}
+        for spell in string.gmatch(idstrings[i], "'(.-)'") do
+          table.insert(spells, spell)
+        end
+        item.spells = spells
+        item.spells_level =  string.match(idstrings[i], "Within it %w+ contained level (%d+) spells")
+        item.spells_level = tonumber(item.spells_level)
+        linedone = true
+      end
+      if string.starts(idstrings[i], "It contains either") then
+        item.spells = {}
+        item.spells_level = string.match(idstrings[i], "^It contains either .- spell, of the (%d+)%w%w level$")
+        table.insert(item.spells, string.match(idstrings[i], "^It contains either (.-) spell, of the %d+%w%w level$"))
+        item.spells_level = tonumber(item.spells_level)
+        linedone = true
+      end
+      
+    end
+    
+    --Handle stat etc. modifiers.
+    if string.match(idstrings[i], "When worn, it affects your") then
+      local affects = {}
+  
+      for k, v in string.gmatch(idstrings[i], "your (.-) by ([+-]?%d-)%%?[%s,]") do
+        affects[k] = tonumber(v)
+      end
+      item.affects = affects
+      linedone = true
+    end
+    
+    --Handle AC line
+    if string.match(idstrings[i], "^When worn, it protects you against piercing for (%d+), bashing for (%d+), slashing for (%d+), magic for (%d+), and the elements for (%d+) points each$") then
+      display("HERE")
+      local pierce, bash, slash, magic, elem = string.match(idstrings[i], "^When worn, it protects you against piercing for (%d+), bashing for (%d+), slashing for (%d+), magic for (%d+), and the elements for (%d+) points each$")
+      if pierce and bash and slash and magic and elem then
+        acstring = "Pierce: "..pierce.." Bash: "..bash.." Slash: "..slash.." Magic: "..magic.." Element: "..elem
+        item.armor_class = acstring
+      end
+      linedone = true
     end
     
     if not linedone then
@@ -135,13 +179,13 @@ function handle_id2(idstring)
     end
   end
   
-
   
-  for i = linenum, table.size(idstrings), 1 do
-    display("Unhandled line", idstrings[i])
-  end
-
   return(item)
 end
+
+local testid = id_table[16]["id"]
+--display(testid)
+--display(string.split(teststring, "%."))
+
 
 display(handle_id2(testid))
