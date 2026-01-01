@@ -60,6 +60,11 @@ function handle_id2(idstring)
     if not item.item_type then
       item.item_type = string.match(idstrings[linenum], "It is (%w+)$")
     end
+    -- Handle shields
+    if not item.item_type then
+      item.item_type = string.match(idstrings[linenum], "^It is armor worn as a (.-)$")
+      item.wear_flags = item.item_type
+    end
     -- Generic case "It is clothing worn around the waist." "It is armor worn on the arms." etc.
     if not item.item_type then
       item.item_type, item.wear_flags = string.match(idstrings[linenum], "It is (%w+) worn .- the (%w+)$")
@@ -70,7 +75,7 @@ function handle_id2(idstring)
   local tt = string.match(idstrings[linenum], "^It is an? (%w+)")
   if tt == "two" then
     item.weapon_flags = "two-handed"
-    item.item_type, item.weapon_attack = string.match(idstrings[linenum], "^It is a two%-handed (%w+) with an attack type of (.-)$")
+    tt, item.weapon_attack = string.match(idstrings[linenum], "^It is a two%-handed (%w+) with an attack type of (.-)$")
   end
   if table.contains(weapon_type_table, tt) then
     item.weapon_type = tt
@@ -97,6 +102,10 @@ function handle_id2(idstring)
   local tt = string.match(idstrings[linenum], "^It is an? (.-)$")
   if not item.item_type then
     item.item_type = tt
+  end
+  
+  if not table.contains(item_type_table, item.item_type) then
+    display("Unhandled item type", item.item_type, item.name)
   end
 
   local linenum = 4  
@@ -165,12 +174,21 @@ function handle_id2(idstring)
     
     --Handle AC line
     if string.match(idstrings[i], "^When worn, it protects you against piercing for (%d+), bashing for (%d+), slashing for (%d+), magic for (%d+), and the elements for (%d+) points each$") then
-      display("HERE")
       local pierce, bash, slash, magic, elem = string.match(idstrings[i], "^When worn, it protects you against piercing for (%d+), bashing for (%d+), slashing for (%d+), magic for (%d+), and the elements for (%d+) points each$")
       if pierce and bash and slash and magic and elem then
         acstring = "Pierce: "..pierce.." Bash: "..bash.." Slash: "..slash.." Magic: "..magic.." Element: "..elem
         item.armor_class = acstring
       end
+      linedone = true
+    end
+    
+    --Handle weapon avg. and damdice
+    if string.match(idstrings[i], "^It can cause .- points of damage, at average %d+$") then
+      item.damdice, item.weapon_avg = string.match(idstrings[i], "It can cause (.-) points of damage, at average (%d+)$")
+      linedone = true
+    end
+    
+    if table.contains(item_flags_table, idstrings[i]) then
       linedone = true
     end
     
@@ -183,9 +201,13 @@ function handle_id2(idstring)
   return(item)
 end
 
-local testid = id_table[16]["id"]
+local testid = id_table[347]["id"]
 --display(testid)
+display(handle_id2(testid))
 --display(string.split(teststring, "%."))
 
 
-display(handle_id2(testid))
+for index, id in pairs(id_table) do
+  handle_id2(id["id"])
+end
+
