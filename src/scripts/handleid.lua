@@ -203,7 +203,7 @@ function handle_id(idstring)
     table.insert(flags, "bless")
   end
   if string.match(teststring, "It shines with a pure, goodly aura") then
-    table.insert(flags, "bless")
+    table.insert(flags, "good")
   end  
   if string.match(teststring, "Those with a balanced soul cannot use it.") then
     table.insert(flags, "anti_neutral")
