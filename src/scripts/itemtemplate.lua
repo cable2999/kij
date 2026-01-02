@@ -43,8 +43,12 @@ string: item.area_name  -- From itemsearch or map.currentArea or manual
 string: item.rarity     -- From itemsearch or legendary awareness or manual
 string: item.room_id    -- From map.currentRoom
 
+string: item.long_name  -- How it appears in a room?
 
 What is considered a full id?
+
+IDK.  item.worth means we have an ID, item.area_name without worth means we have info from itemsearch and need an ID.
+If we have both, assume its good enough for now.
 
 
 ]]
