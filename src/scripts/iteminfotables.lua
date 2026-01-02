@@ -36,10 +36,12 @@ item_flags_table = {
     elf_only = "Only an elf could put it to use",
     evil = "It has a chilling aura of evil",
     female_only = "It is meant for a woman",
+    giant_only = "It is clearly meant for a giant",
     glowing = "It radiates light",
     gnome_only = "It seems to be made for a gnome to use",
     good = "It shines with a pure, goodly aura",
     half_elf_only = "Only a half-elf could use it",
+    human_only = "Only a human could make use of it",
     humming = "It emanates sound",
     invoker_only = "Only an invoker could put it to use",
     mage_only = "Only a student of the arcane arts could use it",
@@ -81,14 +83,14 @@ item_flags_table = {
     "evil" = "It has a chilling aura of evil",
     "felar_only"
     "female_only" = "It is meant for a woman",
-    "giant_only"
+    "giant_only" = "It is clearly meant for a giant"
     "glowing" = "It radiates light.",
     "gnome_only" = "It seems to be made for a gnome to use",
     "goblin_only"
     "good" = "It shines with a pure, goodly aura",
     "half_elf_only" = "Only a half-elf could use it",
     "healer_only"
-    "human_only"
+    "human_only" = "Only a human could make use of it"
     "humming" = "It emanates sound.",
     "invis"
     "invoker_only" = "Only an invoker could put it to use",
