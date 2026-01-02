@@ -8,6 +8,7 @@ local itemtable = loadEqData(file_path)
 
 if table.size(itemtable) >= table.size(carrion_items) then
   cecho("Loading ".. table.size(itemtable) .." into table carrion_items.")
+  carrion_items = loadEqData(file_path)
 else
   cecho("File version has fewer items.  Aborting...")
 end

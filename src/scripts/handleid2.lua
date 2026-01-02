@@ -130,8 +130,8 @@ function handle_id2(idstring)
     -- Handle wands next line, which is of the form:
     -- "It can be used a maximum of %d+ times"
     if item.item_type == "wand" or item.item_type == "talisman" then
-      if not item.max_charges then item.max_charges = string.match(idstrings[i], "^It can be used a maximum of (%d+) times$") ; linedone = true end
-      if not item.cur_charges then item.cur_charges = string.match(idstrings[i], "^ It can still be used (%d+) times$") ; linedone = true end
+      if not item.max_charges then item.max_charges = tonumber(string.match(idstrings[i], "^It can be used a maximum of (%d+) times$")) ; linedone = true end
+      if not item.cur_charges then item.cur_charges = tonumber(string.match(idstrings[i], "^ It can still be used (%d+) times$")) ; linedone = true end
     end
     
     -- Handle spells
@@ -184,7 +184,7 @@ function handle_id2(idstring)
     
     --Handle weapon avg. and damdice
     if string.match(idstrings[i], "^It can cause .- points of damage, at average %d+$") then
-      item.damdice, item.weapon_avg = string.match(idstrings[i], "It can cause (.-) points of damage, at average (%d+)$")
+      item.weapon_damdice, item.weapon_avg = string.match(idstrings[i], "It can cause (.-) points of damage, at average (%d+)$")
       linedone = true
     end
     
@@ -201,7 +201,7 @@ function handle_id2(idstring)
   return(item)
 end
 
-local testid = id_table[347]["id"]
+local testid = id_table[138]["id"]
 --display(testid)
 display(handle_id2(testid))
 --display(string.split(teststring, "%."))

@@ -6,6 +6,30 @@
               "isFolder": "no"
        },
        {
+              "name": "handleid2",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "handleid2",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "iteminfotables",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "itemtemplate",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
               "name": "lboz",
               "isActive": "yes",
               "script": "",

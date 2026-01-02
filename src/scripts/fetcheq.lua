@@ -36,7 +36,7 @@ function handleCarrionItems(_, url, body)
     if item.flags ~= "" then
         item.flags = string.split(item.flags)
     else
-        item.flags = {}
+        item.flags = nil
     end
     
     local affects = {}
@@ -45,10 +45,12 @@ function handleCarrionItems(_, url, body)
       affects[affect] = tonumber(string.trim(amount))
     end
     
-    item.affects = affects
+    if table.size(affects) > 0 then
+      item.affects = affects
+    end
 
     -- This could be broken up into subkeys, but meh.
-    item.armor_class = string.trim(item_block:match('<b>Amor Class:.-</b>(.-)<br>')) or ""
+    item.armor_class = string.trim(item_block:match('<b>Amor Class:.-</b>(.-)<br>'))
     
     item.weapon_avg, item.weapon_attack = item_block:match('<b>Weapon Damage:</b> average (%d+) %((.-)%)')
     item.weapon_avg = tonumber(item.weapon_avg)
@@ -59,22 +61,27 @@ function handleCarrionItems(_, url, body)
       item.weapon_flags = string.gsub(item.weapon_flags, "%s+", "")
       if item.weapon_flags ~= "" then
           item.weapon_flags = item.weapon_flags:match('%((.-)%)')
+      else
+        item.weapon_flags = nil
       end
     end
 
-    if item.weapon_type == nil then
-      -- Default values so we don't have to worry later about not having a field.
-      item.weapon_type = ""
-      item.weapon_flags = ""
-      item.weapon_avg = ""
-      item.weapon_attack = ""
-    end
-    
-
-    item.damdice = ""
-    item.keywords = ""        
     item.rarity = "common"
-    item.worth = ""
+    -- All itemsearch items are non-limited
+
+-- Commented out as we're not in the business of populating empty values.
+--    if item.weapon_type == nil then
+--      -- Default values so we don't have to worry later about not having a field.
+--      item.weapon_type = ""
+--      item.weapon_flags = ""
+--      item.weapon_avg = ""
+--      item.weapon_attack = ""
+--    end
+
+--    item.damdice = ""
+--    item.keywords = ""        
+    
+--    item.worth = ""
     
     table.insert(carrion_items, item)
 

@@ -44,4 +44,7 @@ string: item.rarity     -- From itemsearch or legendary awareness or manual
 string: item.room_id    -- From map.currentRoom
 
 
+What is considered a full id?
+
+
 ]]
