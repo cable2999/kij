@@ -33,12 +33,66 @@ function compareitem(itemnew, curitem)
     return true
 end
 
-function updateitem(itemnew, itemindex, item_table)
-    -- Update an item at index in carrion_items with data from itemnew
-    uitem = {}
-    curitem = item_table[itemindex]
+function unionitems(item1, item2)
+
+  local uitem = {}
+  
+  for index, value in pairs(item1) do
+    if type(value) == "string" or type(value) == "number" then
+      if item1[index] == item2[index] or item2[index] == nil then
+        uitem[index] = value
+      end
+    elseif type(value) == "table" then
+      --display("HERE")
+      --display(table.complement(item1[index], item2[index]))
+        
+      if table.size(table.complement(item1[index], item2[index])) == 0 then
+        uitem[index] = value
+      end
+    end
+  end
+ 
+ for index, value in pairs(item2) do
+    if type(value) == "string" or type(value) == "number" then
+      if item2[index] == item1[index] or item1[index] == nil then
+        uitem[index] = value
+      end
+    elseif type(value) == "table" then
+      --display("HERE")
+      --display(table.complement(item1[index], item2[index]))
+      
+      if table.size(table.complement(item2[index], item1[index])) == 0 then
+        uitem[index] = value
+      end
+    end
+  end
+ 
+ 
+ return uitem
+end
+
+
+function addupdatebyid(itemid, item_table)
+    -- Given an item ID string, attempts to update an existing item or add a new item as appropriate.
+
+    local item = {}
+    item = handle_id2(itemid)
+    local mitems = {}
+    mitems = finditembyname(item.name, item_table)
+    if #mitems == 0 then
+      display("No existing item named: '"..item.name.."' found.  Adding a new item.")
+      -- Check for area info
+      -- Check for rarity info
+      -- Check for wear_flag info
+    else
+      for index, itemindex in pairs(mitems) do
+        if compareitem(item, item_table[itemindex]) then
+          cecho("Item ".. itemindex .." updated!\n")
+          item_table[itemindex] = unionitems(item, item_table[itemindex])
+          return
+        end
+      end
+    end
     
-    uitem = table.union(curitem, itemnew)    
     
-    item_table[itemindex] = uitem
 end
