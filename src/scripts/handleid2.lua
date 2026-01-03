@@ -185,6 +185,7 @@ function handle_id2(idstring)
     --Handle weapon avg. and damdice
     if string.match(idstrings[i], "^It can cause .- points of damage, at average %d+$") then
       item.weapon_damdice, item.weapon_avg = string.match(idstrings[i], "It can cause (.-) points of damage, at average (%d+)$")
+      item.weapon_avg = tonumber(item.weapon_avg)
       linedone = true
     end
     
