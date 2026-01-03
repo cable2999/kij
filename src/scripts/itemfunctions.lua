@@ -42,5 +42,3 @@ function updateitem(itemnew, itemindex, item_table)
     
     item_table[itemindex] = uitem
 end
-
-
