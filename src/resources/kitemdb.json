@@ -197,6 +197,96 @@
     "item_type":"treasure",
     "material":"silver"
   },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":2.125,
+    "wear_flags":"about",
+    "name":"a soiled and blood-soaked apron",
+    "item_type":"clothing",
+    "material":"cloth",
+    "affects":{
+      "charisma":-3,
+      "hp":10,
+      "morale":-5
+    },
+    "level":51
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":28.0625,
+    "wear_flags":"arms",
+    "armor_class":"Pierce: 16 Bash: 15 Slash: 16 Magic: 15 Element: 14",
+    "name":"heavy plate pauldrons with attached vambraces",
+    "item_type":"armor",
+    "material":"gold",
+    "affects":{
+      "strength":1,
+      "hp":10,
+      "constitution":2
+    },
+    "level":51
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "wear_flags":"wrist",
+    "flags":["glowing","magic"],
+    "affects":{
+      "hit roll":2,
+      "intelligence":2,
+      "save vs spell":-5
+    },
+    "name":"a woven silk bracer",
+    "weight":0.4375,
+    "level":51,
+    "item_type":"clothing",
+    "material":"silk"
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":5.25,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 12 Bash: 11 Slash: 12 Magic: 11 Element: 12",
+    "name":"a heavy-duty leather smithing apron",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "strength":1,
+      "fire resistance":2
+    },
+    "level":51
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":1.4375,
+    "wear_flags":"hands",
+    "armor_class":"Pierce: 12 Bash: 12 Slash: 12 Magic: 11 Element: 11",
+    "name":"some heavy-duty leather smithing gloves",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "hit roll":1,
+      "hp":10,
+      "strength":1
+    },
+    "level":51
+  },{
+    "weapon_type":"mace",
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weapon_avg":18,
+    "weight":15.8125,
+    "wear_flags":"wield",
+    "name":"a durable steel ball peen hammer",
+    "item_type":"weapon",
+    "weapon_attack":"pound",
+    "material":"steel",
+    "affects":{
+      "damage roll":1,
+      "hit roll":1,
+      "strength":1
+    },
+    "level":51
+  },{
     "area_name":"The Past Grove",
     "rarity":"common",
     "weight":5.6875,
@@ -1128,6 +1218,48 @@
     "item_type":"armor",
     "material":"steel"
   },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":1,
+    "wear_flags":"face",
+    "name":"some tempered glass safety goggles",
+    "item_type":"clothing",
+    "material":"glass",
+    "affects":{
+      "save vs paralysis":-3,
+      "constitution":1
+    },
+    "level":45
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":1,
+    "wear_flags":"face",
+    "name":"a mithril-framed gallery monocle",
+    "item_type":"treasure",
+    "material":"glass",
+    "affects":{
+      "armor class":-5,
+      "mana":5,
+      "charisma":2,
+      "hp":5,
+      "intelligence":1
+    },
+    "level":45
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":0.4375,
+    "wear_flags":"neck",
+    "name":"a burlap neck gaiter adorned with a mining squad lavaliere",
+    "item_type":"clothing",
+    "material":"burlap",
+    "affects":{
+      "hp":5,
+      "hit roll":1
+    },
+    "level":45
+  },{
     "area_name":"Feanwyyn Weald",
     "rarity":"common",
     "weight":7,
@@ -1410,6 +1542,22 @@
     "item_type":"armor",
     "material":"leather"
   },{
+    "weapon_type":"axe",
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weapon_avg":18,
+    "weight":9.875,
+    "wear_flags":"wield",
+    "name":"an axe with bulette teeth blades",
+    "item_type":"weapon",
+    "weapon_attack":"bite",
+    "material":"bone",
+    "affects":{
+      "damage roll":3,
+      "hit roll":3
+    },
+    "level":45
+  },{
     "area_name":"Maethien",
     "rarity":"common",
     "weight":5.5,
@@ -1603,6 +1751,92 @@
     },
     "name":"an ironclad buckler",
     "weight":6.6875,
+    "level":42,
+    "item_type":"armor",
+    "material":"iron"
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "wear_flags":"body",
+    "flags":["evil","anti_good"],
+    "affects":{
+      "constitution":1,
+      "strength":-1,
+      "mana":15,
+      "hp":10,
+      "intelligence":2
+    },
+    "name":"dark-orchid students robes",
+    "weight":5.25,
+    "level":42,
+    "item_type":"clothing",
+    "material":"silk"
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "wear_flags":"head",
+    "flags":["glowing","evil","magic"],
+    "affects":{
+      "save vs spell":8,
+      "hp":10,
+      "morale":-6,
+      "save vs paralysis":8,
+      "mana":-20,
+      "intelligence":-2,
+      "wisdom":-2
+    },
+    "name":"a steel diadem with a sickly yellow gemstone",
+    "weight":5.625,
+    "level":42,
+    "item_type":"treasure",
+    "material":"steel"
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":24.3125,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 12 Bash: 11 Slash: 12 Magic: 9 Element: 10",
+    "name":"a tarnished adamantite breastplate",
+    "item_type":"armor",
+    "material":"adamantite",
+    "affects":{
+      "dexterity":-1,
+      "strength":-1,
+      "hp":10,
+      "morale":-5
+    },
+    "level":42
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":18.25,
+    "wear_flags":"legs",
+    "armor_class":"Pierce: 13 Bash: 11 Slash: 12 Magic: 9 Element: 9",
+    "name":"some dented adamantite greaves",
+    "item_type":"armor",
+    "material":"adamantite",
+    "affects":{
+      "dexterity":-1,
+      "strength":-1,
+      "hp":10,
+      "morale":-4
+    },
+    "level":42
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "wear_flags":"shield",
+    "armor_class":"Pierce: 12 Bash: 10 Slash: 11 Magic: 9 Element: 10",
+    "flags":["evil"],
+    "affects":{
+      "damage roll":1,
+      "hit roll":1,
+      "morale":-4,
+      "strength":-1,
+      "dexterity":-1
+    },
+    "name":"a dimpled iron kite shield",
+    "weight":11.8125,
     "level":42,
     "item_type":"armor",
     "material":"iron"
@@ -2480,6 +2714,65 @@
     "item_type":"treasure",
     "material":"moonstone"
   },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "wear_flags":"hands",
+    "armor_class":"Pierce: 11 Bash: 10 Slash: 10 Magic: 9 Element: 9",
+    "flags":["evil","magic","nodrop","noremove"],
+    "affects":{
+      "dexterity":-2,
+      "hit roll":-2,
+      "hp":15,
+      "constitution":2
+    },
+    "name":"some frosted titanium shackles attached to a long chain",
+    "weight":3.625,
+    "level":40,
+    "item_type":"armor",
+    "material":"titanium"
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":13.0625,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 10 Bash: 10 Slash: 9 Magic: 10 Element: 11",
+    "name":"a reinforced leather jacket",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "strength":1,
+      "hp":10,
+      "constitution":1
+    },
+    "level":40
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":2.75,
+    "wear_flags":"feet",
+    "armor_class":"Pierce: 10 Bash: 10 Slash: 11 Magic: 9 Element: 10",
+    "name":"heavy leather boots with reinforced soles",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "movement regeneration":5,
+      "dexterity":1,
+      "moves":10
+    },
+    "level":40
+  },{
+    "weapon_type":"axe",
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weapon_avg":18,
+    "wear_flags":"wield",
+    "name":"a sturdy steel mining pick",
+    "item_type":"weapon",
+    "weapon_attack":"rend",
+    "material":"steel",
+    "weight":15.8125,
+    "level":40
+  },{
     "area_name":"Kteng's Laboratory",
     "rarity":"common",
     "weight":0.9375,
@@ -2660,21 +2953,6 @@
     "item_type":"treasure",
     "material":"bone"
   },{
-    "area_name":"Arkham",
-    "rarity":"common",
-    "wear_flags":"body",
-    "flags":["bless","anti_evil"],
-    "affects":{
-      "save vs paralysis":-5,
-      "save vs spell":-5,
-      "save vs mental":-5
-    },
-    "name":"a pristine white robe embroidered with gold",
-    "weight":3.5,
-    "level":40,
-    "item_type":"clothing",
-    "material":"silk"
-  },{
     "area_name":"Aturi Timberlands",
     "rarity":"common",
     "weight":5,
@@ -2703,19 +2981,6 @@
     },
     "level":40
   },{
-    "area_name":"Arkham",
-    "rarity":"common",
-    "weight":1.125,
-    "wear_flags":"finger",
-    "name":"a thick engraved gold ring",
-    "item_type":"treasure",
-    "material":"gold",
-    "affects":{
-      "hp":20,
-      "armor class":-3
-    },
-    "level":40
-  },{
     "area_name":"Aturi Timberlands",
     "rarity":"common",
     "weight":7.6875,
@@ -2727,19 +2992,6 @@
     "affects":{
       "damage roll":1,
       "moves":-25
-    },
-    "level":40
-  },{
-    "area_name":"Arkham",
-    "rarity":"common",
-    "weight":2.125,
-    "wear_flags":"face",
-    "name":"a pair of glasses with a golden chain",
-    "item_type":"treasure",
-    "material":"gold",
-    "affects":{
-      "intelligence":2,
-      "mana":15
     },
     "level":40
   },{
@@ -2770,6 +3022,21 @@
     },
     "level":40
   },{
+    "area_name":"Arkham",
+    "rarity":"common",
+    "wear_flags":"body",
+    "flags":["bless","anti_evil"],
+    "affects":{
+      "save vs paralysis":-5,
+      "save vs spell":-5,
+      "save vs mental":-5
+    },
+    "name":"a pristine white robe embroidered with gold",
+    "weight":3.5,
+    "level":40,
+    "item_type":"clothing",
+    "material":"silk"
+  },{
     "area_name":"Aturi Timberlands",
     "rarity":"common",
     "weight":15.375,
@@ -2780,6 +3047,32 @@
     "material":"steel",
     "affects":{
       "dexterity":1
+    },
+    "level":40
+  },{
+    "area_name":"Arkham",
+    "rarity":"common",
+    "weight":1.125,
+    "wear_flags":"finger",
+    "name":"a thick engraved gold ring",
+    "item_type":"treasure",
+    "material":"gold",
+    "affects":{
+      "hp":20,
+      "armor class":-3
+    },
+    "level":40
+  },{
+    "area_name":"Arkham",
+    "rarity":"common",
+    "weight":2.125,
+    "wear_flags":"face",
+    "name":"a pair of glasses with a golden chain",
+    "item_type":"treasure",
+    "material":"gold",
+    "affects":{
+      "intelligence":2,
+      "mana":15
     },
     "level":40
   },{
@@ -2998,6 +3291,124 @@
     "level":40,
     "item_type":"weapon",
     "material":"steel"
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "wear_flags":"head",
+    "flags":["magic","anti_good"],
+    "affects":{
+      "disease resistance":-1,
+      "mana":10,
+      "constitution":-1
+    },
+    "name":"a tribal headdress made from decaying leaves",
+    "weight":2.125,
+    "level":40,
+    "item_type":"clothing",
+    "material":"plant"
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":2.9375,
+    "wear_flags":"head",
+    "name":"a tribal headdress embroidered with seeds",
+    "item_type":"clothing",
+    "material":"plant",
+    "affects":{
+      "save vs spell":-5,
+      "charisma":1,
+      "hit roll":-1,
+      "constitution":2
+    },
+    "level":40
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":0.6875,
+    "wear_flags":"finger",
+    "name":"a spiked ring made from a bulette tooth",
+    "item_type":"treasure",
+    "material":"bone",
+    "affects":{
+      "damage roll":1,
+      "constitution":1
+    },
+    "level":40
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":3.0625,
+    "wear_flags":"wrist",
+    "armor_class":"Pierce: 8 Bash: 16 Slash: 11 Magic: 5 Element: 10",
+    "name":"bulette scale bracer",
+    "item_type":"armor",
+    "material":"hide",
+    "affects":{
+      "damage roll":1,
+      "constitution":1
+    },
+    "level":40
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "wear_flags":"shield",
+    "armor_class":"Pierce: 11 Bash: 11 Slash: 11 Magic: 11 Element: 6",
+    "flags":["anti_good","anti_neutral","orderly_only"],
+    "affects":{
+      "mana":10,
+      "hp":10,
+      "strength":1
+    },
+    "name":"a thin steel shield",
+    "weight":3.9375,
+    "level":40,
+    "item_type":"armor",
+    "material":"steel"
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":2.5625,
+    "wear_flags":"waist",
+    "armor_class":"Pierce: 7 Bash: 16 Slash: 10 Magic: 11 Element: 11",
+    "name":"a scorched leather belt",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "cold resistance":-1,
+      "hit roll":1,
+      "constitution":1
+    },
+    "level":40
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":8.4375,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 11 Bash: 11 Slash: 11 Magic: 6 Element: 6",
+    "name":"a thin mithril vest",
+    "item_type":"armor",
+    "material":"mithril",
+    "affects":{
+      "intelligence":1,
+      "hp":5,
+      "armor class":-10
+    },
+    "level":40
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":4.75,
+    "wear_flags":"arms",
+    "armor_class":"Pierce: 11 Bash: 11 Slash: 11 Magic: 11 Element: 10",
+    "name":"thin mithril sleeves",
+    "item_type":"armor",
+    "material":"mithril",
+    "affects":{
+      "dexterity":1,
+      "hp":5,
+      "armor class":-10
+    },
+    "level":40
   },{
     "wear_flags":"about",
     "area_name":"Maethien",
@@ -3773,6 +4184,36 @@
     },
     "level":36
   },{
+    "weapon_type":"axe",
+    "area_name":"The Village of Azuremain",
+    "rarity":"common",
+    "weapon_avg":15,
+    "weight":11.625,
+    "wear_flags":"wield",
+    "name":"a flawlessly forged steel axe",
+    "item_type":"weapon",
+    "weapon_attack":"slice",
+    "material":"steel",
+    "affects":{
+      "damage roll":3,
+      "hit roll":3
+    },
+    "level":35
+  },{
+    "area_name":"The Village of Azuremain",
+    "rarity":"common",
+    "wear_flags":"shield",
+    "armor_class":"Pierce: 11 Bash: 11 Slash: 11 Magic: 10 Element: 7",
+    "flags":["glowing","magic"],
+    "affects":{
+      "save vs spell":-5
+    },
+    "name":"a finely polished shield",
+    "weight":11.9375,
+    "level":35,
+    "item_type":"armor",
+    "material":"steel"
+  },{
     "area_name":"The Oryx Steppes",
     "rarity":"common",
     "weight":6.125,
@@ -4013,6 +4454,19 @@
     "item_type":"treasure",
     "material":"platinum"
   },{
+    "weapon_type":"spear",
+    "area_name":"Coral Palace",
+    "rarity":"common",
+    "weapon_avg":20,
+    "wear_flags":"wield",
+    "weapon_flags":"two-handed",
+    "name":"a locathah spear",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"stone",
+    "weight":11.9375,
+    "level":35
+  },{
     "area_name":"Village of Mal'trakis",
     "rarity":"common",
     "wear_flags":"neck",
@@ -4028,17 +4482,21 @@
     "item_type":"treasure",
     "material":"bone"
   },{
-    "weapon_type":"spear",
-    "area_name":"Coral Palace",
+    "weapon_type":"axe",
+    "area_name":"Amaranthian Forest",
     "rarity":"common",
     "weapon_avg":20,
+    "weight":27.3125,
     "wear_flags":"wield",
-    "weapon_flags":"two-handed",
-    "name":"a locathah spear",
+    "name":"a double-headed axe",
     "item_type":"weapon",
-    "weapon_attack":"stab",
-    "material":"stone",
-    "weight":11.9375,
+    "weapon_attack":"cleave",
+    "material":"steel",
+    "affects":{
+      "damage roll":3,
+      "hit roll":-1,
+      "strength":1
+    },
     "level":35
   },{
     "area_name":"Seantryn Modan",
@@ -4094,23 +4552,6 @@
     "affects":{
       "hp":10,
       "strength":2
-    },
-    "level":35
-  },{
-    "weapon_type":"axe",
-    "area_name":"Amaranthian Forest",
-    "rarity":"common",
-    "weapon_avg":20,
-    "weight":27.3125,
-    "wear_flags":"wield",
-    "name":"a double-headed axe",
-    "item_type":"weapon",
-    "weapon_attack":"cleave",
-    "material":"steel",
-    "affects":{
-      "damage roll":3,
-      "hit roll":-1,
-      "strength":1
     },
     "level":35
   },{
@@ -4238,20 +4679,6 @@
     "item_type":"clothing",
     "material":"leather"
   },{
-    "area_name":"Castle of Akan",
-    "rarity":"common",
-    "wear_flags":"head",
-    "flags":["nodrop","noremove"],
-    "affects":{
-      "intelligence":-3,
-      "wisdom":-5
-    },
-    "name":"a golden crown decorated with platinum and silver",
-    "weight":14.0625,
-    "level":35,
-    "item_type":"treasure",
-    "material":"gold"
-  },{
     "weapon_type":"dagger",
     "area_name":"Loch Terradian",
     "rarity":"common",
@@ -4267,6 +4694,20 @@
     "level":35,
     "item_type":"weapon",
     "material":"crystal"
+  },{
+    "area_name":"Castle of Akan",
+    "rarity":"common",
+    "wear_flags":"head",
+    "flags":["nodrop","noremove"],
+    "affects":{
+      "intelligence":-3,
+      "wisdom":-5
+    },
+    "name":"a golden crown decorated with platinum and silver",
+    "weight":14.0625,
+    "level":35,
+    "item_type":"treasure",
+    "material":"gold"
   },{
     "area_name":"Abandoned Mines",
     "rarity":"common",
@@ -4685,22 +5126,6 @@
     "item_type":"clothing",
     "material":"silk"
   },{
-    "area_name":"The Outpost of Tir-Talath",
-    "rarity":"common",
-    "weight":31.8125,
-    "wear_flags":"body",
-    "armor_class":"Pierce: 10 Bash: 10 Slash: 10 Magic: 2 Element: 7",
-    "name":"a padded brass chainmail hauberk",
-    "item_type":"armor",
-    "material":"brass",
-    "affects":{
-      "save vs breath":-5,
-      "charisma":1,
-      "hp":22,
-      "constitution":2
-    },
-    "level":35
-  },{
     "weapon_type":"sword",
     "area_name":"Underdark",
     "rarity":"common",
@@ -4733,6 +5158,79 @@
     "level":35,
     "item_type":"armor",
     "material":"adamantite"
+  },{
+    "area_name":"The Outpost of Tir-Talath",
+    "rarity":"common",
+    "weight":31.8125,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 10 Bash: 10 Slash: 10 Magic: 2 Element: 7",
+    "name":"a padded brass chainmail hauberk",
+    "item_type":"armor",
+    "material":"brass",
+    "affects":{
+      "save vs breath":-5,
+      "charisma":1,
+      "hp":22,
+      "constitution":2
+    },
+    "level":35
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":3.1875,
+    "wear_flags":"body",
+    "name":"a reinforced wool tunic",
+    "item_type":"clothing",
+    "material":"cloth",
+    "affects":{
+      "strength":1,
+      "constitution":1
+    },
+    "level":35
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":8.375,
+    "wear_flags":"legs",
+    "armor_class":"Pierce: 10 Bash: 9 Slash: 9 Magic: 10 Element: 10",
+    "name":"reinforced leather pants with sewn-in knee pads",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "dexterity":1,
+      "movement regeneration":2,
+      "constitution":1,
+      "armor class":-4
+    },
+    "level":35
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":1.8125,
+    "wear_flags":"hands",
+    "armor_class":"Pierce: 10 Bash: 9 Slash: 9 Magic: 10 Element: 10",
+    "name":"thick leather gloves",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "strength":1
+    },
+    "level":35
+  },{
+    "area_name":"Subterranean Spire",
+    "rarity":"common",
+    "weight":3.6875,
+    "wear_flags":"waist",
+    "armor_class":"Pierce: 10 Bash: 9 Slash: 10 Magic: 8 Element: 9",
+    "name":"heavy leather tool belt",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "dexterity":1,
+      "hp":10,
+      "constitution":1
+    },
+    "level":35
   },{
     "area_name":"Feanwyyn Weald",
     "rarity":"common",
@@ -4874,20 +5372,6 @@
     },
     "level":35
   },{
-    "area_name":"Hamsah Mu'tazz",
-    "rarity":"common",
-    "wear_flags":"finger",
-    "flags":["magic","mage_only"],
-    "affects":{
-      "save vs paralysis":-16,
-      "moves":-50
-    },
-    "name":"a ring with a rotating middle band",
-    "weight":0.625,
-    "level":35,
-    "item_type":"treasure",
-    "material":"bronze"
-  },{
     "weapon_type":"exotic",
     "area_name":"Targeth's Manor",
     "rarity":"common",
@@ -4905,6 +5389,20 @@
     "level":35,
     "item_type":"weapon",
     "material":"stone"
+  },{
+    "area_name":"Hamsah Mu'tazz",
+    "rarity":"common",
+    "wear_flags":"finger",
+    "flags":["magic","mage_only"],
+    "affects":{
+      "save vs paralysis":-16,
+      "moves":-50
+    },
+    "name":"a ring with a rotating middle band",
+    "weight":0.625,
+    "level":35,
+    "item_type":"treasure",
+    "material":"bronze"
   },{
     "area_name":"Outside Hamsah Mu'tazz",
     "rarity":"common",
@@ -5037,6 +5535,20 @@
     "item_type":"clothing",
     "material":"cloth"
   },{
+    "area_name":"Aturi Timberlands",
+    "rarity":"common",
+    "weight":3.9375,
+    "wear_flags":"neck",
+    "name":"a round locket of bright silver",
+    "item_type":"treasure",
+    "material":"silver",
+    "affects":{
+      "charisma":2,
+      "intelligence":2,
+      "wisdom":2
+    },
+    "level":35
+  },{
     "area_name":"Arkham",
     "rarity":"common",
     "wear_flags":"finger",
@@ -5083,15 +5595,15 @@
   },{
     "area_name":"Aturi Timberlands",
     "rarity":"common",
-    "weight":3.9375,
-    "wear_flags":"neck",
-    "name":"a round locket of bright silver",
-    "item_type":"treasure",
-    "material":"silver",
+    "weight":12.75,
+    "wear_flags":"hold",
+    "name":"a tall drum with a leather strap",
+    "item_type":"instrument",
+    "material":"wood",
     "affects":{
+      "movement regeneration":1,
       "charisma":2,
-      "intelligence":2,
-      "wisdom":2
+      "moves":50
     },
     "level":35
   },{
@@ -5110,20 +5622,6 @@
       "dexterity":2,
       "hit roll":3,
       "save vs breath":-7
-    },
-    "level":35
-  },{
-    "area_name":"Aturi Timberlands",
-    "rarity":"common",
-    "weight":12.75,
-    "wear_flags":"hold",
-    "name":"a tall drum with a leather strap",
-    "item_type":"instrument",
-    "material":"wood",
-    "affects":{
-      "movement regeneration":1,
-      "charisma":2,
-      "moves":50
     },
     "level":35
   },{
@@ -5561,6 +6059,245 @@
     "item_type":"armor",
     "material":"steel"
   },{
+    "weapon_type":"dagger",
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weapon_avg":19,
+    "weight":7.9375,
+    "wear_flags":"wield",
+    "name":"a bulette tooth dagger",
+    "item_type":"weapon",
+    "weapon_attack":"bite",
+    "material":"bone",
+    "affects":{
+      "hit roll":2
+    },
+    "level":35
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":2.0625,
+    "wear_flags":"waist",
+    "name":"a woven belt of twigs and bones",
+    "item_type":"clothing",
+    "material":"plant",
+    "affects":{
+      "dexterity":-1,
+      "save vs spell":-3,
+      "charisma":1,
+      "strength":-1,
+      "fire resistance":-1
+    },
+    "level":35
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":3.1875,
+    "wear_flags":"head",
+    "name":"a tribal headdress of twigs and bones",
+    "item_type":"clothing",
+    "material":"plant",
+    "affects":{
+      "dexterity":-1,
+      "save vs spell":-3,
+      "constitution":1,
+      "wisdom":1,
+      "fire resistance":-1
+    },
+    "level":35
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":0.625,
+    "wear_flags":"neck",
+    "name":"a necklace with a large seed pendant",
+    "item_type":"clothing",
+    "material":"plant",
+    "affects":{
+      "damage roll":-1,
+      "charisma":1,
+      "intelligence":1,
+      "strength":1
+    },
+    "level":35
+  },{
+    "weapon_type":"bow",
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weapon_avg":20,
+    "weapon_flags":"two-handed",
+    "weight":14.625,
+    "wear_flags":"wield",
+    "name":"a rubberwood bow",
+    "item_type":"weapon",
+    "weapon_attack":"pierce",
+    "material":"wood",
+    "affects":{
+      "hp":5
+    },
+    "level":35
+  },{
+    "weapon_type":"spear",
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weapon_avg":20,
+    "weapon_flags":"two-handed",
+    "weight":7.6875,
+    "wear_flags":"wield",
+    "name":"a bone inlaid rubberwood spear",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"bone",
+    "affects":{
+      "hp":5
+    },
+    "level":35
+  },{
+    "weapon_type":"polearm",
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weapon_avg":20,
+    "weapon_flags":"two-handed",
+    "weight":11,
+    "wear_flags":"wield",
+    "name":"a rubberwood pike tipped with bulette teeth",
+    "item_type":"weapon",
+    "weapon_attack":"thrust",
+    "material":"wood",
+    "affects":{
+      "hp":5
+    },
+    "level":35
+  },{
+    "weapon_type":"sword",
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weapon_avg":19,
+    "weapon_flags":"two-handed",
+    "wear_flags":"wield",
+    "flags":["anti_good","anti_neutral","orderly_only"],
+    "affects":{
+      "damage roll":2,
+      "hit roll":2
+    },
+    "name":"an imperial claymore",
+    "weight":35,
+    "weapon_attack":"slash",
+    "level":35,
+    "item_type":"weapon",
+    "material":"steel"
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "wear_flags":"neck",
+    "flags":["anti_good","anti_neutral","orderly_only"],
+    "affects":{
+      "intelligence":1,
+      "save vs spell":-5
+    },
+    "name":"an imperial necklace",
+    "weight":3.0625,
+    "level":35,
+    "item_type":"treasure",
+    "material":"steel"
+  },{
+    "weapon_type":"staff",
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weapon_avg":19,
+    "weapon_flags":"two-handed",
+    "wear_flags":"wield",
+    "flags":["anti_good","anti_neutral","orderly_only"],
+    "affects":{
+      "damage roll":2,
+      "hit roll":2
+    },
+    "name":"an imperial staff",
+    "weight":21.5625,
+    "weapon_attack":"smash",
+    "level":35,
+    "item_type":"weapon",
+    "material":"steel"
+  },{
+    "weapon_type":"dagger",
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weapon_avg":19,
+    "wear_flags":"wield",
+    "flags":["anti_good"],
+    "affects":{
+      "damage roll":3,
+      "hit roll":3,
+      "strength":1
+    },
+    "name":"a small blooded dagger",
+    "weight":5.25,
+    "weapon_attack":"stab",
+    "level":35,
+    "item_type":"weapon",
+    "material":"steel"
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":5.375,
+    "wear_flags":"about",
+    "armor_class":"Pierce: 10 Bash: 10 Slash: 10 Magic: 10 Element: 6",
+    "name":"the Cloak of the Jaguar",
+    "item_type":"armor",
+    "material":"fur",
+    "affects":{
+      "strength":1,
+      "hp":5,
+      "constitution":1
+    },
+    "level":35
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weight":5.25,
+    "wear_flags":"neck",
+    "name":"a thick mithril necklace",
+    "item_type":"treasure",
+    "material":"mithril",
+    "affects":{
+      "dexterity":-1,
+      "intelligence":1,
+      "wisdom":2
+    },
+    "level":35
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "wear_flags":"hooves",
+    "armor_class":"Pierce: 10 Bash: 10 Slash: 10 Magic: 6 Element: 6",
+    "flags":["transparent","magic"],
+    "affects":{
+      "hit roll":2,
+      "fire resistance":-1,
+      "constitution":1
+    },
+    "name":"a pair of rear horseshoes spiked with icicles",
+    "weight":3.9375,
+    "level":35,
+    "item_type":"armor",
+    "material":"ice"
+  },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "wear_flags":"hooves",
+    "armor_class":"Pierce: 10 Bash: 10 Slash: 10 Magic: 6 Element: 6",
+    "flags":["magic"],
+    "affects":{
+      "hit roll":2,
+      "fire resistance":-1,
+      "constitution":1
+    },
+    "name":"a pair of front horseshoes spiked with icicles",
+    "weight":3.9375,
+    "level":35,
+    "item_type":"armor",
+    "material":"ice"
+  },{
     "area_name":"Delar-Tol",
     "rarity":"common",
     "weight":22.4375,
@@ -5712,36 +6449,6 @@
     "weapon_attack":"smash",
     "level":35,
     "item_type":"weapon",
-    "material":"steel"
-  },{
-    "weapon_type":"axe",
-    "area_name":"The Village of Azuremain",
-    "rarity":"common",
-    "weapon_avg":15,
-    "weight":11.625,
-    "wear_flags":"wield",
-    "name":"a flawlessly forged steel axe",
-    "item_type":"weapon",
-    "weapon_attack":"slice",
-    "material":"steel",
-    "affects":{
-      "damage roll":3,
-      "hit roll":3
-    },
-    "level":35
-  },{
-    "area_name":"The Village of Azuremain",
-    "rarity":"common",
-    "wear_flags":"shield",
-    "armor_class":"Pierce: 11 Bash: 11 Slash: 11 Magic: 10 Element: 7",
-    "flags":["glowing","magic"],
-    "affects":{
-      "save vs spell":-5
-    },
-    "name":"a finely polished shield",
-    "weight":11.9375,
-    "level":35,
-    "item_type":"armor",
     "material":"steel"
   },{
     "area_name":"Hillcrest",
@@ -6025,19 +6732,20 @@
   },{
     "area_name":"Maethien",
     "rarity":"common",
-    "weight":5.1875,
     "wear_flags":"shield",
     "armor_class":"Pierce: 10 Bash: 10 Slash: 10 Magic: 10 Element: 10",
-    "name":"the shield of the Rising Sun",
-    "item_type":"armor",
-    "material":"mithril",
+    "flags":["glowing","bless"],
     "affects":{
       "damage roll":1,
       "hit roll":1,
       "hp":10,
       "mana":10
     },
-    "level":34
+    "name":"the shield of the Rising Sun",
+    "weight":5.1875,
+    "level":34,
+    "item_type":"armor",
+    "material":"mithril"
   },{
     "area_name":"The Keep of Barovia",
     "rarity":"common",
@@ -6846,6 +7554,58 @@
     "item_type":"armor",
     "material":"bronze"
   },{
+    "weapon_type":"mace",
+    "area_name":"The Battlefield",
+    "rarity":"common",
+    "weapon_avg":20,
+    "wear_flags":"wield",
+    "flags":["glowing","bless","anti_neutral","anti_evil"],
+    "affects":{
+      "damage roll":2,
+      "hit roll":4
+    },
+    "name":"a golden mace",
+    "weight":7.9375,
+    "weapon_attack":"crush",
+    "level":30,
+    "item_type":"weapon",
+    "material":"steel"
+  },{
+    "weapon_type":"sword",
+    "area_name":"The Battlefield",
+    "rarity":"common",
+    "weapon_avg":20,
+    "wear_flags":"wield",
+    "flags":["glowing","bless","anti_neutral","anti_evil"],
+    "affects":{
+      "damage roll":3,
+      "hit roll":4
+    },
+    "name":"a golden longsword",
+    "weight":5.9375,
+    "weapon_attack":"slash",
+    "level":30,
+    "item_type":"weapon",
+    "material":"steel"
+  },{
+    "weapon_type":"mace",
+    "area_name":"The Village of Azuremain",
+    "rarity":"common",
+    "weapon_avg":16,
+    "wear_flags":"wield",
+    "flags":["glowing","magic"],
+    "affects":{
+      "damage roll":2,
+      "hit roll":3,
+      "strength":1
+    },
+    "name":"a rune-covered mace",
+    "weight":7.9375,
+    "weapon_attack":"blast",
+    "level":30,
+    "item_type":"weapon",
+    "material":"steel"
+  },{
     "weapon_type":"sword",
     "area_name":"Orc Passage",
     "rarity":"common",
@@ -7427,22 +8187,6 @@
     "armor_class":"Pierce: 12 Bash: 12 Slash: 12 Magic: 4 Element: 7",
     "level":30
   },{
-    "area_name":"The Imperial Lands",
-    "rarity":"common",
-    "wear_flags":"body",
-    "armor_class":"Pierce: 12 Bash: 13 Slash: 16 Magic: 2 Element: 6",
-    "flags":["glowing","evil","anti_good","anti_neutral","empire_only"],
-    "affects":{
-      "damage roll":2,
-      "hit roll":1,
-      "hp":10
-    },
-    "name":"steel platemail bearing a Golden Codex",
-    "weight":29.9375,
-    "level":30,
-    "item_type":"armor",
-    "material":"steel"
-  },{
     "weapon_type":"spear",
     "area_name":"Loch Terradian",
     "rarity":"common",
@@ -7460,6 +8204,22 @@
     "level":30,
     "item_type":"weapon",
     "material":"silver"
+  },{
+    "area_name":"The Imperial Lands",
+    "rarity":"common",
+    "wear_flags":"body",
+    "armor_class":"Pierce: 12 Bash: 13 Slash: 16 Magic: 2 Element: 6",
+    "flags":["glowing","evil","anti_good","anti_neutral","empire_only"],
+    "affects":{
+      "damage roll":2,
+      "hit roll":1,
+      "hp":10
+    },
+    "name":"steel platemail bearing a Golden Codex",
+    "weight":29.9375,
+    "level":30,
+    "item_type":"armor",
+    "material":"steel"
   },{
     "area_name":"The Imperial Lands",
     "rarity":"common",
@@ -7499,20 +8259,6 @@
     "item_type":"clothing",
     "material":"cloth"
   },{
-    "area_name":"Pine Forest",
-    "rarity":"common",
-    "weight":1,
-    "wear_flags":"waist",
-    "name":"a tattered loincloth",
-    "item_type":"clothing",
-    "material":"cloth",
-    "affects":{
-      "dexterity":1,
-      "charisma":-1,
-      "moves":25
-    },
-    "level":30
-  },{
     "weapon_type":"polearm",
     "area_name":"Loch Terradian",
     "rarity":"common",
@@ -7526,6 +8272,20 @@
     "material":"bone",
     "affects":{
       "hit roll":3
+    },
+    "level":30
+  },{
+    "area_name":"Pine Forest",
+    "rarity":"common",
+    "weight":1,
+    "wear_flags":"waist",
+    "name":"a tattered loincloth",
+    "item_type":"clothing",
+    "material":"cloth",
+    "affects":{
+      "dexterity":1,
+      "charisma":-1,
+      "moves":25
     },
     "level":30
   },{
@@ -7815,6 +8575,20 @@
     },
     "level":30
   },{
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "weight":1.0625,
+    "wear_flags":"hold",
+    "name":"a simple harmonica",
+    "item_type":"instrument",
+    "material":"steel",
+    "affects":{
+      "charisma":2,
+      "hp":10,
+      "mana":5
+    },
+    "level":30
+  },{
     "weapon_type":"sword",
     "area_name":"The Xvart Lair",
     "rarity":"common",
@@ -7841,20 +8615,6 @@
     "weapon_attack":"stab",
     "material":"steel",
     "weight":3.9375,
-    "level":30
-  },{
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weight":1.0625,
-    "wear_flags":"hold",
-    "name":"a simple harmonica",
-    "item_type":"instrument",
-    "material":"steel",
-    "affects":{
-      "charisma":2,
-      "hp":10,
-      "mana":5
-    },
     "level":30
   },{
     "weapon_type":"sword",
@@ -8736,6 +9496,20 @@
     "weight":9.9375,
     "level":30
   },{
+    "area_name":"Targeth's Manor",
+    "rarity":"common",
+    "wear_flags":"wrist",
+    "flags":["magic"],
+    "affects":{
+      "mana":20,
+      "drowning resistance":10
+    },
+    "name":"a bracelet of small aquamarines",
+    "weight":1.75,
+    "level":30,
+    "item_type":"treasure",
+    "material":"aquamarine"
+  },{
     "area_name":"Outside Hamsah Mu'tazz",
     "rarity":"common",
     "weight":7.4375,
@@ -8784,20 +9558,6 @@
     "level":30,
     "item_type":"weapon",
     "material":"mithril"
-  },{
-    "area_name":"Targeth's Manor",
-    "rarity":"common",
-    "wear_flags":"wrist",
-    "flags":["magic"],
-    "affects":{
-      "mana":20,
-      "drowning resistance":10
-    },
-    "name":"a bracelet of small aquamarines",
-    "weight":1.75,
-    "level":30,
-    "item_type":"treasure",
-    "material":"aquamarine"
   },{
     "area_name":"Keep of the Righteous",
     "rarity":"common",
@@ -8954,20 +9714,6 @@
     },
     "level":30
   },{
-    "area_name":"The Dwarf Forest",
-    "rarity":"common",
-    "wear_flags":"neck",
-    "flags":["glowing","nodrop","noremove"],
-    "affects":{
-      "dexterity":-8,
-      "strength":-10
-    },
-    "name":"a demon-headed pendant",
-    "weight":2.4375,
-    "level":30,
-    "item_type":"treasure",
-    "material":"adamantite"
-  },{
     "area_name":"Aturi Timberlands",
     "rarity":"common",
     "weight":3.25,
@@ -8982,6 +9728,20 @@
       "bash resistance":3
     },
     "level":30
+  },{
+    "area_name":"The Dwarf Forest",
+    "rarity":"common",
+    "wear_flags":"neck",
+    "flags":["glowing","nodrop","noremove"],
+    "affects":{
+      "dexterity":-8,
+      "strength":-10
+    },
+    "name":"a demon-headed pendant",
+    "weight":2.4375,
+    "level":30,
+    "item_type":"treasure",
+    "material":"adamantite"
   },{
     "area_name":"Moudrilar's Monastery",
     "rarity":"common",
@@ -9971,6 +10731,21 @@
     },
     "level":30
   },{
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "wear_flags":"about",
+    "flags":["magic","anti_good"],
+    "affects":{
+      "disease resistance":-1,
+      "mana":10,
+      "constitution":-1
+    },
+    "name":"a robe made from decaying leaves",
+    "weight":5,
+    "level":30,
+    "item_type":"clothing",
+    "material":"plant"
+  },{
     "area_name":"The Past Shadow Grove",
     "rarity":"common",
     "wear_flags":"finger",
@@ -10274,58 +11049,6 @@
     "level":30,
     "item_type":"armor",
     "material":"bone"
-  },{
-    "weapon_type":"mace",
-    "area_name":"The Battlefield",
-    "rarity":"common",
-    "weapon_avg":20,
-    "wear_flags":"wield",
-    "flags":["glowing","bless","anti_neutral","anti_evil"],
-    "affects":{
-      "damage roll":2,
-      "hit roll":4
-    },
-    "name":"a golden mace",
-    "weight":7.9375,
-    "weapon_attack":"crush",
-    "level":30,
-    "item_type":"weapon",
-    "material":"steel"
-  },{
-    "weapon_type":"sword",
-    "area_name":"The Battlefield",
-    "rarity":"common",
-    "weapon_avg":20,
-    "wear_flags":"wield",
-    "flags":["glowing","bless","anti_neutral","anti_evil"],
-    "affects":{
-      "damage roll":3,
-      "hit roll":4
-    },
-    "name":"a golden longsword",
-    "weight":5.9375,
-    "weapon_attack":"slash",
-    "level":30,
-    "item_type":"weapon",
-    "material":"steel"
-  },{
-    "weapon_type":"mace",
-    "area_name":"The Village of Azuremain",
-    "rarity":"common",
-    "weapon_avg":16,
-    "wear_flags":"wield",
-    "flags":["glowing","magic"],
-    "affects":{
-      "damage roll":2,
-      "hit roll":3,
-      "strength":1
-    },
-    "name":"a rune-covered mace",
-    "weight":7.9375,
-    "weapon_attack":"blast",
-    "level":30,
-    "item_type":"weapon",
-    "material":"steel"
   },{
     "wear_flags":"body",
     "area_name":"Dagdan",
@@ -10979,6 +11702,37 @@
     },
     "level":28
   },{
+    "area_name":"Targeth's Manor",
+    "rarity":"common",
+    "weight":2.625,
+    "wear_flags":"waist",
+    "name":"a simple rope belt",
+    "item_type":"clothing",
+    "material":"plant",
+    "affects":{
+      "save vs paralysis":-5,
+      "save vs spell":-5
+    },
+    "level":28
+  },{
+    "weapon_type":"spear",
+    "area_name":"Targeth's Manor",
+    "rarity":"common",
+    "weapon_avg":16,
+    "weapon_flags":"two-handed",
+    "wear_flags":"wield",
+    "flags":["bless"],
+    "affects":{
+      "hp":20,
+      "hit roll":3
+    },
+    "name":"a long, feathered spear",
+    "weight":11.5625,
+    "weapon_attack":"stab",
+    "level":28,
+    "item_type":"weapon",
+    "material":"wood"
+  },{
     "area_name":"Hamsah Mu'tazz",
     "rarity":"common",
     "weight":11.25,
@@ -11023,37 +11777,6 @@
     "level":28,
     "item_type":"clothing",
     "material":"silk"
-  },{
-    "area_name":"Targeth's Manor",
-    "rarity":"common",
-    "weight":2.625,
-    "wear_flags":"waist",
-    "name":"a simple rope belt",
-    "item_type":"clothing",
-    "material":"plant",
-    "affects":{
-      "save vs paralysis":-5,
-      "save vs spell":-5
-    },
-    "level":28
-  },{
-    "weapon_type":"spear",
-    "area_name":"Targeth's Manor",
-    "rarity":"common",
-    "weapon_avg":16,
-    "weapon_flags":"two-handed",
-    "wear_flags":"wield",
-    "flags":["bless"],
-    "affects":{
-      "hp":20,
-      "hit roll":3
-    },
-    "name":"a long, feathered spear",
-    "weight":11.5625,
-    "weapon_attack":"stab",
-    "level":28,
-    "item_type":"weapon",
-    "material":"wood"
   },{
     "weapon_type":"polearm",
     "area_name":"Mansion of Twilight",
@@ -11372,6 +12095,19 @@
     "level":28,
     "item_type":"treasure",
     "material":"iron"
+  },{
+    "area_name":"The Battlefield",
+    "rarity":"common",
+    "weight":4.6875,
+    "wear_flags":"neck",
+    "name":"a mandatory cloak",
+    "item_type":"clothing",
+    "material":"cloth",
+    "affects":{
+      "strength":1,
+      "constitution":1
+    },
+    "level":27
   },{
     "area_name":"The Oryx Steppes",
     "rarity":"common",
@@ -11980,18 +12716,35 @@
     "item_type":"weapon",
     "material":"wood"
   },{
+    "weapon_type":"dagger",
     "area_name":"The Battlefield",
     "rarity":"common",
-    "weight":4.6875,
-    "wear_flags":"neck",
-    "name":"a mandatory cloak",
-    "item_type":"clothing",
-    "material":"cloth",
+    "weapon_avg":18,
+    "wear_flags":"wield",
+    "flags":["nodrop"],
     "affects":{
-      "strength":1,
-      "constitution":1
+      "damage roll":3,
+      "hit roll":3
     },
-    "level":27
+    "name":"a dagger named 'Feathered Death'",
+    "weight":2.9375,
+    "weapon_attack":"pierce",
+    "level":26,
+    "item_type":"weapon",
+    "material":"steel"
+  },{
+    "area_name":"The Battlefield",
+    "rarity":"common",
+    "weight":8.9375,
+    "wear_flags":"head",
+    "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 2 Element: 5",
+    "name":"a dented iron helm",
+    "item_type":"armor",
+    "material":"iron",
+    "affects":{
+      "intelligence":3
+    },
+    "level":26
   },{
     "area_name":"Ruins of Delar-Tol",
     "rarity":"common",
@@ -12718,36 +13471,6 @@
     },
     "level":26
   },{
-    "weapon_type":"dagger",
-    "area_name":"The Battlefield",
-    "rarity":"common",
-    "weapon_avg":18,
-    "wear_flags":"wield",
-    "flags":["nodrop"],
-    "affects":{
-      "damage roll":3,
-      "hit roll":3
-    },
-    "name":"a dagger named 'Feathered Death'",
-    "weight":2.9375,
-    "weapon_attack":"pierce",
-    "level":26,
-    "item_type":"weapon",
-    "material":"steel"
-  },{
-    "area_name":"The Battlefield",
-    "rarity":"common",
-    "weight":8.9375,
-    "wear_flags":"head",
-    "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 2 Element: 5",
-    "name":"a dented iron helm",
-    "item_type":"armor",
-    "material":"iron",
-    "affects":{
-      "intelligence":3
-    },
-    "level":26
-  },{
     "weapon_type":"mace",
     "area_name":"The Village of Barovia",
     "rarity":"common",
@@ -13294,6 +14017,24 @@
     "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 2 Element: 5",
     "level":25
   },{
+    "weapon_type":"mace",
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "weapon_avg":16,
+    "weapon_flags":"two-handed",
+    "wear_flags":"wield",
+    "flags":["giant_only"],
+    "affects":{
+      "damage roll":7,
+      "hit roll":-2
+    },
+    "name":"a massive, two-handed forge hammer",
+    "weight":44,
+    "weapon_attack":"crush",
+    "level":25,
+    "item_type":"weapon",
+    "material":"iron"
+  },{
     "area_name":"Castle of Akan",
     "rarity":"common",
     "wear_flags":"arms",
@@ -13385,24 +14126,6 @@
     "level":25,
     "item_type":"weapon",
     "material":"steel"
-  },{
-    "weapon_type":"mace",
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weapon_avg":16,
-    "weapon_flags":"two-handed",
-    "wear_flags":"wield",
-    "flags":["giant_only"],
-    "affects":{
-      "damage roll":7,
-      "hit roll":-2
-    },
-    "name":"a massive, two-handed forge hammer",
-    "weight":44,
-    "weapon_attack":"crush",
-    "level":25,
-    "item_type":"weapon",
-    "material":"iron"
   },{
     "weapon_type":"mace",
     "area_name":"The Sea of Despair",
@@ -14298,6 +15021,41 @@
     "item_type":"armor",
     "material":"leather"
   },{
+    "weapon_type":"polearm",
+    "area_name":"Targeth's Manor",
+    "rarity":"common",
+    "weapon_avg":16,
+    "weapon_flags":"two-handed",
+    "weight":27.5,
+    "wear_flags":"wield",
+    "name":"a sturdy bronze glaive",
+    "item_type":"weapon",
+    "weapon_attack":"slice",
+    "material":"bronze",
+    "affects":{
+      "damage roll":2,
+      "strength":2
+    },
+    "level":25
+  },{
+    "weapon_type":"spear",
+    "area_name":"Targeth's Manor",
+    "rarity":"common",
+    "weapon_avg":16,
+    "weapon_flags":"two-handed",
+    "weight":17.0625,
+    "wear_flags":"wield",
+    "name":"a thick bronze boar spear",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"bronze",
+    "affects":{
+      "dexterity":2,
+      "hit roll":2,
+      "damage roll":1
+    },
+    "level":25
+  },{
     "weapon_type":"mace",
     "area_name":"Coastal Wetlands",
     "rarity":"common",
@@ -14324,6 +15082,23 @@
     "material":"leather",
     "affects":{
       "strength":2
+    },
+    "level":25
+  },{
+    "weapon_type":"sword",
+    "area_name":"Targeth's Manor",
+    "rarity":"common",
+    "weapon_avg":16,
+    "weight":17.8125,
+    "wear_flags":"wield",
+    "name":"a heavy bronze spatha",
+    "item_type":"weapon",
+    "weapon_attack":"cut",
+    "material":"bronze",
+    "affects":{
+      "dexterity":1,
+      "strength":1,
+      "damage roll":2
     },
     "level":25
   },{
@@ -14520,23 +15295,6 @@
     },
     "level":25
   },{
-    "weapon_type":"polearm",
-    "area_name":"Targeth's Manor",
-    "rarity":"common",
-    "weapon_avg":16,
-    "weapon_flags":"two-handed",
-    "weight":27.5,
-    "wear_flags":"wield",
-    "name":"a sturdy bronze glaive",
-    "item_type":"weapon",
-    "weapon_attack":"slice",
-    "material":"bronze",
-    "affects":{
-      "damage roll":2,
-      "strength":2
-    },
-    "level":25
-  },{
     "weapon_type":"axe",
     "area_name":"The Bandit Stronghold",
     "rarity":"common",
@@ -14555,24 +15313,6 @@
     "item_type":"weapon",
     "material":"steel"
   },{
-    "weapon_type":"spear",
-    "area_name":"Targeth's Manor",
-    "rarity":"common",
-    "weapon_avg":16,
-    "weapon_flags":"two-handed",
-    "weight":17.0625,
-    "wear_flags":"wield",
-    "name":"a thick bronze boar spear",
-    "item_type":"weapon",
-    "weapon_attack":"stab",
-    "material":"bronze",
-    "affects":{
-      "dexterity":2,
-      "hit roll":2,
-      "damage roll":1
-    },
-    "level":25
-  },{
     "area_name":"V'Dramir's Cove",
     "rarity":"common",
     "weight":0.1875,
@@ -14582,23 +15322,6 @@
     "material":"emerald",
     "affects":{
       "charisma":2
-    },
-    "level":25
-  },{
-    "weapon_type":"sword",
-    "area_name":"Targeth's Manor",
-    "rarity":"common",
-    "weapon_avg":16,
-    "weight":17.8125,
-    "wear_flags":"wield",
-    "name":"a heavy bronze spatha",
-    "item_type":"weapon",
-    "weapon_attack":"cut",
-    "material":"bronze",
-    "affects":{
-      "dexterity":1,
-      "strength":1,
-      "damage roll":2
     },
     "level":25
   },{
@@ -14646,21 +15369,6 @@
     },
     "level":25
   },{
-    "weapon_type":"mace",
-    "area_name":"The Halfling Lands",
-    "rarity":"common",
-    "weapon_avg":18,
-    "weight":9.9375,
-    "wear_flags":"wield",
-    "name":"a blacksmith's hammer",
-    "item_type":"weapon",
-    "weapon_attack":"blast",
-    "material":"steel",
-    "affects":{
-      "strength":1
-    },
-    "level":25
-  },{
     "area_name":"Targeth's Manor",
     "rarity":"common",
     "weight":1.0625,
@@ -14673,21 +15381,6 @@
       "save vs paralysis":-5
     },
     "level":25
-  },{
-    "area_name":"The Stone's Embrace",
-    "rarity":"common",
-    "wear_flags":"about",
-    "flags":["glowing"],
-    "affects":{
-      "mana":15,
-      "intelligence":1,
-      "save vs spell":-4
-    },
-    "name":"a flowing robe of silver and gold",
-    "weight":5.625,
-    "level":25,
-    "item_type":"clothing",
-    "material":"cloth"
   },{
     "area_name":"Targeth's Manor",
     "rarity":"common",
@@ -14728,6 +15421,21 @@
     },
     "level":25
   },{
+    "weapon_type":"mace",
+    "area_name":"The Halfling Lands",
+    "rarity":"common",
+    "weapon_avg":18,
+    "weight":9.9375,
+    "wear_flags":"wield",
+    "name":"a blacksmith's hammer",
+    "item_type":"weapon",
+    "weapon_attack":"blast",
+    "material":"steel",
+    "affects":{
+      "strength":1
+    },
+    "level":25
+  },{
     "area_name":"Targeth's Manor",
     "rarity":"common",
     "weight":2.375,
@@ -14753,6 +15461,21 @@
       "save vs breath":-5
     },
     "level":25
+  },{
+    "area_name":"The Stone's Embrace",
+    "rarity":"common",
+    "wear_flags":"about",
+    "flags":["glowing"],
+    "affects":{
+      "mana":15,
+      "intelligence":1,
+      "save vs spell":-4
+    },
+    "name":"a flowing robe of silver and gold",
+    "weight":5.625,
+    "level":25,
+    "item_type":"clothing",
+    "material":"cloth"
   },{
     "weapon_type":"bow",
     "area_name":"Hamsah Mu'tazz",
@@ -14926,37 +15649,6 @@
     },
     "level":25
   },{
-    "area_name":"Gol'Galath",
-    "rarity":"common",
-    "wear_flags":"body",
-    "armor_class":"Pierce: 13 Bash: 14 Slash: 17 Magic: 4 Element: 6",
-    "flags":["glowing"],
-    "affects":{
-      "constitution":1,
-      "hp":20,
-      "armor class":-5
-    },
-    "name":"a sturdy mithril breastplate",
-    "weight":13.0625,
-    "level":25,
-    "item_type":"armor",
-    "material":"mithril"
-  },{
-    "area_name":"Gol'Galath",
-    "rarity":"common",
-    "weight":3.875,
-    "wear_flags":"head",
-    "armor_class":"Pierce: 11 Bash: 11 Slash: 11 Magic: 4 Element: 6",
-    "name":"a sturdy mithril helm",
-    "item_type":"armor",
-    "material":"mithril",
-    "affects":{
-      "hit roll":2,
-      "hp":10,
-      "armor class":-5
-    },
-    "level":25
-  },{
     "weapon_type":"sword",
     "area_name":"Keep of the Fhalaugash",
     "rarity":"common",
@@ -14973,6 +15665,37 @@
     "level":25,
     "item_type":"weapon",
     "material":"iron"
+  },{
+    "area_name":"Gol'Galath",
+    "rarity":"common",
+    "wear_flags":"body",
+    "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 8 Element: 6",
+    "flags":["glowing"],
+    "affects":{
+      "constitution":1,
+      "hp":20,
+      "armor class":-5
+    },
+    "name":"a sturdy mithril breastplate",
+    "weight":13.0625,
+    "level":25,
+    "item_type":"armor",
+    "material":"mithril"
+  },{
+    "area_name":"Gol'Galath",
+    "rarity":"common",
+    "weight":3.875,
+    "wear_flags":"head",
+    "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 8 Element: 6",
+    "name":"a sturdy mithril helm",
+    "item_type":"armor",
+    "material":"mithril",
+    "affects":{
+      "hit roll":2,
+      "hp":10,
+      "armor class":-5
+    },
+    "level":25
   },{
     "area_name":"Ayr'Trinil, the Arial City",
     "rarity":"common",
@@ -15156,6 +15879,24 @@
     },
     "level":25
   },{
+    "weapon_type":"mace",
+    "area_name":"Keep of the Fhalaugash",
+    "rarity":"common",
+    "weapon_avg":16,
+    "weapon_flags":"two-handed",
+    "wear_flags":"wield",
+    "flags":["dark","anti_good"],
+    "affects":{
+      "damage roll":1,
+      "hit roll":1
+    },
+    "name":"a huge iron hammer",
+    "weight":31.6875,
+    "weapon_attack":"crush",
+    "level":25,
+    "item_type":"weapon",
+    "material":"iron"
+  },{
     "area_name":"Aubade",
     "rarity":"common",
     "weight":0.375,
@@ -15201,24 +15942,6 @@
       "charisma":1
     },
     "level":25
-  },{
-    "weapon_type":"mace",
-    "area_name":"Keep of the Fhalaugash",
-    "rarity":"common",
-    "weapon_avg":16,
-    "weapon_flags":"two-handed",
-    "wear_flags":"wield",
-    "flags":["dark","anti_good"],
-    "affects":{
-      "damage roll":1,
-      "hit roll":1
-    },
-    "name":"a huge iron hammer",
-    "weight":31.6875,
-    "weapon_attack":"crush",
-    "level":25,
-    "item_type":"weapon",
-    "material":"iron"
   },{
     "weapon_type":"staff",
     "area_name":"Keep of the Fhalaugash",
@@ -16124,7 +16847,7 @@
     "weapon_avg":16,
     "weight":2.9375,
     "wear_flags":"wield",
-    "name":"A silver stiletto",
+    "name":"a silver stiletto",
     "item_type":"weapon",
     "weapon_attack":"pierce",
     "material":"silver",
@@ -16524,6 +17247,24 @@
       "hit roll":-1
     },
     "level":24
+  },{
+    "weapon_type":"dagger",
+    "area_name":"The Village of Barovia",
+    "rarity":"common",
+    "weapon_avg":16,
+    "wear_flags":"wield",
+    "flags":["evil","anti_good","anti_neutral"],
+    "affects":{
+      "dexterity":1,
+      "hit roll":4,
+      "damage roll":4
+    },
+    "name":"the Dagger of Rogues",
+    "weight":2.9375,
+    "weapon_attack":"pierce",
+    "level":23,
+    "item_type":"weapon",
+    "material":"silver"
   },{
     "weapon_type":"axe",
     "area_name":"Ruins of Delar-Tol",
@@ -17066,35 +17807,25 @@
     },
     "level":23
   },{
-    "weapon_type":"dagger",
-    "area_name":"The Village of Barovia",
-    "rarity":"common",
-    "weapon_avg":16,
-    "wear_flags":"wield",
-    "flags":["evil","anti_good","anti_neutral"],
-    "affects":{
-      "dexterity":1,
-      "hit roll":4,
-      "damage roll":4
-    },
-    "name":"the Dagger of Rogues",
-    "weight":2.9375,
-    "weapon_attack":"pierce",
-    "level":23,
-    "item_type":"weapon",
-    "material":"silver"
-  },{
-    "weapon_type":"dagger",
-    "area_name":"The Village of Barovia",
+    "weapon_type":"bow",
+    "area_name":"Silverwood",
     "rarity":"common",
     "weapon_avg":14,
+    "weapon_flags":"two-handed",
     "wear_flags":"wield",
-    "name":"a hunting knife",
+    "flags":["evil","magic","anti_good"],
+    "affects":{
+      "damage roll":2,
+      "hit roll":3,
+      "dexterity":1,
+      "constitution":-2
+    },
+    "name":"a wicked longbow etched with markings",
+    "weight":6.9375,
+    "weapon_attack":"piercing venoms",
+    "level":22,
     "item_type":"weapon",
-    "weapon_attack":"stab",
-    "material":"steel",
-    "weight":2.9375,
-    "level":22
+    "material":"wood"
   },{
     "area_name":"Udgaard",
     "rarity":"common",
@@ -17108,6 +17839,18 @@
       "charisma":1,
       "mana":4
     },
+    "level":22
+  },{
+    "weapon_type":"dagger",
+    "area_name":"The Village of Barovia",
+    "rarity":"common",
+    "weapon_avg":14,
+    "wear_flags":"wield",
+    "name":"a hunting knife",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"steel",
+    "weight":2.9375,
     "level":22
   },{
     "weapon_type":"spear",
@@ -17773,6 +18516,20 @@
     "item_type":"weapon",
     "material":"stone"
   },{
+    "weapon_type":"spear",
+    "area_name":"Temple of Qhabiszan",
+    "rarity":"common",
+    "weapon_avg":15,
+    "weapon_flags":"two-handed",
+    "wear_flags":"wield",
+    "flags":["size_small_only"],
+    "name":"a minature rubberwood spear",
+    "weight":6.125,
+    "weapon_attack":"beating",
+    "level":22,
+    "item_type":"weapon",
+    "material":"wood"
+  },{
     "weapon_type":"whip",
     "area_name":"The Galadon Sewers",
     "rarity":"common",
@@ -17789,26 +18546,6 @@
       "hp":10
     },
     "level":22
-  },{
-    "weapon_type":"bow",
-    "area_name":"Silverwood",
-    "rarity":"common",
-    "weapon_avg":14,
-    "weapon_flags":"two-handed",
-    "wear_flags":"wield",
-    "flags":["evil","magic","anti_good"],
-    "affects":{
-      "damage roll":2,
-      "hit roll":3,
-      "dexterity":1,
-      "constitution":-2
-    },
-    "name":"a wicked longbow etched with markings",
-    "weight":6.9375,
-    "weapon_attack":"piercing venoms",
-    "level":22,
-    "item_type":"weapon",
-    "material":"wood"
   },{
     "weapon_type":"mace",
     "area_name":"The Oryx Steppes",
@@ -18084,6 +18821,65 @@
     },
     "level":21
   },{
+    "area_name":"Silverwood",
+    "rarity":"common",
+    "wear_flags":"body",
+    "flags":["female_only"],
+    "affects":{
+      "charisma":2,
+      "hp":10,
+      "mana":20
+    },
+    "name":"a translucent emerald green dress",
+    "weight":3.3125,
+    "level":20,
+    "item_type":"clothing",
+    "material":"silk"
+  },{
+    "area_name":"Silverwood",
+    "rarity":"common",
+    "wear_flags":"ears",
+    "flags":["glowing","bless","anti_evil"],
+    "affects":{
+      "save vs spell":-2,
+      "charisma":1,
+      "hp":10,
+      "mana":3
+    },
+    "name":"a pair of emerald earrings",
+    "weight":0.1875,
+    "level":20,
+    "item_type":"treasure",
+    "material":"emerald"
+  },{
+    "area_name":"Silverwood",
+    "rarity":"common",
+    "wear_flags":"face",
+    "flags":["dark"],
+    "affects":{
+      "dexterity":1,
+      "hit roll":1
+    },
+    "name":"a tattered bandit's mask",
+    "weight":0.875,
+    "level":20,
+    "item_type":"clothing",
+    "material":"cloth"
+  },{
+    "area_name":"Silverwood",
+    "rarity":"common",
+    "weight":0.9375,
+    "wear_flags":"feet",
+    "name":"an anklet made of semi-precious stones",
+    "item_type":"treasure",
+    "material":"gem",
+    "affects":{
+      "movement regeneration":7,
+      "dexterity":1,
+      "moves":25
+    },
+    "level":20
+  },{
     "weapon_type":"mace",
     "area_name":"The Village of Barovia",
     "rarity":"common",
@@ -18145,34 +18941,6 @@
     },
     "level":20
   },{
-    "weapon_type":"exotic",
-    "area_name":"The Oryx Steppes",
-    "rarity":"common",
-    "weapon_avg":14,
-    "weight":4.8125,
-    "wear_flags":"wield",
-    "name":"a long seasoned pipe carved of warthog ivory",
-    "item_type":"weapon",
-    "weapon_attack":"hit",
-    "material":"ivory",
-    "affects":{
-      "hit roll":1
-    },
-    "level":20
-  },{
-    "area_name":"Hillcrest",
-    "rarity":"common",
-    "wear_flags":"hold",
-    "flags":["humming"],
-    "affects":{
-      "charisma":1
-    },
-    "name":"a birch guitar",
-    "weight":4.9375,
-    "level":20,
-    "item_type":"instrument",
-    "material":"wood"
-  },{
     "weapon_type":"dagger",
     "area_name":"The Pass",
     "rarity":"common",
@@ -18185,6 +18953,21 @@
     "material":"bone",
     "affects":{
       "damage roll":2
+    },
+    "level":20
+  },{
+    "weapon_type":"exotic",
+    "area_name":"The Oryx Steppes",
+    "rarity":"common",
+    "weapon_avg":14,
+    "weight":4.8125,
+    "wear_flags":"wield",
+    "name":"a long seasoned pipe carved of warthog ivory",
+    "item_type":"weapon",
+    "weapon_attack":"hit",
+    "material":"ivory",
+    "affects":{
+      "hit roll":1
     },
     "level":20
   },{
@@ -18202,6 +18985,34 @@
       "hit roll":1
     },
     "level":20
+  },{
+    "area_name":"The Pass",
+    "rarity":"common",
+    "weight":19.8125,
+    "wear_flags":"head",
+    "armor_class":"Pierce: 7 Bash: 6 Slash: 7 Magic: 5 Element: 5",
+    "name":"a crooked clay helm",
+    "item_type":"armor",
+    "material":"clay",
+    "affects":{
+      "damage roll":2,
+      "hit roll":-4,
+      "hp":6
+    },
+    "level":20
+  },{
+    "area_name":"Hillcrest",
+    "rarity":"common",
+    "wear_flags":"hold",
+    "flags":["humming"],
+    "affects":{
+      "charisma":1
+    },
+    "name":"a birch guitar",
+    "weight":4.9375,
+    "level":20,
+    "item_type":"instrument",
+    "material":"wood"
   },{
     "weapon_type":"sword",
     "area_name":"Desert of Araile",
@@ -18231,21 +19042,6 @@
     "level":20,
     "item_type":"weapon",
     "material":"stone"
-  },{
-    "area_name":"The Pass",
-    "rarity":"common",
-    "weight":19.8125,
-    "wear_flags":"head",
-    "armor_class":"Pierce: 7 Bash: 6 Slash: 7 Magic: 5 Element: 5",
-    "name":"a crooked clay helm",
-    "item_type":"armor",
-    "material":"clay",
-    "affects":{
-      "damage roll":2,
-      "hit roll":-4,
-      "hp":6
-    },
-    "level":20
   },{
     "area_name":"Desert of Araile",
     "rarity":"common",
@@ -18351,23 +19147,6 @@
     "item_type":"weapon",
     "material":"wood"
   },{
-    "area_name":"Lord Tabershaw's Keep",
-    "rarity":"common",
-    "wear_flags":"head",
-    "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 2 Element: 5",
-    "flags":["humming","evil","nodrop","noremove"],
-    "affects":{
-      "damage roll":2,
-      "save vs spell":1,
-      "intelligence":-1,
-      "wisdom":-1
-    },
-    "name":"the Helm of Control",
-    "weight":8.9375,
-    "level":20,
-    "item_type":"armor",
-    "material":"steel"
-  },{
     "weapon_type":"bow",
     "area_name":"Forest Road",
     "rarity":"common",
@@ -18385,6 +19164,37 @@
     "level":20,
     "item_type":"weapon",
     "material":"wood"
+  },{
+    "area_name":"Forest Road",
+    "rarity":"common",
+    "weight":1.8125,
+    "wear_flags":"head",
+    "name":"a rakish cavalier hat set with a peacock feather",
+    "item_type":"clothing",
+    "material":"leather",
+    "affects":{
+      "save vs mental":-3,
+      "charisma":1,
+      "morale":1
+    },
+    "level":20
+  },{
+    "area_name":"Lord Tabershaw's Keep",
+    "rarity":"common",
+    "wear_flags":"head",
+    "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 2 Element: 5",
+    "flags":["humming","evil","nodrop","noremove"],
+    "affects":{
+      "damage roll":2,
+      "save vs spell":1,
+      "intelligence":-1,
+      "wisdom":-1
+    },
+    "name":"the Helm of Control",
+    "weight":8.9375,
+    "level":20,
+    "item_type":"armor",
+    "material":"steel"
   },{
     "weapon_type":"bow",
     "area_name":"Goblin Outpost",
@@ -18452,20 +19262,6 @@
     },
     "level":20
   },{
-    "area_name":"Forest Road",
-    "rarity":"common",
-    "weight":1.8125,
-    "wear_flags":"head",
-    "name":"a rakish cavalier hat set with a peacock feather",
-    "item_type":"clothing",
-    "material":"leather",
-    "affects":{
-      "save vs mental":-3,
-      "charisma":1,
-      "morale":1
-    },
-    "level":20
-  },{
     "area_name":"Goblin Outpost",
     "rarity":"common",
     "weight":7,
@@ -18524,6 +19320,20 @@
     },
     "level":20
   },{
+    "area_name":"Coral Palace",
+    "rarity":"common",
+    "weight":8.375,
+    "wear_flags":"legs",
+    "armor_class":"Pierce: 7 Bash: 7 Slash: 5 Magic: 5 Element: 9",
+    "name":"a pair of fish-scale leggings",
+    "item_type":"armor",
+    "material":"bone",
+    "affects":{
+      "dexterity":2,
+      "armor class":-3
+    },
+    "level":20
+  },{
     "area_name":"The Aryth Ocean",
     "rarity":"common",
     "wear_flags":"body",
@@ -18540,16 +19350,12 @@
   },{
     "area_name":"Coral Palace",
     "rarity":"common",
-    "weight":8.375,
-    "wear_flags":"legs",
-    "armor_class":"Pierce: 7 Bash: 7 Slash: 5 Magic: 5 Element: 9",
-    "name":"a pair of fish-scale leggings",
+    "wear_flags":"shield",
+    "weight":5.1875,
+    "name":"a shield fashioned from an abalone shell",
     "item_type":"armor",
-    "material":"bone",
-    "affects":{
-      "dexterity":2,
-      "armor class":-3
-    },
+    "material":"seashell",
+    "armor_class":"Pierce: 6 Bash: 5 Slash: 5 Magic: 1 Element: 9",
     "level":20
   },{
     "area_name":"The Aryth Ocean",
@@ -18635,16 +19441,6 @@
     "affects":{
       "dexterity":-1
     },
-    "level":20
-  },{
-    "area_name":"Coral Palace",
-    "rarity":"common",
-    "wear_flags":"shield",
-    "weight":5.1875,
-    "name":"a shield fashioned from an abalone shell",
-    "item_type":"armor",
-    "material":"seashell",
-    "armor_class":"Pierce: 6 Bash: 5 Slash: 5 Magic: 1 Element: 9",
     "level":20
   },{
     "weapon_type":"staff",
@@ -18827,23 +19623,6 @@
     },
     "level":20
   },{
-    "weapon_type":"staff",
-    "area_name":"Akan",
-    "rarity":"common",
-    "weapon_avg":15,
-    "weapon_flags":"two-handed",
-    "weight":11.5,
-    "wear_flags":"wield",
-    "name":"a silvery-white staff",
-    "item_type":"weapon",
-    "weapon_attack":"slap",
-    "material":"mithril",
-    "affects":{
-      "damage roll":2,
-      "hit roll":2
-    },
-    "level":20
-  },{
     "weapon_type":"axe",
     "area_name":"Loch Terradian",
     "rarity":"common",
@@ -18893,6 +19672,23 @@
     },
     "level":20
   },{
+    "weapon_type":"staff",
+    "area_name":"Akan",
+    "rarity":"common",
+    "weapon_avg":15,
+    "weapon_flags":"two-handed",
+    "weight":11.5,
+    "wear_flags":"wield",
+    "name":"a silvery-white staff",
+    "item_type":"weapon",
+    "weapon_attack":"slap",
+    "material":"mithril",
+    "affects":{
+      "damage roll":2,
+      "hit roll":2
+    },
+    "level":20
+  },{
     "area_name":"Castle of Akan",
     "rarity":"common",
     "wear_flags":"head",
@@ -18910,7 +19706,7 @@
     "affects":{
       "dexterity":-1
     },
-    "name":"A ragged slime-covered cape",
+    "name":"a ragged slime-covered cape",
     "weight":4.75,
     "level":20,
     "item_type":"clothing",
@@ -18965,6 +19761,18 @@
     "level":20,
     "item_type":"weapon",
     "material":"steel"
+  },{
+    "weapon_type":"dagger",
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "weapon_avg":14,
+    "wear_flags":"wield",
+    "name":"a simple dirk",
+    "item_type":"weapon",
+    "weapon_attack":"slice",
+    "material":"steel",
+    "weight":2.9375,
+    "level":20
   },{
     "area_name":"The Imperial Lands",
     "rarity":"common",
@@ -19096,6 +19904,22 @@
     "level":20,
     "item_type":"weapon",
     "material":"steel"
+  },{
+    "weapon_type":"dagger",
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "weapon_avg":13,
+    "weight":13.1875,
+    "wear_flags":"wield",
+    "name":"an iron-shod belaying pin",
+    "item_type":"weapon",
+    "weapon_attack":"smash",
+    "material":"iron",
+    "affects":{
+      "damage roll":1,
+      "hit roll":-3
+    },
+    "level":20
   },{
     "weapon_type":"whip",
     "area_name":"The Imperial Lands",
@@ -19237,34 +20061,6 @@
     "item_type":"clothing",
     "material":"silk"
   },{
-    "weapon_type":"dagger",
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weapon_avg":14,
-    "wear_flags":"wield",
-    "name":"a simple dirk",
-    "item_type":"weapon",
-    "weapon_attack":"slice",
-    "material":"steel",
-    "weight":2.9375,
-    "level":20
-  },{
-    "weapon_type":"dagger",
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weapon_avg":13,
-    "weight":13.1875,
-    "wear_flags":"wield",
-    "name":"an iron-shod belaying pin",
-    "item_type":"weapon",
-    "weapon_attack":"smash",
-    "material":"iron",
-    "affects":{
-      "damage roll":1,
-      "hit roll":-3
-    },
-    "level":20
-  },{
     "area_name":"Blackclaw Village",
     "rarity":"common",
     "wear_flags":"body",
@@ -19357,6 +20153,20 @@
     "level":20,
     "item_type":"armor",
     "material":"leather"
+  },{
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "wear_flags":"body",
+    "armor_class":"Pierce: 7 Bash: 7 Slash: 5 Magic: 5 Element: 9",
+    "flags":["giant_only"],
+    "affects":{
+      "strength":1
+    },
+    "name":"a suit of ceremonial armor",
+    "weight":12.3125,
+    "level":20,
+    "item_type":"armor",
+    "material":"bone"
   },{
     "weapon_type":"dagger",
     "area_name":"Blackclaw Village",
@@ -19500,6 +20310,21 @@
     "item_type":"armor",
     "material":"leather"
   },{
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "wear_flags":"shield",
+    "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 2 Element: 5",
+    "flags":["bless","chaotic_only"],
+    "affects":{
+      "save vs breath":-3,
+      "morale":5
+    },
+    "name":"a mother-of-pearl inlaid shield",
+    "weight":11.9375,
+    "level":20,
+    "item_type":"armor",
+    "material":"steel"
+  },{
     "area_name":"Blackclaw Village",
     "rarity":"common",
     "weight":1.9375,
@@ -19582,32 +20407,41 @@
   },{
     "area_name":"Loch Terradian",
     "rarity":"common",
+    "weight":7.4375,
     "wear_flags":"body",
-    "armor_class":"Pierce: 7 Bash: 7 Slash: 5 Magic: 5 Element: 9",
-    "flags":["giant_only"],
-    "affects":{
-      "strength":1
-    },
-    "name":"a suit of ceremonial armor",
-    "weight":12.3125,
-    "level":20,
+    "armor_class":"Pierce: 6 Bash: 4 Slash: 6 Magic: 1 Element: 7",
+    "name":"a forge apron",
     "item_type":"armor",
-    "material":"bone"
+    "material":"leather",
+    "affects":{
+      "save vs breath":-6
+    },
+    "level":20
   },{
     "area_name":"Loch Terradian",
     "rarity":"common",
-    "wear_flags":"shield",
-    "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 2 Element: 5",
-    "flags":["bless","chaotic_only"],
+    "wear_flags":"about",
+    "flags":["giant_only"],
     "affects":{
-      "save vs breath":-3,
-      "morale":5
+      "mana":15
     },
-    "name":"a mother-of-pearl inlaid shield",
-    "weight":11.9375,
+    "name":"a sea-green silken robe",
+    "weight":6.4375,
     "level":20,
-    "item_type":"armor",
-    "material":"steel"
+    "item_type":"clothing",
+    "material":"silk"
+  },{
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "weight":0.25,
+    "wear_flags":"wings",
+    "name":"a set of knotted yellow ribbons",
+    "item_type":"clothing",
+    "material":"silk",
+    "affects":{
+      "morale":1
+    },
+    "level":20
   },{
     "area_name":"The Seaport of Hamsah Mu'tazz",
     "rarity":"common",
@@ -19633,32 +20467,6 @@
       "hp":12
     },
     "level":20
-  },{
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weight":7.4375,
-    "wear_flags":"body",
-    "armor_class":"Pierce: 6 Bash: 4 Slash: 6 Magic: 1 Element: 7",
-    "name":"a forge apron",
-    "item_type":"armor",
-    "material":"leather",
-    "affects":{
-      "save vs breath":-6
-    },
-    "level":20
-  },{
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "wear_flags":"about",
-    "flags":["giant_only"],
-    "affects":{
-      "mana":15
-    },
-    "name":"a sea-green silken robe",
-    "weight":6.4375,
-    "level":20,
-    "item_type":"clothing",
-    "material":"silk"
   },{
     "weapon_type":"exotic",
     "area_name":"The Seaport of Hamsah Mu'tazz",
@@ -19701,18 +20509,6 @@
     "material":"silk",
     "affects":{
       "save vs mental":-5
-    },
-    "level":20
-  },{
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weight":0.25,
-    "wear_flags":"wings",
-    "name":"a set of knotted yellow ribbons",
-    "item_type":"clothing",
-    "material":"silk",
-    "affects":{
-      "morale":1
     },
     "level":20
   },{
@@ -19830,6 +20626,19 @@
     "item_type":"treasure",
     "material":"jade"
   },{
+    "weapon_type":"bow",
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "weapon_avg":12,
+    "wear_flags":"wield",
+    "weapon_flags":"two-handed",
+    "name":"an enormous arbalest",
+    "item_type":"weapon",
+    "weapon_attack":"pierce",
+    "material":"wood",
+    "weight":16.5,
+    "level":20
+  },{
     "weapon_type":"sword",
     "area_name":"The Xvart Lair",
     "rarity":"common",
@@ -19844,19 +20653,6 @@
       "damage roll":2,
       "hit roll":2
     },
-    "level":20
-  },{
-    "weapon_type":"bow",
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weapon_avg":12,
-    "wear_flags":"wield",
-    "weapon_flags":"two-handed",
-    "name":"an enormous arbalest",
-    "item_type":"weapon",
-    "weapon_attack":"pierce",
-    "material":"wood",
-    "weight":16.5,
     "level":20
   },{
     "area_name":"Western Aryth Ocean",
@@ -20983,6 +21779,21 @@
     },
     "level":20
   },{
+    "area_name":"Targeth's Manor",
+    "rarity":"common",
+    "weight":4.375,
+    "wear_flags":"hooves",
+    "armor_class":"Pierce: 2 Bash: 2 Slash: 2 Magic: 1 Element: 1",
+    "name":"a pair of studded horseshoes",
+    "item_type":"armor",
+    "material":"steel",
+    "affects":{
+      "dexterity":1,
+      "movement regeneration":3,
+      "damage roll":1
+    },
+    "level":20
+  },{
     "weapon_type":"sword",
     "area_name":"The Bandit Stronghold",
     "rarity":"common",
@@ -21077,21 +21888,6 @@
     "affects":{
       "save vs spell":-3,
       "armor class":-5
-    },
-    "level":20
-  },{
-    "area_name":"Targeth's Manor",
-    "rarity":"common",
-    "weight":4.375,
-    "wear_flags":"hooves",
-    "armor_class":"Pierce: 2 Bash: 2 Slash: 2 Magic: 1 Element: 1",
-    "name":"a pair of studded horseshoes",
-    "item_type":"armor",
-    "material":"steel",
-    "affects":{
-      "dexterity":1,
-      "movement regeneration":3,
-      "damage roll":1
     },
     "level":20
   },{
@@ -21214,7 +22010,7 @@
       "damage roll":2,
       "hit roll":1
     },
-    "name":"a silver scepter",
+    "name":"a silver embossed scepter",
     "weight":10.1875,
     "weapon_attack":"crush",
     "level":20,
@@ -21231,12 +22027,12 @@
       "damage roll":1,
       "hit roll":2
     },
-    "name":"a golden scepter",
+    "name":"a golden embossed scepter",
     "weight":10.1875,
     "weapon_attack":"crush",
     "level":20,
     "item_type":"weapon",
-    "material":"gold"
+    "material":"mithril"
   },{
     "weapon_type":"axe",
     "area_name":"The Stone's Embrace",
@@ -21244,7 +22040,7 @@
     "weapon_avg":14,
     "weight":12.375,
     "wear_flags":"wield",
-    "name":"an ornate dwarven axe",
+    "name":"an ceremonial dwarven axe",
     "item_type":"weapon",
     "weapon_attack":"cleave",
     "material":"mithril",
@@ -21260,7 +22056,7 @@
     "weapon_avg":14,
     "weight":11.5,
     "wear_flags":"wield",
-    "name":"an ornate dwarven mace",
+    "name":"an ceremonial dwarven mace",
     "item_type":"weapon",
     "weapon_attack":"smash",
     "material":"mithril",
@@ -21292,7 +22088,8 @@
     "item_type":"armor",
     "material":"mithril",
     "affects":{
-      "hp":10
+      "hp":10,
+      "wisdom":1
     },
     "level":20
   },{
@@ -21300,7 +22097,7 @@
     "rarity":"common",
     "weight":13.0625,
     "wear_flags":"body",
-    "armor_class":"Pierce: 12 Bash: 13 Slash: 16 Magic: 4 Element: 6",
+    "armor_class":"Pierce: 7 Bash: 7 Slash: 7 Magic: 7 Element: 6",
     "name":"a ceremonial breastplate of pure mithril",
     "item_type":"armor",
     "material":"mithril",
@@ -21314,7 +22111,7 @@
     "rarity":"common",
     "weight":5.1875,
     "wear_flags":"shield",
-    "armor_class":"Pierce: 10 Bash: 10 Slash: 10 Magic: 4 Element: 6",
+    "armor_class":"Pierce: 7 Bash: 7 Slash: 7 Magic: 4 Element: 6",
     "name":"a well-polished mithril shield",
     "item_type":"armor",
     "material":"mithril",
@@ -21329,8 +22126,8 @@
     "wear_flags":"neck",
     "flags":["anti_evil"],
     "affects":{
-      "hp":10,
-      "mana":10
+      "hp":15,
+      "mana":15
     },
     "name":"a small silver locket",
     "weight":3.8125,
@@ -21341,10 +22138,11 @@
     "area_name":"The Stone's Embrace",
     "rarity":"common",
     "wear_flags":"body",
-    "armor_class":"Pierce: 9 Bash: 10 Slash: 13 Magic: 2 Element: 4",
+    "armor_class":"Pierce: 7 Bash: 7 Slash: 7 Magic: 2 Element: 4",
     "flags":["glowing","anti_evil","good"],
     "affects":{
       "dexterity":1,
+      "mana":10,
       "strength":1
     },
     "name":"a brilliant silver breastplate",
@@ -21359,8 +22157,8 @@
     "armor_class":"Pierce: 7 Bash: 7 Slash: 7 Magic: 2 Element: 4",
     "flags":["glowing","anti_evil"],
     "affects":{
-      "save vs breath":-5,
-      "armor class":-5
+      "strength":1,
+      "constitution":1
     },
     "name":"a gleaming silver shield",
     "weight":14.1875,
@@ -21644,6 +22442,21 @@
     "item_type":"weapon",
     "material":"cloth"
   },{
+    "area_name":"Aturi Timberlands",
+    "rarity":"common",
+    "weight":3.5,
+    "wear_flags":"back",
+    "name":"a mat of interwoven flowers",
+    "item_type":"clothing",
+    "material":"plant",
+    "affects":{
+      "mana":10,
+      "charisma":1,
+      "hp":10,
+      "wisdom":1
+    },
+    "level":20
+  },{
     "area_name":"South Dairein Settlement",
     "rarity":"common",
     "weight":6.9375,
@@ -21715,21 +22528,6 @@
     },
     "level":20
   },{
-    "area_name":"Aturi Timberlands",
-    "rarity":"common",
-    "weight":3.5,
-    "wear_flags":"back",
-    "name":"a mat of interwoven flowers",
-    "item_type":"clothing",
-    "material":"plant",
-    "affects":{
-      "mana":10,
-      "charisma":1,
-      "hp":10,
-      "wisdom":1
-    },
-    "level":20
-  },{
     "weapon_type":"mace",
     "area_name":"Gol'Galath",
     "rarity":"common",
@@ -21783,7 +22581,7 @@
     "rarity":"common",
     "weight":13.0625,
     "wear_flags":"body",
-    "armor_class":"Pierce: 12 Bash: 13 Slash: 16 Magic: 4 Element: 6",
+    "armor_class":"Pierce: 7 Bash: 7 Slash: 7 Magic: 7 Element: 6",
     "name":"a mithril breastplate",
     "item_type":"armor",
     "material":"mithril",
@@ -21870,7 +22668,7 @@
     "rarity":"common",
     "weight":3.875,
     "wear_flags":"head",
-    "armor_class":"Pierce: 10 Bash: 10 Slash: 10 Magic: 4 Element: 6",
+    "armor_class":"Pierce: 6 Bash: 7 Slash: 7 Magic: 7 Element: 6",
     "name":"a sturdy mithril helm",
     "item_type":"armor",
     "material":"mithril",
@@ -22902,6 +23700,22 @@
     "item_type":"treasure",
     "material":"leather"
   },{
+    "weapon_type":"spear",
+    "area_name":"Udgaard",
+    "rarity":"common",
+    "weapon_avg":15,
+    "weapon_flags":"two-handed",
+    "weight":10,
+    "wear_flags":"wield",
+    "name":"a black ash spear",
+    "item_type":"weapon",
+    "weapon_attack":"pierce",
+    "material":"wood",
+    "affects":{
+      "hit roll":5
+    },
+    "level":20
+  },{
     "weapon_type":"mace",
     "area_name":"The Galadon Sewers",
     "rarity":"common",
@@ -22946,22 +23760,6 @@
       "age":5,
       "intelligence":1,
       "wisdom":1
-    },
-    "level":20
-  },{
-    "weapon_type":"spear",
-    "area_name":"Udgaard",
-    "rarity":"common",
-    "weapon_avg":15,
-    "weapon_flags":"two-handed",
-    "weight":10,
-    "wear_flags":"wield",
-    "name":"a black ash spear",
-    "item_type":"weapon",
-    "weapon_attack":"pierce",
-    "material":"wood",
-    "affects":{
-      "hit roll":5
     },
     "level":20
   },{
@@ -23065,65 +23863,6 @@
     "material":"spidersilk",
     "affects":{
       "movement regeneration":4
-    },
-    "level":20
-  },{
-    "area_name":"Silverwood",
-    "rarity":"common",
-    "wear_flags":"body",
-    "flags":["female_only"],
-    "affects":{
-      "charisma":2,
-      "hp":10,
-      "mana":20
-    },
-    "name":"a translucent emerald green dress",
-    "weight":3.3125,
-    "level":20,
-    "item_type":"clothing",
-    "material":"silk"
-  },{
-    "area_name":"Silverwood",
-    "rarity":"common",
-    "wear_flags":"ears",
-    "flags":["glowing","bless","anti_evil"],
-    "affects":{
-      "save vs spell":-2,
-      "charisma":1,
-      "hp":10,
-      "mana":3
-    },
-    "name":"a pair of emerald earrings",
-    "weight":0.1875,
-    "level":20,
-    "item_type":"treasure",
-    "material":"emerald"
-  },{
-    "area_name":"Silverwood",
-    "rarity":"common",
-    "wear_flags":"face",
-    "flags":["dark"],
-    "affects":{
-      "dexterity":1,
-      "hit roll":1
-    },
-    "name":"a tattered bandit's mask",
-    "weight":0.875,
-    "level":20,
-    "item_type":"clothing",
-    "material":"cloth"
-  },{
-    "area_name":"Silverwood",
-    "rarity":"common",
-    "weight":0.9375,
-    "wear_flags":"feet",
-    "name":"an anklet made of semi-precious stones",
-    "item_type":"treasure",
-    "material":"gem",
-    "affects":{
-      "movement regeneration":7,
-      "dexterity":1,
-      "moves":25
     },
     "level":20
   },{
@@ -23281,6 +24020,84 @@
     "weight":4.8125,
     "level":19
   },{
+    "area_name":"Glauruk Spawning Ground",
+    "rarity":"common",
+    "weight":9.3125,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 5",
+    "name":"a glauruk-hide tunic",
+    "item_type":"armor",
+    "material":"hide",
+    "affects":{
+      "save vs breath":-6,
+      "hp":14,
+      "constitution":1
+    },
+    "level":18
+  },{
+    "area_name":"Glauruk Spawning Ground",
+    "rarity":"common",
+    "weight":7,
+    "wear_flags":"legs",
+    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 5",
+    "name":"a pair of glauruk-hide leggings",
+    "item_type":"armor",
+    "material":"hide",
+    "affects":{
+      "damage roll":1,
+      "hp":9,
+      "save vs breath":-5
+    },
+    "level":18
+  },{
+    "weapon_type":"mace",
+    "area_name":"Glauruk Spawning Ground",
+    "rarity":"common",
+    "weapon_avg":13,
+    "wear_flags":"wield",
+    "flags":["glowing","magic"],
+    "affects":{
+      "damage roll":2,
+      "hit roll":3
+    },
+    "name":"a charged copper prod",
+    "weight":11.875,
+    "weapon_attack":"electrical discharge",
+    "level":18,
+    "item_type":"weapon",
+    "material":"copper"
+  },{
+    "area_name":"Glauruk Spawning Ground",
+    "rarity":"common",
+    "weight":2.3125,
+    "wear_flags":"feet",
+    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 5",
+    "name":"a pair of glauruk-hide boots",
+    "item_type":"armor",
+    "material":"hide",
+    "affects":{
+      "save vs breath":-5,
+      "hp":6,
+      "moves":30
+    },
+    "level":18
+  },{
+    "weapon_type":"dagger",
+    "area_name":"The Village of Barovia",
+    "rarity":"common",
+    "weapon_avg":15,
+    "weight":4.9375,
+    "wear_flags":"wield",
+    "name":"a bloody dagger",
+    "item_type":"weapon",
+    "weapon_attack":"pierce",
+    "material":"steel",
+    "affects":{
+      "damage roll":2,
+      "hit roll":2
+    },
+    "level":18
+  },{
     "area_name":"The Village of Barovia",
     "rarity":"common",
     "wear_flags":"body",
@@ -23290,15 +24107,6 @@
     "material":"leather",
     "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 6",
     "level":18
-  },{
-    "wear_flags":"hold",
-    "area_name":"The Village of Barovia",
-    "name":"an hourglass shaped dulcimer",
-    "weight":1.9375,
-    "rarity":"common",
-    "level":18,
-    "item_type":"instrument",
-    "material":"wood"
   },{
     "area_name":"Orc Passage",
     "rarity":"common",
@@ -23311,6 +24119,15 @@
       "charisma":-1
     },
     "level":18
+  },{
+    "wear_flags":"hold",
+    "area_name":"The Village of Barovia",
+    "name":"an hourglass shaped dulcimer",
+    "weight":1.9375,
+    "rarity":"common",
+    "level":18,
+    "item_type":"instrument",
+    "material":"wood"
   },{
     "weapon_type":"spear",
     "area_name":"Desert of Araile",
@@ -23952,6 +24769,35 @@
     },
     "level":18
   },{
+    "weapon_type":"mace",
+    "area_name":"Keep of the Fhalaugash",
+    "rarity":"common",
+    "weapon_avg":13,
+    "weight":10.4375,
+    "wear_flags":"wield",
+    "name":"a wolf-headed hammer",
+    "item_type":"weapon",
+    "weapon_attack":"crush",
+    "material":"iron",
+    "affects":{
+      "hit roll":1
+    },
+    "level":18
+  },{
+    "area_name":"Keep of the Fhalaugash",
+    "rarity":"common",
+    "wear_flags":"body",
+    "armor_class":"Pierce: 4 Bash: 6 Slash: 8 Magic: 1 Element: 4",
+    "flags":["dark","orc_only"],
+    "affects":{
+      "damage roll":1
+    },
+    "name":"a chainmail shirt made of darkened steel",
+    "weight":22.4375,
+    "level":18,
+    "item_type":"armor",
+    "material":"steel"
+  },{
     "area_name":"Udgaardian Plains",
     "rarity":"common",
     "weight":0.75,
@@ -24025,17 +24871,16 @@
     },
     "level":18
   },{
-    "weapon_type":"mace",
     "area_name":"Keep of the Fhalaugash",
     "rarity":"common",
-    "weapon_avg":13,
-    "weight":10.4375,
-    "wear_flags":"wield",
-    "name":"a wolf-headed hammer",
-    "item_type":"weapon",
-    "weapon_attack":"crush",
-    "material":"iron",
+    "weight":0.875,
+    "wear_flags":"wrist",
+    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 6",
+    "name":"a steel and braided leather bracer",
+    "item_type":"armor",
+    "material":"leather",
     "affects":{
+      "strength":1,
       "hit roll":1
     },
     "level":18
@@ -24053,34 +24898,6 @@
     "affects":{
       "damage roll":2,
       "strength":1
-    },
-    "level":18
-  },{
-    "area_name":"Keep of the Fhalaugash",
-    "rarity":"common",
-    "wear_flags":"body",
-    "armor_class":"Pierce: 4 Bash: 6 Slash: 8 Magic: 1 Element: 4",
-    "flags":["dark","orc_only"],
-    "affects":{
-      "damage roll":1
-    },
-    "name":"a chainmail shirt made of darkened steel",
-    "weight":22.4375,
-    "level":18,
-    "item_type":"armor",
-    "material":"steel"
-  },{
-    "area_name":"Keep of the Fhalaugash",
-    "rarity":"common",
-    "weight":0.875,
-    "wear_flags":"wrist",
-    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 6",
-    "name":"a steel and braided leather bracer",
-    "item_type":"armor",
-    "material":"leather",
-    "affects":{
-      "strength":1,
-      "hit roll":1
     },
     "level":18
   },{
@@ -24305,84 +25122,6 @@
     },
     "level":18
   },{
-    "area_name":"Glauruk Spawning Ground",
-    "rarity":"common",
-    "weight":9.3125,
-    "wear_flags":"body",
-    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 5",
-    "name":"a glauruk-hide tunic",
-    "item_type":"armor",
-    "material":"hide",
-    "affects":{
-      "save vs breath":-6,
-      "hp":14,
-      "constitution":1
-    },
-    "level":18
-  },{
-    "area_name":"Glauruk Spawning Ground",
-    "rarity":"common",
-    "weight":7,
-    "wear_flags":"legs",
-    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 5",
-    "name":"a pair of glauruk-hide leggings",
-    "item_type":"armor",
-    "material":"hide",
-    "affects":{
-      "damage roll":1,
-      "hp":9,
-      "save vs breath":-5
-    },
-    "level":18
-  },{
-    "weapon_type":"mace",
-    "area_name":"Glauruk Spawning Ground",
-    "rarity":"common",
-    "weapon_avg":13,
-    "wear_flags":"wield",
-    "flags":["glowing","magic"],
-    "affects":{
-      "damage roll":2,
-      "hit roll":3
-    },
-    "name":"a charged copper prod",
-    "weight":11.875,
-    "weapon_attack":"electrical discharge",
-    "level":18,
-    "item_type":"weapon",
-    "material":"copper"
-  },{
-    "area_name":"Glauruk Spawning Ground",
-    "rarity":"common",
-    "weight":2.3125,
-    "wear_flags":"feet",
-    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 5",
-    "name":"a pair of glauruk-hide boots",
-    "item_type":"armor",
-    "material":"hide",
-    "affects":{
-      "save vs breath":-5,
-      "hp":6,
-      "moves":30
-    },
-    "level":18
-  },{
-    "weapon_type":"dagger",
-    "area_name":"The Village of Barovia",
-    "rarity":"common",
-    "weapon_avg":15,
-    "weight":4.9375,
-    "wear_flags":"wield",
-    "name":"a bloody dagger",
-    "item_type":"weapon",
-    "weapon_attack":"pierce",
-    "material":"steel",
-    "affects":{
-      "damage roll":2,
-      "hit roll":2
-    },
-    "level":18
-  },{
     "weapon_type":"exotic",
     "area_name":"Ruins of Delar-Tol",
     "rarity":"common",
@@ -24521,6 +25260,22 @@
     "material":"bone"
   },{
     "weapon_type":"mace",
+    "area_name":"Sands of Sorrow",
+    "rarity":"common",
+    "weapon_avg":14,
+    "weapon_flags":"two-handed",
+    "weight":14.9375,
+    "wear_flags":"wield",
+    "name":"a huge silver-banded warhammer",
+    "item_type":"weapon",
+    "weapon_attack":"smash",
+    "material":"silver",
+    "affects":{
+      "hit roll":2
+    },
+    "level":17
+  },{
+    "weapon_type":"mace",
     "area_name":"The Sewers of Seantryn Modan",
     "rarity":"common",
     "weapon_avg":8,
@@ -24535,22 +25290,6 @@
       "damage roll":2,
       "hit roll":-2,
       "moves":-10
-    },
-    "level":17
-  },{
-    "weapon_type":"mace",
-    "area_name":"Sands of Sorrow",
-    "rarity":"common",
-    "weapon_avg":14,
-    "weapon_flags":"two-handed",
-    "weight":14.9375,
-    "wear_flags":"wield",
-    "name":"a huge silver-banded warhammer",
-    "item_type":"weapon",
-    "weapon_attack":"smash",
-    "material":"silver",
-    "affects":{
-      "hit roll":2
     },
     "level":17
   },{
@@ -24781,6 +25520,38 @@
     "item_type":"weapon",
     "material":"wood"
   },{
+    "weapon_type":"spear",
+    "area_name":"Glauruk Spawning Ground",
+    "rarity":"common",
+    "weapon_avg":14,
+    "weapon_flags":"two-handed",
+    "weight":13.625,
+    "wear_flags":"wield",
+    "name":"a barbed reed javelin",
+    "item_type":"weapon",
+    "weapon_attack":"thrust",
+    "material":"wood",
+    "affects":{
+      "dexterity":1,
+      "hit roll":1,
+      "damage roll":2
+    },
+    "level":16
+  },{
+    "area_name":"Udgaard",
+    "rarity":"common",
+    "weight":7.4375,
+    "wear_flags":"hooves",
+    "armor_class":"Pierce: 7 Bash: 7 Slash: 7 Magic: 1 Element: 4",
+    "name":"a pair of steel shod shoes",
+    "item_type":"armor",
+    "material":"steel",
+    "affects":{
+      "damage roll":1,
+      "hp":10
+    },
+    "level":16
+  },{
     "area_name":"The Village of Barovia",
     "rarity":"common",
     "weight":4.8125,
@@ -24803,20 +25574,6 @@
     "material":"leather",
     "affects":{
       "dexterity":1
-    },
-    "level":16
-  },{
-    "area_name":"Udgaard",
-    "rarity":"common",
-    "weight":7.4375,
-    "wear_flags":"hooves",
-    "armor_class":"Pierce: 7 Bash: 7 Slash: 7 Magic: 1 Element: 4",
-    "name":"a pair of steel shod shoes",
-    "item_type":"armor",
-    "material":"steel",
-    "affects":{
-      "damage roll":1,
-      "hp":10
     },
     "level":16
   },{
@@ -25007,6 +25764,21 @@
     },
     "level":16
   },{
+    "area_name":"Troglodyte Caverns",
+    "rarity":"common",
+    "weight":7,
+    "wear_flags":"head",
+    "name":"a bronze crown",
+    "item_type":"treasure",
+    "material":"bronze",
+    "affects":{
+      "disease resistance":2,
+      "charisma":1,
+      "hp":7,
+      "mana":7
+    },
+    "level":16
+  },{
     "area_name":"Dagdan",
     "rarity":"common",
     "wear_flags":"head",
@@ -25078,21 +25850,6 @@
     "weapon_attack":"charge",
     "material":"wood",
     "weight":15.9375,
-    "level":16
-  },{
-    "area_name":"Troglodyte Caverns",
-    "rarity":"common",
-    "weight":7,
-    "wear_flags":"head",
-    "name":"a bronze crown",
-    "item_type":"treasure",
-    "material":"bronze",
-    "affects":{
-      "disease resistance":2,
-      "charisma":1,
-      "hp":7,
-      "mana":7
-    },
     "level":16
   },{
     "area_name":"Troglodyte Caverns",
@@ -25342,24 +26099,6 @@
     },
     "level":16
   },{
-    "weapon_type":"spear",
-    "area_name":"Glauruk Spawning Ground",
-    "rarity":"common",
-    "weapon_avg":14,
-    "weapon_flags":"two-handed",
-    "weight":13.625,
-    "wear_flags":"wield",
-    "name":"a barbed reed javelin",
-    "item_type":"weapon",
-    "weapon_attack":"thrust",
-    "material":"wood",
-    "affects":{
-      "dexterity":1,
-      "hit roll":1,
-      "damage roll":2
-    },
-    "level":16
-  },{
     "area_name":"Udgaard",
     "rarity":"common",
     "weight":8,
@@ -25381,6 +26120,24 @@
     "level":15,
     "item_type":"treasure",
     "material":"silver"
+  },{
+    "weapon_type":"staff",
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "weapon_avg":10,
+    "weapon_flags":"two-handed",
+    "wear_flags":"wield",
+    "flags":["bless"],
+    "affects":{
+      "strength":1,
+      "hit roll":1
+    },
+    "name":"a wooden staff",
+    "weight":9.9375,
+    "weapon_attack":"smash",
+    "level":15,
+    "item_type":"weapon",
+    "material":"wood"
   },{
     "area_name":"Hillcrest",
     "rarity":"common",
@@ -25408,24 +26165,6 @@
     "material":"bone",
     "weight":14.9375,
     "level":15
-  },{
-    "weapon_type":"staff",
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "weapon_avg":10,
-    "weapon_flags":"two-handed",
-    "wear_flags":"wield",
-    "flags":["bless"],
-    "affects":{
-      "strength":1,
-      "hit roll":1
-    },
-    "name":"a wooden staff",
-    "weight":9.9375,
-    "weapon_attack":"smash",
-    "level":15,
-    "item_type":"weapon",
-    "material":"wood"
   },{
     "area_name":"The Fields of Balator",
     "rarity":"common",
@@ -25507,6 +26246,21 @@
     },
     "level":15
   },{
+    "area_name":"Forest Road",
+    "rarity":"common",
+    "wear_flags":"head",
+    "flags":["glowing","bless"],
+    "affects":{
+      "charisma":-1,
+      "wisdom":1,
+      "morale":-1
+    },
+    "name":"a black shroud",
+    "weight":1.8125,
+    "level":15,
+    "item_type":"clothing",
+    "material":"cloth"
+  },{
     "area_name":"Lord Tabershaw's Keep",
     "rarity":"common",
     "weight":6.0625,
@@ -25534,21 +26288,6 @@
     "level":15,
     "item_type":"clothing",
     "material":"iron"
-  },{
-    "area_name":"Forest Road",
-    "rarity":"common",
-    "wear_flags":"head",
-    "flags":["glowing","bless"],
-    "affects":{
-      "charisma":-1,
-      "wisdom":1,
-      "morale":-1
-    },
-    "name":"a black shroud",
-    "weight":1.8125,
-    "level":15,
-    "item_type":"clothing",
-    "material":"cloth"
   },{
     "area_name":"Hardan Road",
     "rarity":"common",
@@ -25671,6 +26410,24 @@
       "mana":8
     },
     "level":15
+  },{
+    "area_name":"Amaranthian Forest",
+    "rarity":"common",
+    "wear_flags":"body",
+    "armor_class":"Pierce: 2 Bash: 3 Slash: 2 Magic: 13 Element: 10",
+    "flags":["glowing","humming","magic","mage_only"],
+    "affects":{
+      "cold resistance":-3,
+      "morale":3,
+      "light resistance":5,
+      "mana":24,
+      "fire resistance":9
+    },
+    "name":"an enchanted tunic woven from a fire serpent",
+    "weight":1.8125,
+    "level":15,
+    "item_type":"armor",
+    "material":"fire"
   },{
     "weapon_type":"mace",
     "area_name":"The Aryth Ocean",
@@ -25899,24 +26656,6 @@
       "armor class":-7
     },
     "level":15
-  },{
-    "area_name":"Amaranthian Forest",
-    "rarity":"common",
-    "wear_flags":"body",
-    "armor_class":"Pierce: 2 Bash: 3 Slash: 2 Magic: 13 Element: 10",
-    "flags":["glowing","humming","magic","mage_only"],
-    "affects":{
-      "cold resistance":-3,
-      "morale":3,
-      "light resistance":5,
-      "mana":24,
-      "fire resistance":9
-    },
-    "name":"an enchanted tunic woven from a fire serpent",
-    "weight":1.8125,
-    "level":15,
-    "item_type":"armor",
-    "material":"fire"
   },{
     "weapon_type":"axe",
     "area_name":"Seantryn Modan",
@@ -26419,6 +27158,20 @@
     "item_type":"treasure",
     "material":"crystal"
   },{
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "wear_flags":"wings",
+    "flags":["arial_only"],
+    "affects":{
+      "moves":30,
+      "constitution":2
+    },
+    "name":"a sea-green coral token",
+    "weight":0.5,
+    "level":15,
+    "item_type":"treasure",
+    "material":"coral"
+  },{
     "weapon_type":"sword",
     "area_name":"Ruins of the Deep",
     "rarity":"common",
@@ -26453,17 +27206,18 @@
   },{
     "area_name":"Loch Terradian",
     "rarity":"common",
-    "wear_flags":"wings",
-    "flags":["arial_only"],
+    "weight":7.4375,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 0",
+    "name":"a sturdy tunic of brown leather",
+    "item_type":"armor",
+    "material":"leather",
     "affects":{
-      "moves":30,
-      "constitution":2
+      "hit roll":1,
+      "hp":10,
+      "armor class":-5
     },
-    "name":"a sea-green coral token",
-    "weight":0.5,
-    "level":15,
-    "item_type":"treasure",
-    "material":"coral"
+    "level":15
   },{
     "area_name":"Evermoon Hollow",
     "rarity":"common",
@@ -26575,21 +27329,6 @@
     },
     "level":15
   },{
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weight":7.4375,
-    "wear_flags":"body",
-    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 0",
-    "name":"a sturdy tunic of brown leather",
-    "item_type":"armor",
-    "material":"leather",
-    "affects":{
-      "hit roll":1,
-      "hp":10,
-      "armor class":-5
-    },
-    "level":15
-  },{
     "weapon_type":"sword",
     "area_name":"The Xvart Lair",
     "rarity":"common",
@@ -26682,6 +27421,24 @@
     },
     "level":15
   },{
+    "weapon_type":"mace",
+    "area_name":"Troglodyte Caverns",
+    "rarity":"common",
+    "weapon_avg":11,
+    "weight":9.9375,
+    "wear_flags":"wield",
+    "name":"an ornate obsidian scepter",
+    "item_type":"weapon",
+    "weapon_attack":"smash",
+    "material":"obsidian",
+    "affects":{
+      "damage roll":1,
+      "charisma":2,
+      "hit roll":1,
+      "morale":1
+    },
+    "level":15
+  },{
     "area_name":"Western Aryth Ocean",
     "rarity":"common",
     "weight":0.4375,
@@ -26733,24 +27490,6 @@
     },
     "level":15
   },{
-    "weapon_type":"mace",
-    "area_name":"Troglodyte Caverns",
-    "rarity":"common",
-    "weapon_avg":11,
-    "weight":9.9375,
-    "wear_flags":"wield",
-    "name":"an ornate obsidian scepter",
-    "item_type":"weapon",
-    "weapon_attack":"smash",
-    "material":"obsidian",
-    "affects":{
-      "damage roll":1,
-      "charisma":2,
-      "hit roll":1,
-      "morale":1
-    },
-    "level":15
-  },{
     "area_name":"Western Aryth Ocean",
     "rarity":"common",
     "weight":0.875,
@@ -26779,6 +27518,41 @@
       "hit roll":2
     },
     "level":15
+  },{
+    "area_name":"Troglodyte Caverns",
+    "rarity":"common",
+    "wear_flags":"neck",
+    "flags":["bless"],
+    "affects":{
+      "disease resistance":3,
+      "save vs spell":-2,
+      "poison resistance":3,
+      "mana":15,
+      "wisdom":1
+    },
+    "name":"a charm necklace",
+    "weight":0.625,
+    "level":15,
+    "item_type":"treasure",
+    "material":"leather"
+  },{
+    "area_name":"Troglodyte Caverns",
+    "rarity":"common",
+    "wear_flags":"body",
+    "armor_class":"Pierce: 0 Bash: 0 Slash: 0 Magic: 6 Element: 0",
+    "flags":["dark","evil","magic"],
+    "affects":{
+      "mana":15,
+      "intelligence":2,
+      "energy resistance":2,
+      "hp":5,
+      "charisma":-3
+    },
+    "name":"an embroidered black robe",
+    "weight":5.25,
+    "level":15,
+    "item_type":"armor",
+    "material":"silk"
   },{
     "area_name":"Dagdan",
     "rarity":"common",
@@ -26854,23 +27628,6 @@
     },
     "level":15
   },{
-    "area_name":"Troglodyte Caverns",
-    "rarity":"common",
-    "wear_flags":"neck",
-    "flags":["bless"],
-    "affects":{
-      "disease resistance":3,
-      "save vs spell":-2,
-      "poison resistance":3,
-      "mana":15,
-      "wisdom":1
-    },
-    "name":"a charm necklace",
-    "weight":0.625,
-    "level":15,
-    "item_type":"treasure",
-    "material":"leather"
-  },{
     "area_name":"Dagdan",
     "rarity":"common",
     "weight":1.8125,
@@ -26904,21 +27661,19 @@
   },{
     "area_name":"Troglodyte Caverns",
     "rarity":"common",
-    "wear_flags":"body",
+    "wear_flags":"head",
     "armor_class":"Pierce: 0 Bash: 0 Slash: 0 Magic: 6 Element: 0",
-    "flags":["dark","evil","magic"],
+    "flags":["bless"],
     "affects":{
       "mana":15,
-      "intelligence":2,
-      "energy resistance":2,
-      "hp":5,
-      "charisma":-3
+      "wisdom":1,
+      "morale":2
     },
-    "name":"an embroidered black robe",
-    "weight":5.25,
+    "name":"a tribal headdress",
+    "weight":1.8125,
     "level":15,
     "item_type":"armor",
-    "material":"silk"
+    "material":"feathers"
   },{
     "weapon_type":"dagger",
     "area_name":"Outlying Villages",
@@ -26962,22 +27717,6 @@
     "level":15,
     "item_type":"weapon",
     "material":"steel"
-  },{
-    "area_name":"Troglodyte Caverns",
-    "rarity":"common",
-    "wear_flags":"head",
-    "armor_class":"Pierce: 0 Bash: 0 Slash: 0 Magic: 6 Element: 0",
-    "flags":["bless"],
-    "affects":{
-      "mana":15,
-      "wisdom":1,
-      "morale":2
-    },
-    "name":"a tribal headdress",
-    "weight":1.8125,
-    "level":15,
-    "item_type":"armor",
-    "material":"feathers"
   },{
     "area_name":"Valley of Veran",
     "rarity":"common",
@@ -27134,6 +27873,28 @@
     "level":15,
     "item_type":"clothing",
     "material":"cloth"
+  },{
+    "weapon_type":"sword",
+    "area_name":"Sands of Sorrow",
+    "rarity":"common",
+    "weapon_avg":10,
+    "wear_flags":"wield",
+    "name":"a dull, tarnished broadsword",
+    "item_type":"weapon",
+    "weapon_attack":"slash",
+    "material":"steel",
+    "weight":9.9375,
+    "level":15
+  },{
+    "area_name":"Sands of Sorrow",
+    "rarity":"common",
+    "wear_flags":"body",
+    "weight":8.1875,
+    "name":"a studded leather vest",
+    "item_type":"armor",
+    "material":"leather",
+    "armor_class":"Pierce: 6 Bash: 4 Slash: 6 Magic: 1 Element: 6",
+    "level":15
   },{
     "weapon_type":"axe",
     "area_name":"Feanwyyn Weald",
@@ -27429,18 +28190,6 @@
     },
     "level":15
   },{
-    "weapon_type":"sword",
-    "area_name":"Sands of Sorrow",
-    "rarity":"common",
-    "weapon_avg":10,
-    "wear_flags":"wield",
-    "name":"a dull, tarnished broadsword",
-    "item_type":"weapon",
-    "weapon_attack":"slash",
-    "material":"steel",
-    "weight":9.9375,
-    "level":15
-  },{
     "area_name":"Feanwyyn Weald",
     "rarity":"common",
     "weight":0.9375,
@@ -27490,12 +28239,16 @@
   },{
     "area_name":"Sands of Sorrow",
     "rarity":"common",
-    "wear_flags":"body",
-    "weight":8.1875,
-    "name":"a studded leather vest",
+    "weight":5.5625,
+    "wear_flags":"arms",
+    "armor_class":"Pierce: 8 Bash: 9 Slash: 10 Magic: 4 Element: 8",
+    "name":"thick-plated tan armguards",
     "item_type":"armor",
-    "material":"leather",
-    "armor_class":"Pierce: 6 Bash: 4 Slash: 6 Magic: 1 Element: 6",
+    "material":"bone",
+    "affects":{
+      "strength":1,
+      "armor class":-2
+    },
     "level":15
   },{
     "weapon_type":"staff",
@@ -27524,6 +28277,34 @@
     },
     "level":15
   },{
+    "area_name":"Sands of Sorrow",
+    "rarity":"common",
+    "weight":8.375,
+    "wear_flags":"legs",
+    "armor_class":"Pierce: 8 Bash: 9 Slash: 10 Magic: 4 Element: 8",
+    "name":"thick tan leg plates",
+    "item_type":"armor",
+    "material":"bone",
+    "affects":{
+      "moves":20,
+      "armor class":-2
+    },
+    "level":15
+  },{
+    "area_name":"Sands of Sorrow",
+    "rarity":"common",
+    "weight":2.5625,
+    "wear_flags":"waist",
+    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 6",
+    "name":"a belt of thick tan plates",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "constitution":1,
+      "armor class":-2
+    },
+    "level":15
+  },{
     "wear_flags":"body",
     "area_name":"Forest of Prosimy",
     "name":"a long dress of brown silk",
@@ -27546,6 +28327,15 @@
       "moves":10
     },
     "level":15
+  },{
+    "wear_flags":"about",
+    "area_name":"Sands of Sorrow",
+    "name":"a frayed and tattered green robe",
+    "weight":5.1875,
+    "rarity":"common",
+    "level":15,
+    "item_type":"clothing",
+    "material":"cloth"
   },{
     "area_name":"The Past Grove",
     "rarity":"common",
@@ -27583,57 +28373,6 @@
     "material":"tin",
     "weight":6.5625,
     "level":15
-  },{
-    "area_name":"Sands of Sorrow",
-    "rarity":"common",
-    "weight":5.5625,
-    "wear_flags":"arms",
-    "armor_class":"Pierce: 8 Bash: 9 Slash: 10 Magic: 4 Element: 8",
-    "name":"thick-plated tan armguards",
-    "item_type":"armor",
-    "material":"bone",
-    "affects":{
-      "strength":1,
-      "armor class":-2
-    },
-    "level":15
-  },{
-    "area_name":"Sands of Sorrow",
-    "rarity":"common",
-    "weight":8.375,
-    "wear_flags":"legs",
-    "armor_class":"Pierce: 8 Bash: 9 Slash: 10 Magic: 4 Element: 8",
-    "name":"thick tan leg plates",
-    "item_type":"armor",
-    "material":"bone",
-    "affects":{
-      "moves":20,
-      "armor class":-2
-    },
-    "level":15
-  },{
-    "area_name":"Sands of Sorrow",
-    "rarity":"common",
-    "weight":2.5625,
-    "wear_flags":"waist",
-    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 6",
-    "name":"a belt of thick tan plates",
-    "item_type":"armor",
-    "material":"leather",
-    "affects":{
-      "constitution":1,
-      "armor class":-2
-    },
-    "level":15
-  },{
-    "wear_flags":"about",
-    "area_name":"Sands of Sorrow",
-    "name":"a frayed and tattered green robe",
-    "weight":5.1875,
-    "rarity":"common",
-    "level":15,
-    "item_type":"clothing",
-    "material":"cloth"
   },{
     "area_name":"Felar Encampment",
     "rarity":"common",
@@ -27731,6 +28470,24 @@
     "item_type":"armor",
     "material":"leather"
   },{
+    "weapon_type":"staff",
+    "area_name":"Sands of Sorrow",
+    "rarity":"common",
+    "weapon_avg":12,
+    "weapon_flags":"two-handed",
+    "wear_flags":"wield",
+    "flags":["bless"],
+    "affects":{
+      "damage roll":1,
+      "hit roll":1
+    },
+    "name":"a worn ironwood staff",
+    "weight":7.9375,
+    "weapon_attack":"smash",
+    "level":15,
+    "item_type":"weapon",
+    "material":"wood"
+  },{
     "area_name":"Felar Encampment",
     "rarity":"common",
     "wear_flags":"hindpaws",
@@ -27801,24 +28558,6 @@
     "level":15,
     "item_type":"weapon",
     "material":"silver"
-  },{
-    "weapon_type":"staff",
-    "area_name":"Sands of Sorrow",
-    "rarity":"common",
-    "weapon_avg":12,
-    "weapon_flags":"two-handed",
-    "wear_flags":"wield",
-    "flags":["bless"],
-    "affects":{
-      "damage roll":1,
-      "hit roll":1
-    },
-    "name":"a worn ironwood staff",
-    "weight":7.9375,
-    "weapon_attack":"smash",
-    "level":15,
-    "item_type":"weapon",
-    "material":"wood"
   },{
     "weapon_type":"axe",
     "area_name":"A Narrow Gamepath",
@@ -28171,6 +28910,7 @@
     "item_type":"clothing",
     "material":"cloth",
     "affects":{
+      "moves":10,
       "constitution":1
     },
     "level":15
@@ -28555,6 +29295,22 @@
     "weight":17.8125,
     "level":15
   },{
+    "weapon_type":"sword",
+    "area_name":"Keep of the Fhalaugash",
+    "rarity":"common",
+    "weapon_avg":11,
+    "weight":10.625,
+    "wear_flags":"wield",
+    "name":"an orcish scimitar",
+    "item_type":"weapon",
+    "weapon_attack":"slash",
+    "material":"steel",
+    "affects":{
+      "damage roll":1,
+      "hit roll":1
+    },
+    "level":15
+  },{
     "area_name":"South Dairein Settlement",
     "rarity":"common",
     "weight":2.9375,
@@ -28643,7 +29399,7 @@
     "weapon_type":"polearm",
     "area_name":"Gol'Galath",
     "rarity":"common",
-    "weapon_avg":12,
+    "weapon_avg":11,
     "weapon_flags":"two-handed",
     "weight":18.125,
     "wear_flags":"wield",
@@ -28720,18 +29476,30 @@
     },
     "level":15
   },{
-    "weapon_type":"sword",
     "area_name":"Keep of the Fhalaugash",
     "rarity":"common",
-    "weapon_avg":11,
-    "weight":10.625,
-    "wear_flags":"wield",
-    "name":"an orcish scimitar",
-    "item_type":"weapon",
-    "weapon_attack":"slash",
-    "material":"steel",
+    "wear_flags":"feet",
+    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 6",
+    "flags":["dark"],
     "affects":{
-      "damage roll":1,
+      "dexterity":1,
+      "moves":20
+    },
+    "name":"a pair of hard leather boots",
+    "weight":1.8125,
+    "level":15,
+    "item_type":"armor",
+    "material":"leather"
+  },{
+    "area_name":"Keep of the Fhalaugash",
+    "rarity":"common",
+    "weight":3.0625,
+    "wear_flags":"legs",
+    "name":"a pair of leather pants",
+    "item_type":"clothing",
+    "material":"leather",
+    "affects":{
+      "moves":10,
       "hit roll":1
     },
     "level":15
@@ -28798,34 +29566,6 @@
     "material":"leather",
     "affects":{
       "damage roll":1,
-      "hit roll":1
-    },
-    "level":15
-  },{
-    "area_name":"Keep of the Fhalaugash",
-    "rarity":"common",
-    "wear_flags":"feet",
-    "armor_class":"Pierce: 5 Bash: 3 Slash: 5 Magic: 1 Element: 6",
-    "flags":["dark"],
-    "affects":{
-      "dexterity":1,
-      "moves":20
-    },
-    "name":"a pair of hard leather boots",
-    "weight":1.8125,
-    "level":15,
-    "item_type":"armor",
-    "material":"leather"
-  },{
-    "area_name":"Keep of the Fhalaugash",
-    "rarity":"common",
-    "weight":3.0625,
-    "wear_flags":"legs",
-    "name":"a pair of leather pants",
-    "item_type":"clothing",
-    "material":"leather",
-    "affects":{
-      "moves":10,
       "hit roll":1
     },
     "level":15
@@ -28974,7 +29714,7 @@
     "weight":16.8125,
     "wear_flags":"legs",
     "armor_class":"Pierce: 4 Bash: 7 Slash: 7 Magic: 3 Element: 4",
-    "name":"A long chainmail skirt expertly crafted from steel",
+    "name":"a long chainmail skirt expertly crafted from steel",
     "item_type":"armor",
     "material":"steel",
     "affects":{
@@ -29477,6 +30217,20 @@
     },
     "level":15
   },{
+    "area_name":"Udgaard",
+    "rarity":"common",
+    "weight":7.4375,
+    "wear_flags":"claws",
+    "armor_class":"Pierce: 7 Bash: 7 Slash: 7 Magic: 1 Element: 4",
+    "name":"a pair of pitch-black claws",
+    "item_type":"armor",
+    "material":"steel",
+    "affects":{
+      "damage roll":1,
+      "hp":5
+    },
+    "level":15
+  },{
     "weapon_type":"bow",
     "area_name":"The Ancient Road to the Wastes",
     "rarity":"common",
@@ -29510,17 +30264,18 @@
   },{
     "area_name":"Udgaard",
     "rarity":"common",
-    "weight":7.4375,
-    "wear_flags":"claws",
-    "armor_class":"Pierce: 7 Bash: 7 Slash: 7 Magic: 1 Element: 4",
-    "name":"a pair of pitch-black claws",
-    "item_type":"armor",
-    "material":"steel",
+    "wear_flags":"neck",
+    "flags":["evil"],
     "affects":{
       "damage roll":1,
-      "hp":5
+      "hit roll":1,
+      "save vs breath":-3
     },
-    "level":15
+    "name":"a silver necklace with a blue dragon pendant",
+    "weight":3.8125,
+    "level":15,
+    "item_type":"treasure",
+    "material":"silver"
   },{
     "area_name":"Balator",
     "rarity":"common",
@@ -29535,21 +30290,6 @@
     "level":15,
     "item_type":"clothing",
     "material":"silk"
-  },{
-    "area_name":"Udgaard",
-    "rarity":"common",
-    "wear_flags":"neck",
-    "flags":["evil"],
-    "affects":{
-      "damage roll":1,
-      "hit roll":1,
-      "save vs breath":-3
-    },
-    "name":"a silver necklace with a blue dragon pendant",
-    "weight":3.8125,
-    "level":15,
-    "item_type":"treasure",
-    "material":"silver"
   },{
     "area_name":"Udgaard",
     "rarity":"common",
@@ -29597,6 +30337,23 @@
       "hit roll":-1
     },
     "level":15
+  },{
+    "weapon_type":"spear",
+    "area_name":"Glauruk Spawning Ground",
+    "rarity":"common",
+    "weapon_avg":9,
+    "weapon_flags":"two-handed",
+    "weight":11.9375,
+    "wear_flags":"wield",
+    "name":"a simple fishing spear",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"wood",
+    "affects":{
+      "damage roll":3,
+      "dexterity":2
+    },
+    "level":14
   },{
     "weapon_type":"spear",
     "area_name":"The Village of Barovia",
@@ -29937,25 +30694,33 @@
     "weapon_type":"axe",
     "area_name":"The Stone's Embrace",
     "rarity":"common",
-    "weapon_avg":12,
+    "weapon_avg":10,
+    "weight":10.9375,
     "wear_flags":"wield",
     "name":"a guardsman's axe",
     "item_type":"weapon",
     "weapon_attack":"cleave",
     "material":"mithril",
-    "weight":10.9375,
+    "affects":{
+      "damage roll":1,
+      "hit roll":1
+    },
     "level":14
   },{
     "weapon_type":"mace",
     "area_name":"The Stone's Embrace",
     "rarity":"common",
-    "weapon_avg":12,
+    "weapon_avg":10,
+    "weight":9.5,
     "wear_flags":"wield",
     "name":"a guardsman's mace",
     "item_type":"weapon",
     "weapon_attack":"crush",
     "material":"mithril",
-    "weight":9.5,
+    "affects":{
+      "damage roll":1,
+      "hit roll":1
+    },
     "level":14
   },{
     "area_name":"The Stone's Embrace",
@@ -29976,7 +30741,7 @@
     "rarity":"common",
     "weight":3.875,
     "wear_flags":"head",
-    "armor_class":"Pierce: 8 Bash: 8 Slash: 8 Magic: 2 Element: 4",
+    "armor_class":"Pierce: 5 Bash: 5 Slash: 5 Magic: 2 Element: 4",
     "name":"a helm of mithril and gold",
     "item_type":"armor",
     "material":"mithril",
@@ -30182,22 +30947,47 @@
     },
     "level":14
   },{
+    "weapon_type":"axe",
+    "area_name":"Silverwood",
+    "rarity":"common",
+    "weapon_avg":12,
+    "weight":6.9375,
+    "wear_flags":"wield",
+    "name":"a small hatchet",
+    "item_type":"weapon",
+    "weapon_attack":"slice",
+    "material":"iron",
+    "affects":{
+      "damage roll":2,
+      "hit roll":2
+    },
+    "level":13
+  },{
+    "wear_flags":"waist",
+    "area_name":"Glauruk Spawning Ground",
+    "name":"a woven grass loincloth",
+    "weight":1.8125,
+    "rarity":"common",
+    "level":13,
+    "item_type":"clothing",
+    "material":"plant"
+  },{
     "weapon_type":"spear",
     "area_name":"Glauruk Spawning Ground",
     "rarity":"common",
-    "weapon_avg":9,
+    "weapon_avg":12,
     "weapon_flags":"two-handed",
-    "weight":11.9375,
+    "weight":11.4375,
     "wear_flags":"wield",
-    "name":"a simple fishing spear",
+    "name":"a simple reed javelin",
     "item_type":"weapon",
-    "weapon_attack":"stab",
+    "weapon_attack":"thrust",
     "material":"wood",
     "affects":{
-      "damage roll":3,
-      "dexterity":2
+      "damage roll":2,
+      "hit roll":1
     },
-    "level":14
+    "level":13
   },{
     "weapon_type":"dagger",
     "area_name":"Lord Tabershaw's Keep",
@@ -30535,48 +31325,6 @@
       "dexterity":1,
       "hit roll":2,
       "damage roll":1
-    },
-    "level":13
-  },{
-    "weapon_type":"axe",
-    "area_name":"Silverwood",
-    "rarity":"common",
-    "weapon_avg":12,
-    "weight":6.9375,
-    "wear_flags":"wield",
-    "name":"a small hatchet",
-    "item_type":"weapon",
-    "weapon_attack":"slice",
-    "material":"iron",
-    "affects":{
-      "damage roll":2,
-      "hit roll":2
-    },
-    "level":13
-  },{
-    "wear_flags":"waist",
-    "area_name":"Glauruk Spawning Ground",
-    "name":"a woven grass loincloth",
-    "weight":1.8125,
-    "rarity":"common",
-    "level":13,
-    "item_type":"clothing",
-    "material":"plant"
-  },{
-    "weapon_type":"spear",
-    "area_name":"Glauruk Spawning Ground",
-    "rarity":"common",
-    "weapon_avg":12,
-    "weapon_flags":"two-handed",
-    "weight":11.4375,
-    "wear_flags":"wield",
-    "name":"a simple reed javelin",
-    "item_type":"weapon",
-    "weapon_attack":"thrust",
-    "material":"wood",
-    "affects":{
-      "damage roll":2,
-      "hit roll":1
     },
     "level":13
   },{
@@ -30951,6 +31699,23 @@
     },
     "level":12
   },{
+    "weapon_type":"polearm",
+    "area_name":"Amaranthian Forest",
+    "rarity":"common",
+    "weapon_avg":12,
+    "weapon_flags":"two-handed",
+    "weight":19.8125,
+    "wear_flags":"wield",
+    "name":"a crudely-made polearm",
+    "item_type":"weapon",
+    "weapon_attack":"slash",
+    "material":"steel",
+    "affects":{
+      "damage roll":2,
+      "hit roll":-1
+    },
+    "level":12
+  },{
     "area_name":"Northern Foothills",
     "rarity":"common",
     "wear_flags":"finger",
@@ -31079,23 +31844,6 @@
     "level":12,
     "item_type":"weapon",
     "material":"steel"
-  },{
-    "weapon_type":"polearm",
-    "area_name":"Amaranthian Forest",
-    "rarity":"common",
-    "weapon_avg":12,
-    "weapon_flags":"two-handed",
-    "weight":19.8125,
-    "wear_flags":"wield",
-    "name":"a crudely-made polearm",
-    "item_type":"weapon",
-    "weapon_attack":"slash",
-    "material":"steel",
-    "affects":{
-      "damage roll":2,
-      "hit roll":-1
-    },
-    "level":12
   },{
     "weapon_type":"mace",
     "area_name":"Aturi",
@@ -31849,6 +32597,20 @@
     },
     "level":12
   },{
+    "area_name":"Udgaard",
+    "rarity":"common",
+    "weight":6.125,
+    "wear_flags":"legs",
+    "armor_class":"Pierce: 5 Bash: 4 Slash: 5 Magic: 1 Element: 5",
+    "name":"studded rothe-hide pants",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "damage roll":1,
+      "hp":5
+    },
+    "level":12
+  },{
     "area_name":"The Galadon Sewers",
     "rarity":"common",
     "wear_flags":"neck",
@@ -31863,20 +32625,6 @@
     "level":12,
     "item_type":"armor",
     "material":"leather"
-  },{
-    "area_name":"Udgaard",
-    "rarity":"common",
-    "weight":6.125,
-    "wear_flags":"legs",
-    "armor_class":"Pierce: 5 Bash: 4 Slash: 5 Magic: 1 Element: 5",
-    "name":"studded rothe-hide pants",
-    "item_type":"armor",
-    "material":"leather",
-    "affects":{
-      "damage roll":1,
-      "hp":5
-    },
-    "level":12
   },{
     "weapon_type":"polearm",
     "area_name":"The Ancient Road to the Wastes",
@@ -32284,19 +33032,6 @@
     "weight":14.9375,
     "level":10
   },{
-    "area_name":"Hillcrest",
-    "rarity":"common",
-    "weight":0.4375,
-    "wear_flags":"wrist",
-    "name":"a bracelet encrusted with opals",
-    "item_type":"treasure",
-    "material":"opal",
-    "affects":{
-      "hit roll":2,
-      "charisma":1
-    },
-    "level":10
-  },{
     "area_name":"The Coastal Plains",
     "rarity":"common",
     "weight":7.6875,
@@ -32308,6 +33043,19 @@
     "affects":{
       "dexterity":1,
       "moves":30
+    },
+    "level":10
+  },{
+    "area_name":"Hillcrest",
+    "rarity":"common",
+    "weight":0.4375,
+    "wear_flags":"wrist",
+    "name":"a bracelet encrusted with opals",
+    "item_type":"treasure",
+    "material":"opal",
+    "affects":{
+      "hit roll":2,
+      "charisma":1
     },
     "level":10
   },{
@@ -32466,6 +33214,21 @@
     "item_type":"armor",
     "material":"hide"
   },{
+    "area_name":"The Goblin Village",
+    "rarity":"common",
+    "weight":11.125,
+    "wear_flags":"waist",
+    "armor_class":"Pierce: 6 Bash: 6 Slash: 6 Magic: 6 Element: 6",
+    "name":"a wide bronze belt",
+    "item_type":"armor",
+    "material":"bronze",
+    "affects":{
+      "strength":1,
+      "hp":12,
+      "constitution":2
+    },
+    "level":10
+  },{
     "area_name":"Ysigrath",
     "rarity":"common",
     "wear_flags":"shield",
@@ -32494,21 +33257,6 @@
     "level":10,
     "item_type":"armor",
     "material":"bone"
-  },{
-    "area_name":"The Goblin Village",
-    "rarity":"common",
-    "weight":11.125,
-    "wear_flags":"waist",
-    "armor_class":"Pierce: 6 Bash: 6 Slash: 6 Magic: 6 Element: 6",
-    "name":"a wide bronze belt",
-    "item_type":"armor",
-    "material":"bronze",
-    "affects":{
-      "strength":1,
-      "hp":12,
-      "constitution":2
-    },
-    "level":10
   },{
     "weapon_type":"bow",
     "area_name":"Lord Tabershaw's Keep",
@@ -33328,33 +34076,6 @@
     },
     "level":10
   },{
-    "weapon_type":"mace",
-    "area_name":"Northern Foothills",
-    "rarity":"common",
-    "weapon_avg":8,
-    "wear_flags":"wield",
-    "name":"a small black sack filled with heavy dust",
-    "item_type":"weapon",
-    "weapon_attack":"crush",
-    "material":"leather",
-    "weight":11,
-    "level":10
-  },{
-    "weapon_type":"sword",
-    "area_name":"Aturi",
-    "rarity":"common",
-    "weapon_avg":7,
-    "weight":4.9375,
-    "wear_flags":"wield",
-    "name":"a practice sword",
-    "item_type":"weapon",
-    "weapon_attack":"slash",
-    "material":"wood",
-    "affects":{
-      "hit roll":2
-    },
-    "level":10
-  },{
     "weapon_type":"sword",
     "area_name":"Aldevari",
     "rarity":"common",
@@ -33387,17 +34108,30 @@
     },
     "level":10
   },{
+    "weapon_type":"mace",
+    "area_name":"Northern Foothills",
+    "rarity":"common",
+    "weapon_avg":8,
+    "wear_flags":"wield",
+    "name":"a small black sack filled with heavy dust",
+    "item_type":"weapon",
+    "weapon_attack":"crush",
+    "material":"leather",
+    "weight":11,
+    "level":10
+  },{
+    "weapon_type":"sword",
     "area_name":"Aturi",
     "rarity":"common",
-    "weight":5.5625,
-    "wear_flags":"legs",
-    "armor_class":"Pierce: 4 Bash: 2 Slash: 4 Magic: 1 Element: 5",
-    "name":"a pair of sturdy leather leggings",
-    "item_type":"armor",
-    "material":"leather",
+    "weapon_avg":7,
+    "weight":4.9375,
+    "wear_flags":"wield",
+    "name":"a practice sword",
+    "item_type":"weapon",
+    "weapon_attack":"slash",
+    "material":"wood",
     "affects":{
-      "hp":5,
-      "moves":15
+      "hit roll":2
     },
     "level":10
   },{
@@ -33414,6 +34148,49 @@
     "affects":{
       "damage roll":1,
       "hit roll":1
+    },
+    "level":10
+  },{
+    "area_name":"Amaranthian Forest",
+    "rarity":"common",
+    "weight":22.4375,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 2 Bash: 4 Slash: 6 Magic: 1 Element: 3",
+    "name":"a rusting piece of iron chainmail",
+    "item_type":"armor",
+    "material":"iron",
+    "affects":{
+      "charisma":-2
+    },
+    "level":10
+  },{
+    "area_name":"Aturi",
+    "rarity":"common",
+    "weight":5.5625,
+    "wear_flags":"legs",
+    "armor_class":"Pierce: 4 Bash: 2 Slash: 4 Magic: 1 Element: 5",
+    "name":"a pair of sturdy leather leggings",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "hp":5,
+      "moves":15
+    },
+    "level":10
+  },{
+    "area_name":"Amaranthian Forest",
+    "rarity":"common",
+    "weight":1.8125,
+    "wear_flags":"feet",
+    "armor_class":"Pierce: 4 Bash: 2 Slash: 4 Magic: 1 Element: 5",
+    "name":"a pair of hobnail boots",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "damage roll":1,
+      "movement regeneration":-2,
+      "hp":8,
+      "moves":-10
     },
     "level":10
   },{
@@ -33476,35 +34253,6 @@
     },
     "level":10
   },{
-    "area_name":"Amaranthian Forest",
-    "rarity":"common",
-    "weight":22.4375,
-    "wear_flags":"body",
-    "armor_class":"Pierce: 2 Bash: 4 Slash: 6 Magic: 1 Element: 3",
-    "name":"a rusting piece of iron chainmail",
-    "item_type":"armor",
-    "material":"iron",
-    "affects":{
-      "charisma":-2
-    },
-    "level":10
-  },{
-    "area_name":"Amaranthian Forest",
-    "rarity":"common",
-    "weight":1.8125,
-    "wear_flags":"feet",
-    "armor_class":"Pierce: 4 Bash: 2 Slash: 4 Magic: 1 Element: 5",
-    "name":"a pair of hobnail boots",
-    "item_type":"armor",
-    "material":"leather",
-    "affects":{
-      "damage roll":1,
-      "movement regeneration":-2,
-      "hp":8,
-      "moves":-10
-    },
-    "level":10
-  },{
     "area_name":"Akan",
     "rarity":"common",
     "wear_flags":"body",
@@ -33552,6 +34300,34 @@
     },
     "level":10
   },{
+    "weapon_type":"dagger",
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "weapon_avg":8,
+    "wear_flags":"wield",
+    "name":"a corroded dagger",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"steel",
+    "weight":2.1875,
+    "level":10
+  },{
+    "weapon_type":"sword",
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "weapon_avg":8,
+    "weight":9.875,
+    "wear_flags":"wield",
+    "name":"a dull and rusted cutlass",
+    "item_type":"weapon",
+    "weapon_attack":"slice",
+    "material":"steel",
+    "affects":{
+      "damage roll":1,
+      "hit roll":-1
+    },
+    "level":10
+  },{
     "area_name":"Akan",
     "rarity":"common",
     "wear_flags":"feet",
@@ -33590,34 +34366,6 @@
     "level":10,
     "item_type":"armor",
     "material":"mithril"
-  },{
-    "weapon_type":"dagger",
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weapon_avg":8,
-    "wear_flags":"wield",
-    "name":"a corroded dagger",
-    "item_type":"weapon",
-    "weapon_attack":"stab",
-    "material":"steel",
-    "weight":2.1875,
-    "level":10
-  },{
-    "weapon_type":"sword",
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "weapon_avg":8,
-    "weight":9.875,
-    "wear_flags":"wield",
-    "name":"a dull and rusted cutlass",
-    "item_type":"weapon",
-    "weapon_attack":"slice",
-    "material":"steel",
-    "affects":{
-      "damage roll":1,
-      "hit roll":-1
-    },
-    "level":10
   },{
     "weapon_type":"dagger",
     "area_name":"Loch Terradian",
@@ -33674,6 +34422,19 @@
     "material":"iron",
     "armor_class":"Pierce: 5 Bash: 4 Slash: 5 Magic: 1 Element: 5",
     "level":10
+  },{
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "wear_flags":"body",
+    "flags":["female_only"],
+    "affects":{
+      "charisma":-1
+    },
+    "name":"a plain dress",
+    "weight":3.125,
+    "level":10,
+    "item_type":"clothing",
+    "material":"cloth"
   },{
     "area_name":"Blackclaw Village",
     "rarity":"common",
@@ -33767,19 +34528,6 @@
     "rarity":"common",
     "wear_flags":"body",
     "flags":["female_only"],
-    "affects":{
-      "charisma":-1
-    },
-    "name":"a plain dress",
-    "weight":3.125,
-    "level":10,
-    "item_type":"clothing",
-    "material":"cloth"
-  },{
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "wear_flags":"body",
-    "flags":["female_only"],
     "name":"a simple red dress",
     "weight":3.125,
     "level":10,
@@ -33797,6 +34545,15 @@
       "charisma":2
     },
     "level":10
+  },{
+    "wear_flags":"body",
+    "area_name":"Loch Terradian",
+    "name":"a dirty apron",
+    "weight":1.75,
+    "rarity":"common",
+    "level":10,
+    "item_type":"clothing",
+    "material":"cloth"
   },{
     "area_name":"The Seaport of Hamsah Mu'tazz",
     "rarity":"common",
@@ -33825,15 +34582,6 @@
     },
     "level":10
   },{
-    "wear_flags":"body",
-    "area_name":"Loch Terradian",
-    "name":"a dirty apron",
-    "weight":1.75,
-    "rarity":"common",
-    "level":10,
-    "item_type":"clothing",
-    "material":"cloth"
-  },{
     "weapon_type":"dagger",
     "area_name":"The Seaport of Hamsah Mu'tazz",
     "rarity":"common",
@@ -33848,6 +34596,20 @@
       "damage roll":2
     },
     "level":10
+  },{
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "wear_flags":"about",
+    "flags":["glowing","bless"],
+    "affects":{
+      "intelligence":2,
+      "mana":10
+    },
+    "name":"a dark purple robe",
+    "weight":5.5,
+    "level":10,
+    "item_type":"clothing",
+    "material":"cloth"
   },{
     "area_name":"The Seaport of Hamsah Mu'tazz",
     "rarity":"common",
@@ -33864,7 +34626,7 @@
   },{
     "area_name":"The Seaport of Hamsah Mu'tazz",
     "rarity":"common",
-    "weight":0.1875,
+    "weight":0.9375,
     "wear_flags":"finger",
     "name":"entwined rings of amethyst and citrine",
     "item_type":"treasure",
@@ -33873,6 +34635,19 @@
       "armor class":-20
     },
     "level":10
+  },{
+    "area_name":"Loch Terradian",
+    "rarity":"common",
+    "wear_flags":"about",
+    "flags":["elf_only"],
+    "affects":{
+      "intelligence":1
+    },
+    "name":"an embroidered elven robe",
+    "weight":4.5,
+    "level":10,
+    "item_type":"clothing",
+    "material":"silk"
   },{
     "area_name":"The Seaport of Hamsah Mu'tazz",
     "rarity":"common",
@@ -33898,33 +34673,6 @@
       "wisdom":1
     },
     "level":10
-  },{
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "wear_flags":"about",
-    "flags":["glowing","bless"],
-    "affects":{
-      "intelligence":2,
-      "mana":10
-    },
-    "name":"a dark purple robe",
-    "weight":5.5,
-    "level":10,
-    "item_type":"clothing",
-    "material":"cloth"
-  },{
-    "area_name":"Loch Terradian",
-    "rarity":"common",
-    "wear_flags":"about",
-    "flags":["elf_only"],
-    "affects":{
-      "intelligence":1
-    },
-    "name":"an embroidered elven robe",
-    "weight":4.5,
-    "level":10,
-    "item_type":"clothing",
-    "material":"silk"
   },{
     "area_name":"Loch Terradian",
     "rarity":"common",
@@ -33968,20 +34716,6 @@
     },
     "level":10
   },{
-    "area_name":"The Xvart Lair",
-    "rarity":"common",
-    "weight":3.8125,
-    "wear_flags":"wrist",
-    "name":"a platinum bracelet set with numerous jewels",
-    "item_type":"treasure",
-    "material":"platinum",
-    "affects":{
-      "dexterity":-1,
-      "charisma":1,
-      "armor class":-3
-    },
-    "level":10
-  },{
     "wear_flags":"body",
     "area_name":"Aldevari",
     "name":"a long white gown",
@@ -34000,6 +34734,20 @@
     "material":"silver",
     "affects":{
       "charisma":1
+    },
+    "level":10
+  },{
+    "area_name":"The Xvart Lair",
+    "rarity":"common",
+    "weight":3.8125,
+    "wear_flags":"wrist",
+    "name":"a platinum bracelet set with numerous jewels",
+    "item_type":"treasure",
+    "material":"platinum",
+    "affects":{
+      "dexterity":-1,
+      "charisma":1,
+      "armor class":-3
     },
     "level":10
   },{
@@ -34251,6 +34999,21 @@
     },
     "level":10
   },{
+    "weapon_type":"mace",
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "weapon_avg":9,
+    "weight":6.9375,
+    "wear_flags":"wield",
+    "name":"a small bloody mace",
+    "item_type":"weapon",
+    "weapon_attack":"crush",
+    "material":"bone",
+    "affects":{
+      "damage roll":2
+    },
+    "level":10
+  },{
     "area_name":"Outlying Villages",
     "rarity":"common",
     "wear_flags":"body",
@@ -34289,18 +35052,22 @@
     "item_type":"clothing",
     "material":"cloth"
   },{
-    "weapon_type":"mace",
-    "area_name":"Aldevari",
+    "weapon_type":"staff",
+    "area_name":"Troglodyte Caverns",
     "rarity":"common",
-    "weapon_avg":9,
-    "weight":6.9375,
+    "weapon_avg":8,
+    "weapon_flags":"two-handed",
+    "weight":11.9375,
     "wear_flags":"wield",
-    "name":"a small bloody mace",
+    "name":"a short staff",
     "item_type":"weapon",
-    "weapon_attack":"crush",
-    "material":"bone",
+    "weapon_attack":"pound",
+    "material":"wood",
     "affects":{
-      "damage roll":2
+      "damage roll":1,
+      "hit roll":1,
+      "movement regeneration":2,
+      "moves":8
     },
     "level":10
   },{
@@ -34357,25 +35124,6 @@
     },
     "level":10
   },{
-    "weapon_type":"staff",
-    "area_name":"Troglodyte Caverns",
-    "rarity":"common",
-    "weapon_avg":8,
-    "weapon_flags":"two-handed",
-    "weight":11.9375,
-    "wear_flags":"wield",
-    "name":"a short staff",
-    "item_type":"weapon",
-    "weapon_attack":"pound",
-    "material":"wood",
-    "affects":{
-      "damage roll":1,
-      "hit roll":1,
-      "movement regeneration":2,
-      "moves":8
-    },
-    "level":10
-  },{
     "area_name":"Voralian City",
     "rarity":"common",
     "weight":1.4375,
@@ -34387,6 +35135,21 @@
     "affects":{
       "dexterity":1,
       "hit roll":2
+    },
+    "level":10
+  },{
+    "weapon_type":"dagger",
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "weapon_avg":9,
+    "weight":2.9375,
+    "wear_flags":"wield",
+    "name":"a black serrated dagger",
+    "item_type":"weapon",
+    "weapon_attack":"bite",
+    "material":"iron",
+    "affects":{
+      "dexterity":2
     },
     "level":10
   },{
@@ -34415,21 +35178,6 @@
       "save vs breath":-4,
       "hp":8,
       "morale":4
-    },
-    "level":10
-  },{
-    "weapon_type":"dagger",
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "weapon_avg":9,
-    "weight":2.9375,
-    "wear_flags":"wield",
-    "name":"a black serrated dagger",
-    "item_type":"weapon",
-    "weapon_attack":"bite",
-    "material":"iron",
-    "affects":{
-      "dexterity":2
     },
     "level":10
   },{
@@ -34510,6 +35258,18 @@
     },
     "level":10
   },{
+    "weapon_type":"dagger",
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "weapon_avg":6,
+    "wear_flags":"wield",
+    "name":"a small hunting knife",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"adamantite",
+    "weight":2.9375,
+    "level":10
+  },{
     "area_name":"Feanwyyn Weald",
     "rarity":"common",
     "weight":0.1875,
@@ -34521,6 +35281,27 @@
       "damage roll":2
     },
     "level":10
+  },{
+    "area_name":"Sands of Sorrow",
+    "rarity":"common",
+    "weight":3.9375,
+    "wear_flags":"neck",
+    "name":"a tattered and torn silk cloak",
+    "item_type":"clothing",
+    "material":"silk",
+    "affects":{
+      "dexterity":1
+    },
+    "level":10
+  },{
+    "wear_flags":"neck",
+    "area_name":"Sands of Sorrow",
+    "name":"a torn green cape",
+    "weight":7,
+    "rarity":"common",
+    "level":10,
+    "item_type":"clothing",
+    "material":"cloth"
   },{
     "area_name":"The Sewers of Seantryn Modan",
     "rarity":"common",
@@ -34561,18 +35342,6 @@
     },
     "level":10
   },{
-    "weapon_type":"dagger",
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "weapon_avg":6,
-    "wear_flags":"wield",
-    "name":"a small hunting knife",
-    "item_type":"weapon",
-    "weapon_attack":"stab",
-    "material":"adamantite",
-    "weight":2.9375,
-    "level":10
-  },{
     "area_name":"Temple of Loch Grynmear",
     "rarity":"common",
     "weight":1,
@@ -34582,18 +35351,6 @@
     "material":"silver",
     "affects":{
       "mana":15
-    },
-    "level":10
-  },{
-    "area_name":"Sands of Sorrow",
-    "rarity":"common",
-    "weight":3.9375,
-    "wear_flags":"neck",
-    "name":"a tattered and torn silk cloak",
-    "item_type":"clothing",
-    "material":"silk",
-    "affects":{
-      "dexterity":1
     },
     "level":10
   },{
@@ -34623,14 +35380,17 @@
     },
     "level":10
   },{
-    "wear_flags":"neck",
-    "area_name":"Sands of Sorrow",
-    "name":"a torn green cape",
-    "weight":7,
+    "weapon_type":"mace",
+    "area_name":"Aldevari",
     "rarity":"common",
-    "level":10,
-    "item_type":"clothing",
-    "material":"cloth"
+    "weapon_avg":7,
+    "wear_flags":"wield",
+    "name":"a small wooden cudgel",
+    "item_type":"weapon",
+    "weapon_attack":"beating",
+    "material":"wood",
+    "weight":8.9375,
+    "level":10
   },{
     "area_name":"Felar Encampment",
     "rarity":"common",
@@ -34681,18 +35441,6 @@
     "item_type":"clothing",
     "material":"cloth"
   },{
-    "weapon_type":"mace",
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "weapon_avg":7,
-    "wear_flags":"wield",
-    "name":"a small wooden cudgel",
-    "item_type":"weapon",
-    "weapon_attack":"beating",
-    "material":"wood",
-    "weight":8.9375,
-    "level":10
-  },{
     "area_name":"Felar Encampment",
     "rarity":"common",
     "weight":2.9375,
@@ -34703,6 +35451,22 @@
     "material":"leather",
     "affects":{
       "moves":10
+    },
+    "level":10
+  },{
+    "weapon_type":"spear",
+    "area_name":"Sands of Sorrow",
+    "rarity":"common",
+    "weapon_avg":7,
+    "weapon_flags":"two-handed",
+    "weight":7.9375,
+    "wear_flags":"wield",
+    "name":"a dull, splintered spear",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"iron",
+    "affects":{
+      "damage roll":-1
     },
     "level":10
   },{
@@ -34817,20 +35581,16 @@
     "item_type":"clothing",
     "material":"cloth"
   },{
-    "weapon_type":"spear",
-    "area_name":"Sands of Sorrow",
+    "weapon_type":"sword",
+    "area_name":"Aldevari",
     "rarity":"common",
-    "weapon_avg":7,
-    "weapon_flags":"two-handed",
-    "weight":7.9375,
+    "weapon_avg":4,
     "wear_flags":"wield",
-    "name":"a dull, splintered spear",
+    "name":"a long-handled sickle",
     "item_type":"weapon",
-    "weapon_attack":"stab",
-    "material":"iron",
-    "affects":{
-      "damage roll":-1
-    },
+    "weapon_attack":"slice",
+    "material":"wood",
+    "weight":7.9375,
     "level":10
   },{
     "area_name":"Coastal Wetlands",
@@ -34891,18 +35651,6 @@
     "affects":{
       "strength":1
     },
-    "level":10
-  },{
-    "weapon_type":"sword",
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "weapon_avg":4,
-    "wear_flags":"wield",
-    "name":"a long-handled sickle",
-    "item_type":"weapon",
-    "weapon_attack":"slice",
-    "material":"wood",
-    "weight":7.9375,
     "level":10
   },{
     "weapon_type":"dagger",
@@ -35001,6 +35749,18 @@
     },
     "level":10
   },{
+    "weapon_type":"mace",
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "weapon_avg":9,
+    "wear_flags":"wield",
+    "name":"a finely crafted mace",
+    "item_type":"weapon",
+    "weapon_attack":"crush",
+    "material":"steel",
+    "weight":5.9375,
+    "level":10
+  },{
     "area_name":"Blackwater Swamp",
     "rarity":"common",
     "weight":1.75,
@@ -35063,18 +35823,6 @@
     },
     "level":10
   },{
-    "weapon_type":"mace",
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "weapon_avg":9,
-    "wear_flags":"wield",
-    "name":"a finely crafted mace",
-    "item_type":"weapon",
-    "weapon_attack":"crush",
-    "material":"steel",
-    "weight":5.9375,
-    "level":10
-  },{
     "area_name":"The Halfling Lands",
     "rarity":"common",
     "weight":7.4375,
@@ -35100,6 +35848,19 @@
       "dexterity":1,
       "moves":10
     },
+    "level":10
+  },{
+    "weapon_type":"polearm",
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "weapon_avg":9,
+    "wear_flags":"wield",
+    "weapon_flags":"two-handed",
+    "name":"an engraved black lance",
+    "item_type":"weapon",
+    "weapon_attack":"pierce",
+    "material":"wood",
+    "weight":9.9375,
     "level":10
   },{
     "area_name":"Hamsah Mu'tazz",
@@ -35178,19 +35939,6 @@
     "weapon_attack":"stab",
     "material":"steel",
     "weight":4.375,
-    "level":10
-  },{
-    "weapon_type":"polearm",
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "weapon_avg":9,
-    "wear_flags":"wield",
-    "weapon_flags":"two-handed",
-    "name":"an engraved black lance",
-    "item_type":"weapon",
-    "weapon_attack":"pierce",
-    "material":"wood",
-    "weight":9.9375,
     "level":10
   },{
     "weapon_type":"spear",
@@ -35370,6 +36118,19 @@
     },
     "level":10
   },{
+    "weapon_type":"polearm",
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "weapon_avg":9,
+    "wear_flags":"wield",
+    "weapon_flags":"two-handed",
+    "name":"a long titanium polearm",
+    "item_type":"weapon",
+    "weapon_attack":"pound",
+    "material":"titanium",
+    "weight":9.9375,
+    "level":10
+  },{
     "weapon_type":"dagger",
     "area_name":"Arkham",
     "rarity":"common",
@@ -35531,19 +36292,6 @@
     "weapon_attack":"pound",
     "material":"wood",
     "weight":8.875,
-    "level":10
-  },{
-    "weapon_type":"polearm",
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "weapon_avg":9,
-    "wear_flags":"wield",
-    "weapon_flags":"two-handed",
-    "name":"a long titanium polearm",
-    "item_type":"weapon",
-    "weapon_attack":"pound",
-    "material":"titanium",
-    "weight":9.9375,
     "level":10
   },{
     "area_name":"South Dairein Settlement",
@@ -36775,29 +37523,6 @@
     },
     "level":10
   },{
-    "area_name":"Balator",
-    "rarity":"common",
-    "weight":5.5625,
-    "wear_flags":"body",
-    "armor_class":"Pierce: 2 Bash: 5 Slash: 3 Magic: 1 Element: 3",
-    "name":"a padded vest",
-    "item_type":"armor",
-    "material":"cloth",
-    "affects":{
-      "constitution":2
-    },
-    "level":10
-  },{
-    "area_name":"Balator",
-    "rarity":"common",
-    "wear_flags":"shield",
-    "weight":6.6875,
-    "name":"a practice shield",
-    "item_type":"armor",
-    "material":"wood",
-    "armor_class":"Pierce: 4 Bash: 3 Slash: 3 Magic: 1 Element: 6",
-    "level":10
-  },{
     "area_name":"Udgaard",
     "rarity":"common",
     "weight":3.5625,
@@ -36826,6 +37551,29 @@
     "affects":{
       "hit roll":-3
     },
+    "level":10
+  },{
+    "area_name":"Balator",
+    "rarity":"common",
+    "weight":5.5625,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 2 Bash: 5 Slash: 3 Magic: 1 Element: 3",
+    "name":"a padded vest",
+    "item_type":"armor",
+    "material":"cloth",
+    "affects":{
+      "constitution":2
+    },
+    "level":10
+  },{
+    "area_name":"Balator",
+    "rarity":"common",
+    "wear_flags":"shield",
+    "weight":6.6875,
+    "name":"a practice shield",
+    "item_type":"armor",
+    "material":"wood",
+    "armor_class":"Pierce: 4 Bash: 3 Slash: 3 Magic: 1 Element: 6",
     "level":10
   },{
     "area_name":"Silverwood",
@@ -37171,6 +37919,20 @@
     },
     "level":9
   },{
+    "area_name":"Amaranthian Forest",
+    "rarity":"common",
+    "weight":0.9375,
+    "wear_flags":"ears",
+    "name":"a pair of dangling jeweled earrings",
+    "item_type":"treasure",
+    "material":"silver",
+    "affects":{
+      "charisma":1,
+      "save vs spell":-3,
+      "mana":20
+    },
+    "level":9
+  },{
     "area_name":"Northern Foothills",
     "rarity":"common",
     "weight":7.0625,
@@ -37199,20 +37961,6 @@
     "level":9,
     "item_type":"clothing",
     "material":"cloth"
-  },{
-    "area_name":"Amaranthian Forest",
-    "rarity":"common",
-    "weight":0.9375,
-    "wear_flags":"ears",
-    "name":"a pair of dangling jeweled earrings",
-    "item_type":"treasure",
-    "material":"silver",
-    "affects":{
-      "charisma":1,
-      "save vs spell":-3,
-      "mana":20
-    },
-    "level":9
   },{
     "weapon_type":"mace",
     "area_name":"Akan",
@@ -37359,6 +38107,16 @@
     "weight":3.9375,
     "level":9
   },{
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "wear_flags":"feet",
+    "weight":1.8125,
+    "name":"leather hunting boots",
+    "item_type":"armor",
+    "material":"leather",
+    "armor_class":"Pierce: 2 Bash: 2 Slash: 2 Magic: 1 Element: 3",
+    "level":9
+  },{
     "area_name":"Udgaardian Plains",
     "rarity":"common",
     "weight":3.625,
@@ -37398,16 +38156,6 @@
     "level":9,
     "item_type":"clothing",
     "material":"leather"
-  },{
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "wear_flags":"feet",
-    "weight":1.8125,
-    "name":"leather hunting boots",
-    "item_type":"armor",
-    "material":"leather",
-    "armor_class":"Pierce: 2 Bash: 2 Slash: 2 Magic: 1 Element: 3",
-    "level":9
   },{
     "area_name":"Aldevari",
     "rarity":"common",
@@ -38339,18 +39087,6 @@
     },
     "level":7
   },{
-    "area_name":"Seantryn Modan",
-    "rarity":"common",
-    "weight":6.9375,
-    "wear_flags":"hold",
-    "name":"a black ukulele",
-    "item_type":"instrument",
-    "material":"wood",
-    "affects":{
-      "charisma":-1
-    },
-    "level":7
-  },{
     "weapon_type":"dagger",
     "area_name":"Amaranthian Forest",
     "rarity":"common",
@@ -38375,11 +39111,36 @@
     "weight":6.625,
     "level":7
   },{
+    "area_name":"Seantryn Modan",
+    "rarity":"common",
+    "weight":6.9375,
+    "wear_flags":"hold",
+    "name":"a black ukulele",
+    "item_type":"instrument",
+    "material":"wood",
+    "affects":{
+      "charisma":-1
+    },
+    "level":7
+  },{
     "area_name":"Aldevari",
     "rarity":"common",
     "weight":5.5,
     "wear_flags":"neck",
     "name":"a royal blue cloak",
+    "item_type":"clothing",
+    "material":"cloth",
+    "affects":{
+      "movement regeneration":4,
+      "charisma":2
+    },
+    "level":7
+  },{
+    "area_name":"Aldevari",
+    "rarity":"common",
+    "weight":5.5,
+    "wear_flags":"about",
+    "name":"a deep red robe",
     "item_type":"clothing",
     "material":"cloth",
     "affects":{
@@ -38410,19 +39171,6 @@
     "material":"leather",
     "affects":{
       "strength":1
-    },
-    "level":7
-  },{
-    "area_name":"Aldevari",
-    "rarity":"common",
-    "weight":5.5,
-    "wear_flags":"about",
-    "name":"a deep red robe",
-    "item_type":"clothing",
-    "material":"cloth",
-    "affects":{
-      "movement regeneration":4,
-      "charisma":2
     },
     "level":7
   },{
@@ -38487,21 +39235,6 @@
     },
     "level":7
   },{
-    "area_name":"Voralian City",
-    "rarity":"common",
-    "weight":6.6875,
-    "wear_flags":"shield",
-    "armor_class":"Pierce: 2 Bash: 2 Slash: 2 Magic: 1 Element: 4",
-    "name":"a lightweight teardrop shield made of pine",
-    "item_type":"armor",
-    "material":"wood",
-    "affects":{
-      "save vs breath":-3,
-      "hp":6,
-      "morale":3
-    },
-    "level":7
-  },{
     "area_name":"Troglodyte Caverns",
     "rarity":"common",
     "weight":7.4375,
@@ -38514,6 +39247,21 @@
       "damage roll":1,
       "hp":3,
       "save vs breath":-2
+    },
+    "level":7
+  },{
+    "area_name":"Voralian City",
+    "rarity":"common",
+    "weight":6.6875,
+    "wear_flags":"shield",
+    "armor_class":"Pierce: 2 Bash: 2 Slash: 2 Magic: 1 Element: 4",
+    "name":"a lightweight teardrop shield made of pine",
+    "item_type":"armor",
+    "material":"wood",
+    "affects":{
+      "save vs breath":-3,
+      "hp":6,
+      "morale":3
     },
     "level":7
   },{
@@ -39453,6 +40201,23 @@
     },
     "level":5
   },{
+    "weapon_type":"spear",
+    "area_name":"The Goblin Village",
+    "rarity":"common",
+    "weapon_avg":8,
+    "weapon_flags":"two-handed",
+    "weight":11.9375,
+    "wear_flags":"wield",
+    "name":"a goblin spear",
+    "item_type":"weapon",
+    "weapon_attack":"pierce",
+    "material":"steel",
+    "affects":{
+      "damage roll":1,
+      "hit roll":1
+    },
+    "level":5
+  },{
     "wear_flags":"body",
     "area_name":"The Fields of Balator",
     "name":"a beige cotton tunic",
@@ -39507,6 +40272,18 @@
     "item_type":"clothing",
     "material":"cloth"
   },{
+    "weapon_type":"mace",
+    "area_name":"The Goblin Village",
+    "rarity":"common",
+    "weapon_avg":7,
+    "wear_flags":"wield",
+    "name":"a frying pan",
+    "item_type":"weapon",
+    "weapon_attack":"pound",
+    "material":"steel",
+    "weight":1,
+    "level":5
+  },{
     "weapon_type":"staff",
     "area_name":"Azreth Wood",
     "rarity":"common",
@@ -39520,23 +40297,6 @@
     "material":"wood",
     "affects":{
       "dexterity":-1
-    },
-    "level":5
-  },{
-    "weapon_type":"spear",
-    "area_name":"The Goblin Village",
-    "rarity":"common",
-    "weapon_avg":8,
-    "weapon_flags":"two-handed",
-    "weight":11.9375,
-    "wear_flags":"wield",
-    "name":"a goblin spear",
-    "item_type":"weapon",
-    "weapon_attack":"pierce",
-    "material":"steel",
-    "affects":{
-      "damage roll":1,
-      "hit roll":1
     },
     "level":5
   },{
@@ -39569,6 +40329,15 @@
       "hit roll":2
     },
     "level":5
+  },{
+    "wear_flags":"about",
+    "area_name":"The Goblin Village",
+    "name":"some tattered rags",
+    "weight":4.0625,
+    "rarity":"common",
+    "level":5,
+    "item_type":"clothing",
+    "material":"cloth"
   },{
     "weapon_type":"mace",
     "area_name":"The Lumberyard",
@@ -39607,6 +40376,22 @@
     },
     "level":5
   },{
+    "weapon_type":"dagger",
+    "area_name":"The Goblin Village",
+    "rarity":"common",
+    "weapon_avg":8,
+    "weight":1.9375,
+    "wear_flags":"wield",
+    "name":"an old dagger",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"steel",
+    "affects":{
+      "damage roll":1,
+      "hit roll":1
+    },
+    "level":5
+  },{
     "wear_flags":"hold",
     "area_name":"The Lumberyard",
     "name":"a silk handkerchief",
@@ -39627,43 +40412,6 @@
       "save vs spell":-1,
       "intelligence":1,
       "wisdom":1
-    },
-    "level":5
-  },{
-    "weapon_type":"mace",
-    "area_name":"The Goblin Village",
-    "rarity":"common",
-    "weapon_avg":7,
-    "wear_flags":"wield",
-    "name":"a frying pan",
-    "item_type":"weapon",
-    "weapon_attack":"pound",
-    "material":"steel",
-    "weight":1,
-    "level":5
-  },{
-    "wear_flags":"about",
-    "area_name":"The Goblin Village",
-    "name":"some tattered rags",
-    "weight":4.0625,
-    "rarity":"common",
-    "level":5,
-    "item_type":"clothing",
-    "material":"cloth"
-  },{
-    "weapon_type":"dagger",
-    "area_name":"The Goblin Village",
-    "rarity":"common",
-    "weapon_avg":8,
-    "weight":1.9375,
-    "wear_flags":"wield",
-    "name":"an old dagger",
-    "item_type":"weapon",
-    "weapon_attack":"stab",
-    "material":"steel",
-    "affects":{
-      "damage roll":1,
-      "hit roll":1
     },
     "level":5
   },{
@@ -39725,6 +40473,32 @@
     "item_type":"treasure",
     "material":"crystal"
   },{
+    "area_name":"The Kobold Warrens",
+    "rarity":"common",
+    "weight":1.375,
+    "wear_flags":"neck",
+    "name":"a necklace of rat teeth",
+    "item_type":"clothing",
+    "material":"bone",
+    "affects":{
+      "intelligence":1,
+      "charisma":-1
+    },
+    "level":5
+  },{
+    "area_name":"The Kobold Warrens",
+    "rarity":"common",
+    "weight":1.4375,
+    "wear_flags":"hands",
+    "armor_class":"Pierce: 2 Bash: 2 Slash: 2 Magic: 1 Element: 3",
+    "name":"a pair of ratskin half-gloves",
+    "item_type":"armor",
+    "material":"leather",
+    "affects":{
+      "dexterity":1
+    },
+    "level":5
+  },{
     "area_name":"The North Road",
     "rarity":"common",
     "weight":0.4375,
@@ -39750,19 +40524,6 @@
     },
     "level":5
   },{
-    "area_name":"The Kobold Warrens",
-    "rarity":"common",
-    "weight":1.375,
-    "wear_flags":"neck",
-    "name":"a necklace of rat teeth",
-    "item_type":"clothing",
-    "material":"bone",
-    "affects":{
-      "intelligence":1,
-      "charisma":-1
-    },
-    "level":5
-  },{
     "area_name":"Bramblefield Road",
     "rarity":"common",
     "weight":1.1875,
@@ -39777,28 +40538,6 @@
   },{
     "area_name":"The Kobold Warrens",
     "rarity":"common",
-    "weight":1.4375,
-    "wear_flags":"hands",
-    "armor_class":"Pierce: 2 Bash: 2 Slash: 2 Magic: 1 Element: 3",
-    "name":"a pair of ratskin half-gloves",
-    "item_type":"armor",
-    "material":"leather",
-    "affects":{
-      "dexterity":1
-    },
-    "level":5
-  },{
-    "wear_flags":"about",
-    "area_name":"Darsylon",
-    "name":"a light blue cotton dress",
-    "weight":3.3125,
-    "rarity":"common",
-    "level":5,
-    "item_type":"clothing",
-    "material":"cloth"
-  },{
-    "area_name":"The Kobold Warrens",
-    "rarity":"common",
     "weight":7.9375,
     "wear_flags":"neck",
     "armor_class":"Pierce: 2 Bash: 3 Slash: 2 Magic: 1 Element: 4",
@@ -39810,6 +40549,15 @@
       "movement regeneration":2
     },
     "level":5
+  },{
+    "wear_flags":"about",
+    "area_name":"Darsylon",
+    "name":"a light blue cotton dress",
+    "weight":3.3125,
+    "rarity":"common",
+    "level":5,
+    "item_type":"clothing",
+    "material":"cloth"
   },{
     "wear_flags":"legs",
     "area_name":"The Aryth Ocean",
@@ -40394,16 +41142,6 @@
     },
     "level":5
   },{
-    "area_name":"Outlying Villages",
-    "rarity":"common",
-    "wear_flags":"hooves",
-    "weight":7.4375,
-    "name":"a horseshoe",
-    "item_type":"armor",
-    "material":"steel",
-    "armor_class":"Pierce: 4 Bash: 4 Slash: 4 Magic: 1 Element: 2",
-    "level":5
-  },{
     "area_name":"Troglodyte Caverns",
     "rarity":"common",
     "weight":3.8125,
@@ -40418,6 +41156,16 @@
     },
     "level":5
   },{
+    "area_name":"Outlying Villages",
+    "rarity":"common",
+    "wear_flags":"hooves",
+    "weight":7.4375,
+    "name":"a horseshoe",
+    "item_type":"armor",
+    "material":"steel",
+    "armor_class":"Pierce: 4 Bash: 4 Slash: 4 Magic: 1 Element: 2",
+    "level":5
+  },{
     "area_name":"Troglodyte Caverns",
     "rarity":"common",
     "weight":7.4375,
@@ -40430,6 +41178,18 @@
       "damage roll":1,
       "morale":1
     },
+    "level":5
+  },{
+    "weapon_type":"dagger",
+    "area_name":"Troglodyte Caverns",
+    "rarity":"common",
+    "weapon_avg":6,
+    "wear_flags":"wield",
+    "name":"a copper dagger",
+    "item_type":"weapon",
+    "weapon_attack":"stab",
+    "material":"copper",
+    "weight":2.9375,
     "level":5
   },{
     "area_name":"The Violet Woodland",
@@ -40499,18 +41259,6 @@
     "weight":3.9375,
     "level":5
   },{
-    "weapon_type":"dagger",
-    "area_name":"Troglodyte Caverns",
-    "rarity":"common",
-    "weapon_avg":6,
-    "wear_flags":"wield",
-    "name":"a copper dagger",
-    "item_type":"weapon",
-    "weapon_attack":"stab",
-    "material":"copper",
-    "weight":2.9375,
-    "level":5
-  },{
     "area_name":"Voralian City",
     "rarity":"common",
     "weight":1.8125,
@@ -40535,6 +41283,21 @@
     "level":5,
     "item_type":"clothing",
     "material":"cloth"
+  },{
+    "area_name":"Troglodyte Caverns",
+    "rarity":"common",
+    "weight":5.6875,
+    "wear_flags":"body",
+    "armor_class":"Pierce: 0 Bash: 0 Slash: 0 Magic: 4 Element: 0",
+    "name":"a light yellow robe",
+    "item_type":"armor",
+    "material":"cloth",
+    "affects":{
+      "mana":5,
+      "hp":5,
+      "save vs spell":-1
+    },
+    "level":5
   },{
     "area_name":"Voralian City",
     "rarity":"common",
@@ -40561,21 +41324,6 @@
     "level":5,
     "item_type":"treasure",
     "material":"silver"
-  },{
-    "area_name":"Troglodyte Caverns",
-    "rarity":"common",
-    "weight":5.6875,
-    "wear_flags":"body",
-    "armor_class":"Pierce: 0 Bash: 0 Slash: 0 Magic: 4 Element: 0",
-    "name":"a light yellow robe",
-    "item_type":"armor",
-    "material":"cloth",
-    "affects":{
-      "mana":5,
-      "hp":5,
-      "save vs spell":-1
-    },
-    "level":5
   },{
     "area_name":"Troglodyte Caverns",
     "rarity":"common",
@@ -40745,32 +41493,6 @@
     "item_type":"clothing",
     "material":"cloth"
   },{
-    "area_name":"The Tower of Sorcery",
-    "rarity":"common",
-    "weight":1.125,
-    "wear_flags":"face",
-    "name":"a pair of spectacles",
-    "item_type":"clothing",
-    "material":"copper",
-    "affects":{
-      "intelligence":2,
-      "wisdom":2
-    },
-    "level":5
-  },{
-    "area_name":"The Tower of Sorcery",
-    "rarity":"common",
-    "weight":7,
-    "wear_flags":"about",
-    "name":"a waterproof traveling poncho",
-    "item_type":"clothing",
-    "material":"cloth",
-    "affects":{
-      "dexterity":2,
-      "armor class":-3
-    },
-    "level":5
-  },{
     "area_name":"Targeth's Manor",
     "rarity":"common",
     "weight":2.1875,
@@ -40800,6 +41522,32 @@
     "weight":17.5625,
     "level":5
   },{
+    "area_name":"The Tower of Sorcery",
+    "rarity":"common",
+    "weight":1.125,
+    "wear_flags":"face",
+    "name":"a pair of spectacles",
+    "item_type":"clothing",
+    "material":"copper",
+    "affects":{
+      "intelligence":2,
+      "wisdom":2
+    },
+    "level":5
+  },{
+    "area_name":"The Tower of Sorcery",
+    "rarity":"common",
+    "weight":7,
+    "wear_flags":"about",
+    "name":"a waterproof traveling poncho",
+    "item_type":"clothing",
+    "material":"cloth",
+    "affects":{
+      "dexterity":2,
+      "armor class":-3
+    },
+    "level":5
+  },{
     "weapon_type":"spear",
     "area_name":"Targeth's Manor",
     "rarity":"common",
@@ -40813,6 +41561,18 @@
     "weight":16.5,
     "level":5
   },{
+    "weapon_type":"sword",
+    "area_name":"Targeth's Manor",
+    "rarity":"common",
+    "weapon_avg":10,
+    "wear_flags":"wield",
+    "name":"a padded training blade",
+    "item_type":"weapon",
+    "weapon_attack":"pound",
+    "material":"bronze",
+    "weight":12.0625,
+    "level":5
+  },{
     "area_name":"Coastal Wetlands",
     "rarity":"common",
     "weight":7.4375,
@@ -40824,18 +41584,6 @@
     "affects":{
       "dexterity":-3
     },
-    "level":5
-  },{
-    "weapon_type":"sword",
-    "area_name":"Targeth's Manor",
-    "rarity":"common",
-    "weapon_avg":10,
-    "wear_flags":"wield",
-    "name":"a padded training blade",
-    "item_type":"weapon",
-    "weapon_attack":"pound",
-    "material":"bronze",
-    "weight":12.0625,
     "level":5
   },{
     "area_name":"Coastal Wetlands",
@@ -42150,7 +42898,7 @@
     "wear_flags":"wield",
     "name":"a net",
     "item_type":"weapon",
-    "weapon_attack":"grep",
+    "weapon_attack":"scrape",
     "material":"canvas",
     "weight":11.9375,
     "level":4
@@ -42394,6 +43142,19 @@
     "item_type":"weapon",
     "material":"steel"
   },{
+    "area_name":"Silverwood",
+    "rarity":"common",
+    "weight":1.8125,
+    "wear_flags":"body",
+    "name":"a white cotton dress",
+    "item_type":"clothing",
+    "material":"cloth",
+    "affects":{
+      "hp":3,
+      "charisma":1
+    },
+    "level":3
+  },{
     "area_name":"The Lumberyard",
     "rarity":"common",
     "wear_flags":"neck",
@@ -42567,19 +43328,6 @@
     },
     "level":3
   },{
-    "area_name":"Silverwood",
-    "rarity":"common",
-    "weight":1.8125,
-    "wear_flags":"body",
-    "name":"a white cotton dress",
-    "item_type":"clothing",
-    "material":"cloth",
-    "affects":{
-      "hp":3,
-      "charisma":1
-    },
-    "level":3
-  },{
     "area_name":"Aldevari",
     "rarity":"common",
     "weight":0.5,
@@ -42642,6 +43390,15 @@
     "weight":3.625,
     "level":2
   },{
+    "wear_flags":"neck",
+    "area_name":"Orc Passage",
+    "name":"an iron slave collar",
+    "weight":4.625,
+    "rarity":"common",
+    "level":1,
+    "item_type":"treasure",
+    "material":"iron"
+  },{
     "wear_flags":"feet",
     "area_name":"The Oryx Steppes",
     "name":"a pair of baby socks",
@@ -42668,15 +43425,6 @@
     "level":1,
     "item_type":"clothing",
     "material":"cloth"
-  },{
-    "wear_flags":"neck",
-    "area_name":"Orc Passage",
-    "name":"an iron slave collar",
-    "weight":4.625,
-    "rarity":"common",
-    "level":1,
-    "item_type":"treasure",
-    "material":"iron"
   },{
     "wear_flags":"head",
     "area_name":"The Fields of Balator",
@@ -42799,7 +43547,7 @@
   },{
     "wear_flags":"hold",
     "area_name":"Outlying Villages",
-    "name":"beastly fido doll",
+    "name":"a beastly fido doll",
     "weight":0.125,
     "rarity":"common",
     "level":1,
@@ -43602,6 +44350,24 @@
     },
     "level":1
   },{
+    "wear_flags":"hold",
+    "area_name":"Udgaard",
+    "name":"a wooden drum",
+    "weight":4,
+    "rarity":"common",
+    "level":1,
+    "item_type":"instrument",
+    "material":"wood"
+  },{
+    "wear_flags":"hold",
+    "area_name":"Udgaard",
+    "name":"a pair of reed pipes",
+    "weight":2,
+    "rarity":"common",
+    "level":1,
+    "item_type":"instrument",
+    "material":"plant"
+  },{
     "weapon_type":"mace",
     "area_name":"Silverwood",
     "rarity":"common",
@@ -43639,24 +44405,6 @@
       "constitution":1
     },
     "level":1
-  },{
-    "wear_flags":"hold",
-    "area_name":"Udgaard",
-    "name":"a wooden drum",
-    "weight":4,
-    "rarity":"common",
-    "level":1,
-    "item_type":"instrument",
-    "material":"wood"
-  },{
-    "wear_flags":"hold",
-    "area_name":"Udgaard",
-    "name":"a pair of reed pipes",
-    "weight":2,
-    "rarity":"common",
-    "level":1,
-    "item_type":"instrument",
-    "material":"plant"
   },{
     "wear_flags":"hold",
     "area_name":"Udgaard",
