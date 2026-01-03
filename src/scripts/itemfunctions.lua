@@ -33,8 +33,6 @@ function compareitem(itemnew, curitem)
     return true
 end
 
-
-
 function updateitem(itemnew, itemindex, item_table)
     -- Update an item at index in carrion_items with data from itemnew
     uitem = {}
@@ -42,5 +40,7 @@ function updateitem(itemnew, itemindex, item_table)
     
     uitem = table.union(curitem, itemnew)    
     
-    display(uitem)
+    item_table[itemindex] = uitem
 end
+
+
