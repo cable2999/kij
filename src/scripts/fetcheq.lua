@@ -89,7 +89,7 @@ function handleCarrionItems(_, url, body)
   
   cecho(string.format("<green>Success! Extracted %d items into 'carrion_items' table.\n", #carrion_items))
   
-  if #carrion_items_backup ~= #carrion_items then
+  if #carrion_items_backup ~= #carrion_items and #carrion_items_backup > 0 then
     cecho(string.format("<red>Size mismatch between carrion_items %d and carrion_items_backup %d !  Hope you know what you are doing.\n", #carrion_items, #carrion_items_backup))
   end
     
