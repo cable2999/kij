@@ -49,6 +49,7 @@ item_flags_table = {
     necromancer_only = "Only a necromancer could utilize it",
     nodrop = "It can't be dropped with ease",
     noremove = "It can't be removed",
+    orc_only = "It seems to be made for an orc",
     orderly_only = "It appears to be made for a true paladin",
     transparent = "It is transparent",
     concealed = "It is easily concealed",
@@ -101,7 +102,7 @@ item_flags_table = {
     "necromancer_only" = "Only a necromancer could utilize it",
     "nodrop" = "It can't be dropped with ease",
     "noremove" = "It can't be removed",
-    "orc_only"
+    "orc_only" = "It seems to be made for an orc"
     "orderly_only" = "It appears to be made for a true paladin",
     "paladin_only"
     "ranger_only"
