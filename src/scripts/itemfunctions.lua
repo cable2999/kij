@@ -94,7 +94,7 @@ function updatebyitem(item, item_table)
     else
       for index, itemindex in pairs(mitems) do
         if compareitem(item, item_table[itemindex]) then
-          --cecho("Item ".. itemindex .." updated!\n")
+          cecho("Item ".. itemindex .." updated!\n")
           item_table[itemindex] = unionitems(item, item_table[itemindex])
           return true
         end
