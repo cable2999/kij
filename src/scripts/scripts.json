@@ -1,12 +1,6 @@
-[
+[      
        {
               "name": "eqjson",
-              "isActive": "yes",
-              "script": "",
-              "isFolder": "no"
-       },
-       {
-              "name": "handleid2",
               "isActive": "yes",
               "script": "",
               "isFolder": "no"
@@ -40,5 +34,24 @@
               "isActive": "yes",
               "script": "",
               "isFolder": "no"
-       }
+       },
+       {
+              "name": "eqhighlighttriggers",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "initialize",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "itemfunctions",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       }    
+
 ]
