@@ -1,0 +1,2 @@
+deleteIDHighlightTriggers()
+createIDHighlightTriggers(carrion_items)
