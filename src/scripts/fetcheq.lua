@@ -87,7 +87,7 @@ function handleCarrionItems(_, url, body)
 
   end
   
-  cecho(string.format("<green>Success! Extracted %d items into 'carrion_items_web' table.\n", #carrion_items))
+  cecho(string.format("<green>Success! Extracted %d items into 'carrion_items_web' table.\n", #carrion_items_web))
   
   --if #carrion_items_backup ~= #carrion_items and #carrion_items_backup > 0 then
   --  cecho(string.format("<red>Size mismatch between carrion_items %d and carrion_items_backup %d !  Hope you know what you are doing.\n", #carrion_items, #carrion_items_backup))
@@ -95,9 +95,9 @@ function handleCarrionItems(_, url, body)
     
   -- Optional: Print the first few results to the console to verify
   if #carrion_items_web > 0 then
-    --display(carrion_items[1])
-    --display(carrion_items[2])
-    --display(carrion_items[3])
+    --display(carrion_items_web[1])
+    --display(carrion_items_web[2])
+    --display(carrion_items_web[3])
   end
 
   raiseEvent("handleCarrionItemsCompleted", carrion_items_web)
