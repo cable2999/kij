@@ -1,7 +1,7 @@
 [
        {
               "name": "kidstart",
-              "isActive": "yes",
+              "isActive": "no",
               "isFolder": "no",
               "multiline": "no",
               "multilineDelta": "0",
@@ -21,7 +21,7 @@
        },
        {
               "name": "kidcapture",
-              "isActive": "yes",
+              "isActive": "no",
               "isFolder": "no",
               "multiline": "no",
               "multilineDelta": "0",
@@ -41,7 +41,7 @@
        },
        {
               "name": "kidend",
-              "isActive": "yes",
+              "isActive": "no",
               "isFolder": "no",
               "multiline": "no",
               "multilineDelta": "0",

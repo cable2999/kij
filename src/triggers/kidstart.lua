@@ -1,3 +1,3 @@
-enableTrigger("kid_capture")
-enableTrigger("kid_end")
+enableTrigger("kidcapture")
+enableTrigger("kidend")
 kid_capture = ""

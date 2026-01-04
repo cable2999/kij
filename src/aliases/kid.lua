@@ -1,5 +1,5 @@
 local idstring = "co id "
 
-enableTrigger("kid_start")
+enableTrigger("kidstart")
 
 send(idstring..matches[2])
