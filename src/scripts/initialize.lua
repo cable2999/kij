@@ -11,7 +11,7 @@ function kijload()
 
     if table.size(itemtable) >= table.size(carrion_items) then
         cecho("Loading ".. table.size(itemtable) .." into table carrion_items.")
-        carrion_items = loadEqData(file_path)
+        carrion_items = loadEqData(file_path) or {}
     else
         cecho("File version has fewer items than active carrion_items.  Aborting...")
     end
@@ -23,12 +23,13 @@ function initkij()
 
     kijload()
 
-    fetchCarrionItems()
     -- Register the event handler.
     registerAnonymousEventHandler("handleCarrionItemsCompleted", "updateCarrionItemsFromWeb")
+    fetchCarrionItems()
+
 end
 
-function updateCarrionItemsFromWeb(item_table)
+function updateCarrionItemsFromWeb(event, item_table)
     
     local lenbefore = #carrion_items
     if #item_table == 0 then

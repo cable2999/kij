@@ -123,7 +123,7 @@ function addbyitem(item, item_table)
     end      
     -- Add anyway?
 
-    table.insert(item, item_table)
+    table.insert(item_table, item)
     return true
      
 end
