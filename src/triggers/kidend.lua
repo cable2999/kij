@@ -1,6 +1,6 @@
-disableTrigger("kid_start")
-disableTrigger("kid_capture")
-disableTrigger("kid_end")
+disableTrigger("kidstart")
+disableTrigger("kidcapture")
+disableTrigger("kidend")
 
 local kid = handle_id2(kid_capture)
 
