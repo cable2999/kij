@@ -64,6 +64,9 @@ function handle_id2(idstring)
     if not item.item_type then
       item.item_type = string.match(idstrings[linenum], "^It is armor worn as a (.-)$")
       item.wear_flags = item.item_type
+      if item.item_type == "shield" then
+        item.item_type = "armor"
+      end
     end
     -- Generic case "It is clothing worn around the waist." "It is armor worn on the arms." etc.
     if not item.item_type then
@@ -76,6 +79,9 @@ function handle_id2(idstring)
   if tt == "two" then
     item.weapon_flags = "two-handed"
     tt, item.weapon_attack = string.match(idstrings[linenum], "^It is a two%-handed (%w+) with an attack type of (.-)$")
+    if not tt then
+      tt, item.weapon_attack = string.match(idstrings[linenum], "^It is a two%-handed (%w+) weapon with an attack type of (.-)$")
+    end
   end
   if table.contains(weapon_type_table, tt) then
     item.weapon_type = tt
@@ -202,12 +208,12 @@ function handle_id2(idstring)
   return(item)
 end
 
-local testid = id_table[138]["id"]
+--local testid = id_table[31]["id"]
 --display(testid)
-display(handle_id2(testid))
+--display(handle_id2(testid))
 --display(string.split(teststring, "%."))
 
-
+-- This runs on the id_table that is part of CFGUI to check for unhandled lines.
 for index, id in pairs(id_table) do
   handle_id2(id["id"])
 end
