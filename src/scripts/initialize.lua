@@ -34,10 +34,15 @@ function updateCarrionItemsFromWeb(event, item_table)
     local lenbefore = #carrion_items
     if #item_table == 0 then
         display("Item table from web empty.  Something has gone wrong!")
+    elseif #carrion_items == 0 then
+        -- This is a fresh table, just add all the items.
+        for index, item in pairs(item_table) do
+            carrion_items[index] = item
+        end
     else
         for index, item in pairs(item_table) do
             if not updatebyitem(item, carrion_items) then
-                display("New item found.  Adding:", item)
+                --display("New item found.  Adding:", item)
                 if not addbyitem(item, carrion_items) then
                     display("Adding item failure on item:", item)
                 end

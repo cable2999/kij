@@ -12,12 +12,6 @@
               "isFolder": "no"
        },
        {
-              "name": "handleid2",
-              "isActive": "yes",
-              "script": "",
-              "isFolder": "no"
-       },
-       {
               "name": "iteminfotables",
               "isActive": "yes",
               "script": "",
@@ -42,7 +36,7 @@
               "isFolder": "no"
        },
        {
-              "name": "initialize",
+              "name": "handleid2",
               "isActive": "yes",
               "script": "",
               "isFolder": "no"
@@ -52,6 +46,11 @@
               "isActive": "yes",
               "script": "",
               "isFolder": "no"
-       }    
-
+       },
+       {
+              "name": "initialize",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       }
 ]
