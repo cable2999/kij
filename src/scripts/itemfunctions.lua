@@ -72,27 +72,58 @@ function unionitems(item1, item2)
 end
 
 
-function addupdatebyid(itemid, item_table)
+function updatebyid(itemid, item_table)
     -- Given an item ID string, attempts to update an existing item or add a new item as appropriate.
 
     local item = {}
     item = handle_id2(itemid)
+    updatebyitem(item, item_table)
+
+end
+
+function updatebyitem(item, item_table)
+    -- Given an item, attempts to update an existing item or add a new item as appropriate.
+
     local mitems = {}
     mitems = finditembyname(item.name, item_table)
     if #mitems == 0 then
-      display("No existing item named: '"..item.name.."' found.  Adding a new item.")
-      -- Check for area info
-      -- Check for rarity info
-      -- Check for wear_flag info
+        return false
     else
       for index, itemindex in pairs(mitems) do
         if compareitem(item, item_table[itemindex]) then
           cecho("Item ".. itemindex .." updated!\n")
           item_table[itemindex] = unionitems(item, item_table[itemindex])
-          return
+          return true
         end
       end
     end
-    
-    
+end
+
+function addbyid(itemid, item_table)
+    local item = {}
+    item = handle_id2(itemid)
+    addbyitem(item, item_table)
+end
+
+function addbyitem(item, item_table)
+
+    display("No existing item named: '"..item.name.."' found.  Adding a new item.")
+    -- Check for area info
+    if not item.area_name then
+      cecho("No area name for item. Will not add item.")
+      return false
+    end
+    -- Check for rarity info
+    if not item.rarity then
+      cecho("No rarity info for item. ")
+    end
+    -- Check for wear_flag info
+    if not item.wear_flags then
+      cecho("No wear_flag info for item. ")
+    end      
+    -- Add anyway?
+
+    table.insert(item, item_table)
+    return true
+     
 end

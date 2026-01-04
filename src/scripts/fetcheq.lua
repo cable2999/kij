@@ -1,9 +1,9 @@
--- Define the table where items will be stored
-carrion_items = carrion_items or {}
+  -- Define the table where items will be stored
+  carrion_items_web = carrion_items_web or {}
 
 function fetchCarrionItems()
   local url = "https://carrionfields.net/itemsearch/"
-  
+
   -- getHTTP starts the download and triggers the sysGetHttpDone event when finished
   getHTTP(url)
   cecho("<yellow>Fetching items from Carrion Fields...\n")
@@ -13,7 +13,7 @@ function handleCarrionItems(_, url, body)
   -- Check if this response is for our specific search URL
   if not url:find("carrionfields.net/itemsearch") then return end
   
-  carrion_items = {} -- Clear old data
+  carrion_items_web = {} -- Clear old data
   
   -- Pattern to find everything inside <div class="item_row ... </div>
   -- We use ".-" for a non-greedy match to get each item individually
@@ -83,22 +83,25 @@ function handleCarrionItems(_, url, body)
     
 --    item.worth = ""
     
-    table.insert(carrion_items, item)
+    table.insert(carrion_items_web, item)
 
   end
   
-  cecho(string.format("<green>Success! Extracted %d items into 'carrion_items' table.\n", #carrion_items))
+  cecho(string.format("<green>Success! Extracted %d items into 'carrion_items_web' table.\n", #carrion_items))
   
-  if #carrion_items_backup ~= #carrion_items and #carrion_items_backup > 0 then
-    cecho(string.format("<red>Size mismatch between carrion_items %d and carrion_items_backup %d !  Hope you know what you are doing.\n", #carrion_items, #carrion_items_backup))
-  end
+  --if #carrion_items_backup ~= #carrion_items and #carrion_items_backup > 0 then
+  --  cecho(string.format("<red>Size mismatch between carrion_items %d and carrion_items_backup %d !  Hope you know what you are doing.\n", #carrion_items, #carrion_items_backup))
+  --end
     
   -- Optional: Print the first few results to the console to verify
-  if #carrion_items > 0 then
+  if #carrion_items_web > 0 then
     --display(carrion_items[1])
     --display(carrion_items[2])
     --display(carrion_items[3])
   end
+
+  raiseEvent("handleCarrionItemsCompleted", carrion_items_web)
+
 end
 
 -- Register the event handler to Mudlet's HTTP system

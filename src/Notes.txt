@@ -1,0 +1,16 @@
+On profile load or package install (mudlet event)
+
+Attempt to load item json.
+
+On success:
+
+item json loaded into carrion_items
+
+On failure:
+
+Report failure.
+
+Either way:
+
+call fetcheq function to get items from itemsearch website and load into new table.
+Loop through new table attepmting to update or add each item to carrion_items
