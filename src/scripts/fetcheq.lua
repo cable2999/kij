@@ -21,8 +21,10 @@ function handleCarrionItems(_, url, body)
     local item = {}
     
     --display(item_block)
+    -- Fixing single quotes.
     item_block = string.gsub(item_block, "&#039;", "'")
-    item_block = string.gsub(item_block, "&quot;", "'")
+    -- Fixing double quotes.
+    item_block = string.gsub(item_block, "&quot;", '"')
     
     -- Extract specific fields using patterns. 
     -- These patterns look for the text between <b> tags or specific classes
