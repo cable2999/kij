@@ -107,7 +107,7 @@ end
 
 function addbyitem(item, item_table)
 
-    display("No existing item named: '"..item.name.."' found.  Adding a new item.")
+    --display("No existing item named: '"..item.name.."' found.  Adding a new item.")
     -- Check for area info
     if not item.area_name then
       cecho("No area name for item. Will not add item.")
