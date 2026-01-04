@@ -17,18 +17,21 @@ end
 
 function compareitem(itemnew, curitem)
     -- Compares a new item to a current item from authoritative carrion_items
-
+    local name = itemnew.name
     for key, value in pairs(curitem) do
         if type(value) == "string" or type(value) == "number" then
             if curitem[key] ~= itemnew[key] and itemnew[key] ~= nil then
-                message = "Key: "..key.." mismatch.  Current item: "..value.." New item: "..itemnew[key]
-                cecho(string.format("<red>Items mismatch!! %s\n", message))
+                message = "Key: "..key.." mismatch.  Current item: "..value.." New item: "..itemnew[key].." Item name: "..name
+                --cecho(string.format("<red>Items mismatch!! %s\n", message))
                 return false
             end
         end
     end
-    cecho("Fields in new item not in current item:\n")
-    display(table.complement(itemnew, curitem))
+    
+    local dif = table.complement(itemnew, curitem)
+    if #dif > 0 then
+      cecho("Fields in new item not in current item:\n")
+    end
 
     return true
 end
@@ -91,7 +94,7 @@ function updatebyitem(item, item_table)
     else
       for index, itemindex in pairs(mitems) do
         if compareitem(item, item_table[itemindex]) then
-          cecho("Item ".. itemindex .." updated!\n")
+          --cecho("Item ".. itemindex .." updated!\n")
           item_table[itemindex] = unionitems(item, item_table[itemindex])
           return true
         end

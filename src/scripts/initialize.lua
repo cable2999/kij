@@ -7,11 +7,11 @@ function kijload()
     local file_path = path.. "/kitemdb.json"
 
 
-    local itemtable = loadEqData(file_path)
+    local itemtable = loadEqData(file_path) or {}
 
     if table.size(itemtable) >= table.size(carrion_items) then
-        cecho("Loading ".. table.size(itemtable) .." into table carrion_items.")
-        carrion_items = loadEqData(file_path) or {}
+        cecho("Loading ".. table.size(itemtable) .." into table carrion_items.\n")
+        carrion_items = itemtable
     else
         cecho("File version has fewer items than active carrion_items.  Aborting...")
     end
