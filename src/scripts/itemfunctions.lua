@@ -145,3 +145,19 @@ function addbyitem(item, item_table)
     return true
      
 end
+
+function checkitemfields(item_table)
+  local itemfields = {}
+  for index, item in pairs(item_table) do
+    --local item = carrion_items[1]
+    
+    for key, value in pairs(item) do
+      if not table.contains(itemfields, key) then  
+        itemfields[key] = type(value)
+      elseif itemfields[key] ~= type(value) then
+        display("Mismatched:", key, type(value), index)
+      end
+    end
+  end
+  display(itemfields)
+end

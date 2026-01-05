@@ -143,8 +143,11 @@ function handle_id2(idstring)
     -- Handle spells
     if table.contains({"wand", "scroll", "potion", "pill", "talisman", "food"}, item.item_type) then 
       if string.match(idstrings[i], "^It contains the spell '(.-)' of the (%d+)%w%w level$") then
+        local spells = {}
         item.spells, item.spells_level = string.match(idstrings[i], "^It contains the spell '(.-)' of the (%d+)%w%w level$")
         item.spells_level = tonumber(item.spells_level)
+        table.insert(spells, item.spells)
+        item.spells = spells
         linedone = true
       end
       if string.match(idstrings[i], "Within it %w+ contained ") then
@@ -222,6 +225,9 @@ end
 
 -- This runs on the id_table that is part of CFGUI to check for unhandled lines.
 for index, id in pairs(id_table) do
-  handle_id2(id["id"])
+  local kid = handle_id2(id["id"])
+  if not updatebyitem(kid, carrion_items) then
+    display("Item not in DB, not adding")
+  end
 end
 
