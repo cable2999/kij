@@ -1,6 +1,43 @@
+This is mostly working, so time for a...
+
+(Re)Design:
+
+All globals should have k prefix (functions, variables)
+
+Aliases should just be function calls with arguments.
+    kid:  ID here with map for area.
+    id:  Just ID, no area data.
+    ida:  ID with provided area (check against valid areas?)
+        - Maybe need a new "Created by class" or something area for created items.
+            - Current some items have "none" area which could serve.
+
+Use iteminfotables to define item fields and types.
+    - Loop through existing items to get each and also as sanity check.
+
+When attempting to update an item:
+    Look for an item with a matching name (exact)
+        Bail if there are key/value mismatches.
+            Return true if we successfully updated an item.
+                We should know which item was updated and with what.
+                    Echo which and what if there is a change.
+
+Something with search
+    search key value.
+        i.e. kijs type sword name khazid 
+            should return 'a short sword named "Khazid'hea"'
+        i.e. kijs type potion spell recall 
+            should return all 'word of recall' potions
+    something to limit returns or redirect them to journal window?
+
+
+Documentation goes in the readme.
+
+
+Workflow:
+
 On profile load or package install (mudlet event)
 
-Attempt to load item json.
+Attempt to load item json from file.
 
 On success:
 
@@ -14,3 +51,15 @@ Either way:
 
 call fetcheq function to get items from itemsearch website and load into new table.
 Loop through new table attepmting to update or add each item to carrion_items
+
+load eqhighlights?
+autosave itemdb on update/add?
+auto refresh highlights on update/add?
+
+Using aliases to ID gear adds them to DB.
+
+Search to find items.
+
+Something with kmap...
+
+Workflow complete?
