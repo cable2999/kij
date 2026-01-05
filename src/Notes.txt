@@ -2,7 +2,12 @@ This is mostly working, so time for a...
 
 (Re)Design:
 
-All globals should have k prefix (functions, variables)
+All globals should have k prefix (variables only probably)
+    Globals that need fixed and/or should be local:
+        idstrings
+        carrion_items?
+        temptids
+          - I'm sure there are more.
 
 Aliases should just be function calls with arguments.
     kid:  ID here with map for area.
