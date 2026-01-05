@@ -21,6 +21,34 @@ weapon_type_table = {"axe", "bow", "dagger", "exotic", "flail", "mace", "polearm
 
 wear_flags_table = {"about", "arms", "back", "body", "claws", "ears", "face", "feet", "feet hindpaws claws", "finger", "foreclaws", "forepaws", "hands", "head", "hindpaws", "hold", "hooves", "horns", "legs", "neck", "shield", "tail", "waist", "wield", "wings", "wrist"}
 
+item_field_types_table = {
+  affects = "table",
+  area_name = "string",
+  armor_class = "string",
+  cur_charges = "number",
+  damdice = "string",
+  flags = "table",
+  item_type = "string",
+  keywords = "string",
+  level = "number",
+  material = "string",
+  max_charges = "number",
+  name = "string",
+  rarity = "string",
+  spell_level = "string",
+  spells = "table",
+  spells_level = "number",
+  weapon_attack = "string",
+  weapon_attack_type = "string",
+  weapon_avg = "number",
+  weapon_damage_type = "string",
+  weapon_damdice = "string",
+  weapon_flags = "string",
+  weapon_type = "string",
+  wear_flags = "string",
+  weight = "number",
+  worth = "number"
+}
 
 item_flags_table = {
     anti_evil = "People of a dark heart cannot use it",
