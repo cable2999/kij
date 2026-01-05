@@ -109,8 +109,16 @@ function updatebyitem(item, item_table)
     else
       for index, itemindex in pairs(mitems) do
         if compareitem(item, item_table[itemindex]) then
-          cecho("Item ".. itemindex .." updated!\n")
-          item_table[itemindex] = unionitems(item, item_table[itemindex])
+          local tempitem = {}
+          tempitem = unionitems(item, item_table[itemindex])
+          local dif = {}
+          dif = table.complement(tempitem, item)
+          display(dif)
+            if table.size(dif) > 0 then
+              cecho("Item ".. itemindex .." updated with the following info:\n")
+              display(dif)
+              item_table[itemindex] = tempitem
+            end
           return true
         end
       end

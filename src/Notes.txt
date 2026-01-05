@@ -17,6 +17,7 @@ Aliases should just be function calls with arguments.
 
 Use iteminfotables to define item fields and types.
     - Loop through existing items to get each and also as sanity check.
+         -- Done
 
 When attempting to update an item:
     Look for an item with a matching name (exact)
