@@ -196,6 +196,13 @@ function handle_id2(idstring)
     end
     
     if table.contains(item_flags_table, idstrings[i]) then
+      item.flags = item.flags or {}
+      for key, value in pairs(item_flags_table) do
+        if string.match(value, idstrings[i]) then
+          table.insert(item.flags, key)
+        end
+      end
+    
       linedone = true
     end
     
