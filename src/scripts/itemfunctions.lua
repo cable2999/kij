@@ -13,6 +13,21 @@ function finditembyname(name, item_table)
     return mitems
 end
 
+function finditembypartialname(name, item_table)
+
+    local mitems = {}
+    for index, item in ipairs(item_table) do
+      --display(item.name)
+      --display(name)
+      if string.match(item.name, name) then
+        --display(index)
+        table.insert(mitems, index)
+        --display(lua_table[index])
+      end
+    end
+    return mitems
+end
+
 --display(finditembyname("a pair of glauruk-hide boots", carrion_items))
 
 function compareitem(itemnew, curitem)

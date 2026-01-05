@@ -15,7 +15,7 @@ damage_type_table = {
     water = {"drowning", "surge of water", "slashing wave", "crashing wave",    "blast of water", "jet of water", "wave of water"},
 }
 
-item_type_table = {"weapon", "container", "drink container", "food", "furniture", "instrument", "key", "light", "miscellaneous object", "npc corpse", "parchment", "pen", "pill", "poison ingredient", "potion", "scroll", "talisman", "trap ingredient", "treasure", "wand", "artifact", "armor", "clothing", "shield"}
+item_type_table = {"weapon", "container", "drink container", "food", "furniture", "instrument", "key", "light", "miscellaneous object", "npc corpse", "parchment", "pen", "pill", "poison ingredient", "potion", "scroll", "talisman", "trap ingredient", "treasure", "wand", "artifact", "armor", "clothing", "shield", "map", "thief tool"}
 
 weapon_type_table = {"axe", "bow", "dagger", "exotic", "flail", "mace", "polearm", "spear", "staff", "sword", "whip"}
 
