@@ -4,9 +4,8 @@ This is mostly working, so time for a...
 
 All globals should have k prefix (variables only probably)
     Globals that need fixed and/or should be local:
-        idstrings
-        carrion_items?
-        temptids
+        idstrings -- fixed to be local
+        temptids -- fixed to be ktemptids
           - I'm sure there are more.
 
 Aliases should just be function calls with arguments.

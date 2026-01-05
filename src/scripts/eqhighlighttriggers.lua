@@ -1,7 +1,7 @@
 -- Script to add temporary triggers so we get feedback on items that need identifying.
 
 -- Initialize a place to store the temporary trigger ids.
-temptids = temptids or {}
+ktemptids = ktemptids or {}
 
 function createIDHighlightTriggers(item_table)
 
@@ -29,24 +29,24 @@ function createIDHighlightTriggers(item_table)
     codestring = [[selectCaptureGroup(2) fg(]].."\""..color.."\""..[[) resetFormat()]]
     local matchstring = "("..item.name..")$"
     local temptid = tempRegexTrigger(matchstring, codestring)
-    table.insert(temptids, temptid)
+    table.insert(ktemptids, temptid)
   end
   
 end
 
 function deleteIDHighlightTriggers()
 
-  numtrig = table.size(temptids)
+  numtrig = table.size(ktemptids)
   cecho("Removing "..numtrig.." highlight triggers.\n")
-  local temptidsremain = {}
-  for index, tid in pairs(temptids) do
+  local ktemptidsremain = {}
+  for index, tid in pairs(ktemptids) do
     if not killTrigger(tid) then
       display("Failed to kill trigger", tid)
-      table.insert(temptidsremain, tid)  
+      table.insert(ktemptidsremain, tid)  
     end
   end
-  numtrig = table.size(temptidsremain)
-  temptids = temptidsremain
+  numtrig = table.size(ktemptidsremain)
+  ktemptids = ktemptidsremain
   cecho(numtrig.." highlight triggers remain.\n")
 
 end

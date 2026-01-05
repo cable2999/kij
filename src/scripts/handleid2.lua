@@ -2,11 +2,11 @@ function handle_id2(idstring)
   
   local item = {}
   -- Remove line breaks
-  idstring = idstring.gsub(idstring, "\n", "")
+  local idstring = idstring.gsub(idstring, "\n", "")
   -- Make all spaces singluar
   idstring = idstring.gsub(idstring, "%s+", " ")
   -- Split on periods.
-  idstrings = {}
+  local idstrings = {}
   idstrings = string.split(idstring, "%.")
   
   --Handle spells line which doesn't have a period to split on.
