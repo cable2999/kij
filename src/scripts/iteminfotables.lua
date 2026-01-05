@@ -51,6 +51,8 @@ item_flags_table = {
     noremove = "It can't be removed",
     orc_only = "It seems to be made for an orc",
     orderly_only = "It appears to be made for a true paladin",
+    size_large_only = "It appears to be made for those of large stature",
+    size_small_only = "It appears to be made for those of small stature",
     transparent = "It is transparent",
     concealed = "It is easily concealed",
     rot_death = "Upon death, it will crumble",
@@ -109,8 +111,8 @@ item_flags_table = {
     "saurian_only"
     "shaman_only"
     "shapeshifter_only"
-    "size_large_only"
-    "size_small_only"
+    "size_large_only" = "It appears to be made for those of small stature"
+    "size_small_only" = "It appears to be made for those of large stature"
     "thief_only"
     "transmuter_only"
     "transparent" = "It is transparent",
