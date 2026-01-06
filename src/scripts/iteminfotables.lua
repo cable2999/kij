@@ -84,6 +84,9 @@ item_field_types_sort_table = {
   "flags"
 }
 
+
+-- The order the website spits flags out and the order identify spits them out don't match, so there will always be some wonky
+-- differences between the two, even if the flags exactly match.
 item_flags_table = {
     anti_evil = "People of a dark heart cannot use it",
     anti_good = "It is unusable for those of a pure soul",
