@@ -142,10 +142,9 @@ function updatebyitem(item, item_table)
       for index, itemindex in pairs(mitems) do
         if compareitem(item, item_table[itemindex]) then
           local tempitem = {}
-          tempitem = unionitems(item, item_table[itemindex])
-          local dif = {}
-          dif = table.complement(tempitem, item)
-          display(dif)
+          tempitem = kaunion_items(item, item_table[itemindex])
+          local dif = table.complement(tempitem, item_table[itemindex])
+          --display(dif)
             if table.size(dif) > 0 then
               cecho("Item ".. itemindex .." updated with the following info:\n")
               display(dif)
