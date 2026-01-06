@@ -26,7 +26,6 @@ item_field_types_table = {
   area_name = "string",
   armor_class = "string",
   cur_charges = "number",
-  damdice = "string",
   flags = "table",
   item_type = "string",
   keywords = "string",
@@ -35,11 +34,9 @@ item_field_types_table = {
   max_charges = "number",
   name = "string",
   rarity = "string",
-  spell_level = "string",
   spells = "table",
   spells_level = "number",
   weapon_attack = "string",
-  weapon_attack_type = "string",
   weapon_avg = "number",
   weapon_damage_type = "string",
   weapon_damdice = "string",
@@ -48,6 +45,43 @@ item_field_types_table = {
   wear_flags = "string",
   weight = "number",
   worth = "number"
+}
+
+-- This is roughly a matching order from indentify.
+item_field_types_sort_table = { 
+  "name", 
+  "keywords", 
+  
+  "area_name", 
+  "rarity", 
+  
+  "worth", 
+  "level", 
+  
+  "item_type", 
+  "wear_flags", 
+  
+  "material", 
+  "weight", 
+  
+  "armor_class",
+  
+  "weapon_flags",
+  "weapon_type", 
+  "weapon_attack", 
+  "weapon_damage_type", 
+
+  "weapon_damdice", 
+  "weapon_avg",  
+
+  "max_charges", 
+  "cur_charges", 
+  
+  "spells", 
+  "spells_level", 
+  
+  "affects", 
+  "flags"
 }
 
 item_flags_table = {
