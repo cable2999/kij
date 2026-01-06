@@ -25,6 +25,7 @@ When attempting to update an item:
             Return true if we successfully updated an item.
                 We should know which item was updated and with what.
                     Echo which and what if there is a change.
+                        -- This is working as well as it can due to flag ordering differences
 
 Something with search
     search key value.
