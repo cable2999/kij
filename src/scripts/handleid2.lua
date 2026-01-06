@@ -230,7 +230,9 @@ function updatefromidtable()
 for index, id in pairs(id_table) do
   local kid = handle_id2(id["id"])
   if not updatebyitem(kid, carrion_items) then
-    display("Item not in DB, not adding")
+    if not addbyitem(kid, carrion_items) then
+        display("Something is wrong.")
+    end
   end
 end
 
