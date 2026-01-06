@@ -1,19 +1,21 @@
-# TemplateProject
+# KItem Journal Project
 
-## TemplateProject by ShrinkingViolet
+## KIJ by Krunk
 
-This is a template project created by muddler. It's meant to give you the basic skeleton to get started.
-It is not a complete project, nor does it provide an example of every type of trigger scenario or keybinding corner case. It would make it even more difficult to clear out to make way for your own items.
-It **will** properly muddle and create an mpackage, however.
-For more detailed information on describing your triggers, scripts, etc in the json files, please see the [muddler wiki](https://github.com/demonnic/muddler/wiki)
+This is a Mudlet project using muddler to create an installable package.
 
-This space is where I would normally put the description of my package and what it does/why I made it. But if you have a README format you already like, feel free to ignore all this.
+The KIJ uses data from https://carrionfields.net/itemsearch, any pre-existing data you have from the CFGUI's item journal functionality, and the identify command to build an item database for use in Mudlet.
+It can also use area data from Mudlet's map functionality if you have that available.
+
+***The included kitemdb.json file is data from itemsearch only and is intended only as a backup in case the fetch from web functionality becomes broken at some point.***
+
+
 
 ## Installation
 
-It's a good idea to provide installation instructions. I like to include a command they can copy/paste into the Mudlet commandline. Like
+The following command should install the pre-release version.  Will need to update to latest at some point.
 
-`lua uninstallPackage("packageName") installPackage("https://somedomain.org/path/to/my/package/packageName.mpackage")`
+`lua uninstallPackage("kij") installPackage("https://github.com/cable2999/kij/releases/download/v0.9.0/kij.zip")`
 
 ## Usage
 
