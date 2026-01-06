@@ -35,7 +35,7 @@ function saveEqData(file_path, eqtable)
 
     local file = io.open(file_path, "w")
     if file then
-      local json_string = json.encode(eqtable, {indent = true})
+      local json_string = json.encode(eqtable, {indent = true, keyorder = item_field_types_sort_table})
       file:write(json_string)
       file:close()
       cecho(string.format("<green>Success! Wrote %d items to %s file.\n", #eqtable, file_path))
