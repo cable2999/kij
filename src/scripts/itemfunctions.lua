@@ -89,6 +89,38 @@ function unionitems(item1, item2)
  return uitem
 end
 
+function kaunion_items(aitem, oitem)
+  -- Produces a union of two items where the first item is considered authoritative
+  -- And only unmatched keys from the old item are preserved.
+
+  -- Web and identify strings are considered authoritative.  carrion_items is considered
+  -- old in practice.
+
+  local uitem = {}
+
+  -- Copy the authoritative item into the updated item.
+  uitem = table.deepcopy(aitem)
+
+  --display(aitem)
+  --display(oitem)
+
+  -- Add data where the authoritative item doesn't have a key.
+  for key, value in pairs(oitem) do
+    if not uitem[key] then
+      --display("Missing key: ", key, value)
+      uitem[key] = value
+    end
+  end
+
+  return uitem
+end
+
+--local aitem = handle_id2(id_table[372].id)
+--local oitem = carrion_items[43]
+
+--local uitem = kaunion_items(aitem, oitem)
+
+--display(table.complement(uitem, oitem))
 
 function updatebyid(itemid, item_table)
     -- Given an item ID string, attempts to update an existing item or add a new item as appropriate.
