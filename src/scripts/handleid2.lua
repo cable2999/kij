@@ -223,6 +223,8 @@ end
 --display(handle_id2(testid))
 --display(string.split(teststring, "%."))
 
+function updatefromidtable()
+
 -- This runs on the id_table that is part of CFGUI to check for unhandled lines.
 for index, id in pairs(id_table) do
   local kid = handle_id2(id["id"])
@@ -231,3 +233,4 @@ for index, id in pairs(id_table) do
   end
 end
 
+end
