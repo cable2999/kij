@@ -29,6 +29,7 @@ function handle_id2(idstring)
     end  
   end
   
+  --display(idstrings)
   
   -- Handle line one which is always of the form:
   -- item.name can be referred to as 'item.keywords'
@@ -174,7 +175,7 @@ function handle_id2(idstring)
     if string.match(idstrings[i], "When worn, it affects your") then
       local affects = {}
   
-      for k, v in string.gmatch(idstrings[i], "your (.-) by ([+-]?%d-)%%?[%s,]") do
+      for k, v in string.gmatch(idstrings[i], "your (.-) by ([+-]?%d-)[%s,%%]") do
         affects[k] = tonumber(v)
       end
       item.affects = affects
